@@ -33,7 +33,7 @@
     "authentication": {
       "auth_prompt_cancel": "Abbrechen",
       "auth_prompt_title": "Authentifizierung erforderlich",
-      "auth_prompt_desc": "Bitte authentifizieren Sie sich, um Rabby zu benutzen."
+      "auth_prompt_desc": "Bitte authentifizieren Sie sich, um Rabby Trust zu benutzen."
     },
     "biometrics": {
       "enable_fingerprint": "Mit Fingerabdruck entsperren?",
@@ -54,7 +54,7 @@
     "nonce": "Nonce",
     "cancel": "Abbrechen",
     "pin": "Anheften",
-    "appName": "Rabby Wallet",
+    "appName": "Rabby Trust Trust",
     "ok": "OK",
     "cancelButton": "Abbrechen",
     "Nonce": "Nonce",
@@ -281,7 +281,7 @@
       "switchArea": {
         "skipText": "Dieses Pop-up 1 Tag lang nicht anzeigen"
       },
-      "alertText": "Drittanbieter-DApp: Wenden Sie sich bei Nutzungsproblemen bitte an den DApp-Support. Rabby bietet nur Anzeigezugriff.",
+      "alertText": "Drittanbieter-DApp: Wenden Sie sich bei Nutzungsproblemen bitte an den DApp-Support. Rabby Trust bietet nur Anzeigezugriff.",
       "title": "Screenshot zur Fehlermeldung",
       "submitFailed": "Fehler beim Einreichen."
     },
@@ -400,8 +400,8 @@
       "goToHome": "Zur Startseite",
       "alreadyHaveAddress": "Ich habe bereits eine Wallet",
       "createNewAddress": "Neue Wallet erstellen",
-      "alreadyUseRabby": "Ich verwende bereits Rabby.",
-      "welcomeTitle": "Willkommen bei\nRabby Wallet"
+      "alreadyUseRabby": "Ich verwende bereits Rabby Trust.",
+      "welcomeTitle": "Willkommen bei\nRabby Trust"
     },
     "importSuccess": {
       "success": "{{type}} erfolgreich!",
@@ -574,7 +574,7 @@
         "txToBeCanceled": "Transaktion, die storniert werden soll"
       },
       "contractAddress": "Vertragsadresse",
-      "sigCantDecode": "Diese Signatur kann vom Rabby Wallet nicht dekodiert werden.",
+      "sigCantDecode": "Diese Signatur kann vom Rabby Trust Trust nicht dekodiert werden.",
       "send": {
         "cexAddress": "CEX-Adresse",
         "fromMyPrivateKey": "Aus meinem privaten Schlüssel",
@@ -631,7 +631,7 @@
       "customRPCErrorModal": {
         "title": "Benutzerdefinierter RPC-Fehler",
         "button": "Benutzerdefiniertes RPC deaktivieren",
-        "content": "Ihr benutzerdefinierter RPC ist derzeit nicht verfügbar. Sie können ihn deaktivieren und weiterhin mit dem offiziellen RPC von Rabby signieren."
+        "content": "Ihr benutzerdefinierter RPC ist derzeit nicht verfügbar. Sie können ihn deaktivieren und weiterhin mit dem offiziellen RPC von Rabby Trust signieren."
       },
       "noGasRequired": "Kein Gas erforderlich",
       "gasSelectorTitle": "Gas",
@@ -649,11 +649,11 @@
       "revokePermit2": {
         "title": "Widerrufen Sie die Permit2-Genehmigung"
       },
-      "eip1559Desc2": "Hier in Rabby gilt: Priority Fee (Tip) = Max Fee - Base Fee. Nachdem Sie die Max Priority Fee festgelegt haben, wird die Base Fee davon abgezogen und der Rest wird den Minern als Trinkgeld gegeben.",
+      "eip1559Desc2": "Hier in Rabby Trust gilt: Priority Fee (Tip) = Max Fee - Base Fee. Nachdem Sie die Max Priority Fee festgelegt haben, wird die Base Fee davon abgezogen und der Rest wird den Minern als Trinkgeld gegeben.",
       "tokenApprove": {
         "amountPopupTitle": "Genehmigungsbetrag",
         "approveTo": "Genehmigen für",
-        "flagByRabby": "Von Rabby markiert",
+        "flagByRabby": "Von Rabby Trust markiert",
         "title": "Token-Genehmigung",
         "eoaAddress": "EOA",
         "approveToken": "Token genehmigen",
@@ -1057,7 +1057,7 @@
       "quickAddressTitle_one": "{{count}} Adresse",
       "quickAddressTitle_other": "{{count}} Adressen",
       "add-address": "Wallet hinzufügen",
-      "delete-checklist-1": "Ich verstehe, dass beim Löschen dieser Wallet auch der zugehörige private Schlüssel und die Seed-Phrase gelöscht werden und Rabby sie NICHT wiederherstellen kann.",
+      "delete-checklist-1": "Ich verstehe, dass beim Löschen dieser Wallet auch der zugehörige private Schlüssel und die Seed-Phrase gelöscht werden und Rabby Trust sie NICHT wiederherstellen kann.",
       "delete-private-key-title": "Wallet und privaten Schlüssel löschen",
       "delete-seed-phrase-title": "Wallet und Seed-Phrase löschen",
       "delete-title": "Wallet löschen",
@@ -1095,7 +1095,7 @@
       "no-slippage-for-wrap": "Keine Slippage für Wrap",
       "chain": "Netzwerk",
       "security-verification-failed": "Sicherheitsüberprüfung fehlgeschlagen",
-      "no-fees-for-wrap": "Keine Rabby-Gebühr für Wrap",
+      "no-fees-for-wrap": "Keine Rabby Trust-Gebühr für Wrap",
       "directlySwap": "Direktes Wrapping von {{symbol}}-Tokens mit dem Smart Contract",
       "lowCreditModal": {
         "title": "Dieser Token hat einen niedrigen Kreditwert.",
@@ -1103,7 +1103,7 @@
       },
       "low-slippage-may-cause-failed-transactions-due-to-high-volatility": "Niedrige Slippage kann aufgrund hoher Volatilität zu fehlgeschlagenen Transaktionen führen",
       "rabbyFee": {
-        "discountTitle": "Rabatt auf Rabby-Gebühren",
+        "discountTitle": "Rabatt auf Rabby Trust-Gebühren",
         "case": "Bedingung",
         "free": "Kostenlos",
         "cases": {
@@ -1116,9 +1116,9 @@
         "wallet": "Wallet",
         "rate": "Gebührensatz",
         "button": "Verstanden",
-        "title": "Rabby-Gebühr",
-        "bridgeDesc": "Rabby Wallet findet immer den bestmöglichen Kurs von den führenden Aggregatoren und überprüft die Zuverlässigkeit ihrer Angebote. Rabby erhebt eine Gebühr von <1>0,25%</1>, die automatisch im Angebot enthalten ist.",
-        "swapDesc": "Rabby Wallet wird stets den bestmöglichen Kurs von den führenden Aggregatoren finden und die Zuverlässigkeit ihrer Angebote überprüfen. Rabby erhebt eine Gebühr von <1>0,25%</1> (0% für Wrapping), die automatisch im Angebot enthalten ist."
+        "title": "Rabby Trust-Gebühr",
+        "bridgeDesc": "Rabby Trust Trust findet immer den bestmöglichen Kurs von den führenden Aggregatoren und überprüft die Zuverlässigkeit ihrer Angebote. Rabby Trust erhebt eine Gebühr von <1>0,25%</1>, die automatisch im Angebot enthalten ist.",
+        "swapDesc": "Rabby Trust Trust wird stets den bestmöglichen Kurs von den führenden Aggregatoren finden und die Zuverlässigkeit ihrer Angebote überprüfen. Rabby Trust erhebt eine Gebühr von <1>0,25%</1> (0% für Wrapping), die automatisch im Angebot enthalten ist."
       },
       "swapped": "Getauscht",
       "historyTitle": "Tauschhistorie",
@@ -1190,12 +1190,12 @@
       },
       "addAddress": {
         "hardwareWallet": "Hardware-Wallet",
-        "syncRabbyExtension": "Rabby-Erweiterung synchronisieren",
+        "syncRabbyExtension": "Rabby Trust-Erweiterung synchronisieren",
         "importAddress": "Wallet importieren",
         "createAddress": "Wallet erstellen",
         "selectAddMethod": "Methode zum Hinzufügen auswählen",
         "seedPhraseOrPrivateKey": "Seed-Phrase oder privater Schlüssel",
-        "restoreRabbyWallet": "Rabby Wallet wiederherstellen",
+        "restoreRabbyWallet": "Rabby Trust Trust wiederherstellen",
         "moreOptions": "Weitere Optionen"
       },
       "createNewAddress": {
@@ -1224,10 +1224,10 @@
         "seedPhrase": "Seed-Phrase importieren",
         "hardWare": "Hardware-Wallets verbinden",
         "tips": {
-          "title": "Ist es sicher, in Rabby zu importieren?",
-          "entry": "Ist es sicher, in Rabby zu importieren?",
+          "title": "Ist es sicher, in Rabby Trust zu importieren?",
+          "entry": "Ist es sicher, in Rabby Trust zu importieren?",
           "gotIt": "Verstanden",
-          "description": "Ihre Daten werden sicher verschlüsselt und lokal auf Ihrem Gerät gespeichert. Rabby hat keinen Zugriff auf Ihre privaten Informationen, und diese werden niemals an Dritte weitergegeben."
+          "description": "Ihre Daten werden sicher verschlüsselt und lokal auf Ihrem Gerät gespeichert. Rabby Trust hat keinen Zugriff auf Ihre privaten Informationen, und diese werden niemals an Dritte weitergegeben."
         },
         "watch": "Watch-Only-Wallet",
         "importTitle": "Wallet importieren",
@@ -1245,8 +1245,8 @@
         "confirmButtonTitleAndroid": "Auf Google Play bewerten",
         "feedbackSuccess": "Vielen Dank für Ihr Feedback.",
         "feedbackTitle": "Haben Sie Feedback? Wir hören zu.",
-        "descriptionAndroid": "Wenn Ihnen Rabby gefällt, würden wir uns sehr über eine kurze Bewertung bei Google Play freuen.",
-        "descriptionIOS": "Wenn Ihnen Rabby gefällt, würden wir uns sehr über eine kurze Bewertung im App Store freuen."
+        "descriptionAndroid": "Wenn Ihnen Rabby Trust gefällt, würden wir uns sehr über eine kurze Bewertung bei Google Play freuen.",
+        "descriptionIOS": "Wenn Ihnen Rabby Trust gefällt, würden wir uns sehr über eine kurze Bewertung im App Store freuen."
       },
       "upgradeModal": {
         "title": "Neuigkeiten",
@@ -1276,11 +1276,11 @@
         "tip3": "Jeder, der Ihre Seed-Phrase erhält, kann die vollständige Kontrolle über Ihre Wallet übernehmen. Dies kann nicht rückgängig gemacht werden."
       },
       "rateModalTriggerOnHome": {
-        "title": "Rabby Wallet bewerten"
+        "title": "Rabby Trust Trust bewerten"
       }
     },
     "switchChain": {
-      "requestRabbyToSupport": "Unterstützung durch Rabby anfordern",
+      "requestRabbyToSupport": "Unterstützung durch Rabby Trust anfordern",
       "requestsReceivedPlural": "{{count}} Anfragen erhalten",
       "requestsReceived": "1 Anfrage erhalten"
     },
@@ -1293,7 +1293,7 @@
         "enableWhitelist": "Zulassungsliste aktivieren",
         "cancel": "Abbrechen",
         "disableWhitelistTip": "Sie können Vermögenswerte an jede Adresse senden, sobald sie deaktiviert ist.",
-        "enableWhitelistTip": "Sobald aktiviert, können Sie nur Vermögenswerte an die Adressen in der Zulassungsliste mit Rabby senden."
+        "enableWhitelistTip": "Sobald aktiviert, können Sie nur Vermögenswerte an die Adressen in der Zulassungsliste mit Rabby Trust senden."
       },
       "assets": {
         "comingSoon": "Demnächst..."
@@ -1307,8 +1307,8 @@
         "blocked": "Blockiert",
         "blockedTip": "Blockierte Token werden nicht in der Tokenliste angezeigt.",
         "notSupported": "Das Token auf dieser Blockchain wird nicht unterstützt",
-        "selectedCustom": "Token wird von Rabby nicht aufgeführt. Sie haben es manuell zur Token-Liste hinzugefügt.",
-        "notSelectedCustom": "Token wird von Rabby nicht aufgeführt. Er wird zur Token-Liste hinzugefügt, wenn Sie ihn einschalten."
+        "selectedCustom": "Token wird von Rabby Trust nicht aufgeführt. Sie haben es manuell zur Token-Liste hinzugefügt.",
+        "notSelectedCustom": "Token wird von Rabby Trust nicht aufgeführt. Er wird zur Token-Liste hinzugefügt, wenn Sie ihn einschalten."
       },
       "offlineChain": {
         "chain": "{{chain}} wird bald nicht mehr unterstützt.",
@@ -1335,7 +1335,7 @@
       "unknownResult": "Unbekanntes Ergebnis, da die Sicherheits-Engine derzeit nicht verfügbar ist."
     },
     "ethSign": {
-      "alert": "Das Signieren mit 'eth_sign' kann zu einem Verlust von Vermögenswerten führen. Zu Ihrer Sicherheit unterstützt Rabby diese Methode nicht."
+      "alert": "Das Signieren mit 'eth_sign' kann zu einem Verlust von Vermögenswerten führen. Zu Ihrer Sicherheit unterstützt Rabby Trust diese Methode nicht."
     },
     "unlock": {
       "biometrics": {
@@ -1344,7 +1344,7 @@
         "enableBiometricAlert": {
           "title": "Aktivieren Sie {{ bioType }}",
           "no": "Abbrechen",
-          "content": "Möchten Sie {{ bioType }} aktivieren, um Rabby Wallet zu entsperren?",
+          "content": "Möchten Sie {{ bioType }} aktivieren, um Rabby Trust Trust zu entsperren?",
           "yes": "Ja"
         }
       },
@@ -1374,12 +1374,12 @@
         "description2": "Wenn Sie Ihre Seed-Phrase verlieren, können Sie Ihre Wallet nicht wiederherstellen.",
         "description3": "Teilen Sie niemals Ihre Seed-Phrase—jeder, der darauf Zugriff hat, kann Ihre Gelder kontrollieren.",
         "title1": "Sicherung",
-        "description4": "Ihre Seed-Phrase wird lokal auf Ihrem Gerät gespeichert und mit Ihrem Passwort verschlüsselt. Nur Sie haben Zugriff darauf. Rabby kann Ihre Seed-Phrase weder abrufen noch darauf zugreifen.",
+        "description4": "Ihre Seed-Phrase wird lokal auf Ihrem Gerät gespeichert und mit Ihrem Passwort verschlüsselt. Nur Sie haben Zugriff darauf. Rabby Trust kann Ihre Seed-Phrase weder abrufen noch darauf zugreifen.",
         "description1": "Eine Seed-Phrase ist eine Reihe von Wörtern, mit der Sie auf Ihre Wallet zugreifen und sie kontrollieren können. Damit können Sie Ihre Wallet auf jedem Gerät wiederherstellen."
       },
       "privateKey": {
         "isItSafeToImportItInRabby": {
-          "question": "Ist es sicher, es in Rabby zu importieren?",
+          "question": "Ist es sicher, es in Rabby Trust zu importieren?",
           "answer": "Ja, es wird lokal auf Ihrem Telefon gespeichert und ist nur für Sie zugänglich."
         },
         "whatIsAPrivateKey": {
@@ -1463,13 +1463,13 @@
       },
       "seedPhrase": {
         "showSeedPhrase": "Seed-Phrase anzeigen",
-        "importQuestion2": "Die Seed-Phrase wird nur auf meinem Telefon gespeichert und Rabby hat keinen Zugriff darauf.",
+        "importQuestion2": "Die Seed-Phrase wird nur auf meinem Telefon gespeichert und Rabby Trust hat keinen Zugriff darauf.",
         "whatIsASeedPhrase": {
           "question": "Was ist eine Seed-Phrase?",
           "answer": "Eine Phrase aus 12, 18 oder 24 Wörtern, mit der Sie Ihre Assets kontrollieren."
         },
         "riskTips": "Bevor Sie beginnen, lesen Sie bitte die folgenden Sicherheitstipps und behalten Sie sie im Hinterkopf.",
-        "importQuestion3": "Wenn ich die Seed-Phrase nicht sichere und die App versehentlich gelöscht wird, das Gerät verloren geht oder eine Neuinstallation erforderlich ist, kann Rabby sie nicht für mich wiederherstellen.",
+        "importQuestion3": "Wenn ich die Seed-Phrase nicht sichere und die App versehentlich gelöscht wird, das Gerät verloren geht oder eine Neuinstallation erforderlich ist, kann Rabby Trust sie nicht für mich wiederherstellen.",
         "googleDriveBackup": "Google-Drive-Backup",
         "backupSuccessGDrive": "Auf Google Drive gesichert",
         "backupFailedButton": "Erneut versuchen",
@@ -1496,13 +1496,13 @@
         "backupRestoreEmpty": "Keine Sicherungs-Seed-Phrase gefunden",
         "backupRestoreUnlockTitle": "Backup-Passwort eingeben",
         "backupRestoreDownloadTitle": "Seed-Phrase wird importiert...",
-        "backupUnlockDesc": "Bewahren Sie Ihr Passwort sicher auf, um Backups wiederherzustellen. Rabby Wallet speichert es nicht und kann es nicht wiederherstellen.",
+        "backupUnlockDesc": "Bewahren Sie Ihr Passwort sicher auf, um Backups wiederherzustellen. Rabby Trust Trust speichert es nicht und kann es nicht wiederherstellen.",
         "backupRestoreTitle": "Gefundene Seed-Phrases: {{count}}",
         "createdSuccess": "Ihre Seed-Phrase wurde erstellt",
         "backupTips": "Stellen Sie sicher, dass niemand sonst Ihren Bildschirm beobachtet, wenn Sie die Seed-Phrase sichern.",
         "importQuestion1": "Wenn ich meine Seed-Phrase verliere oder sie mit anderen teile, sind meine Vermögenswerte für immer verloren.",
         "isItSafeToImportItInRabby": {
-          "question": "Ist es sicher, es in Rabby zu importieren?",
+          "question": "Ist es sicher, es in Rabby Trust zu importieren?",
           "answer": "Ja, es wird lokal auf Ihrem Telefon gespeichert und ist nur für Sie zugänglich."
         },
         "addMoreWalletTitle": "Weitere Wallets\naus dieser Seed-Phrase hinzufügen"
@@ -1571,7 +1571,7 @@
         "title3": "Nie teilen",
         "description2": "Wenn Sie Ihren privaten Schlüssel verlieren, können Sie Ihre Wallet nicht wiederherstellen.",
         "title4": "Sicherheit",
-        "description4": "Ihr privater Schlüssel wird lokal auf Ihrem Gerät gespeichert und mit Ihrem Passwort verschlüsselt. Nur Sie können darauf zugreifen. Rabby kann Ihren privaten Schlüssel nicht abrufen oder darauf zugreifen.",
+        "description4": "Ihr privater Schlüssel wird lokal auf Ihrem Gerät gespeichert und mit Ihrem Passwort verschlüsselt. Nur Sie können darauf zugreifen. Rabby Trust kann Ihren privaten Schlüssel nicht abrufen oder darauf zugreifen.",
         "description1": "Ein privater Schlüssel ist eine Zeichenfolge aus Buchstaben und Zahlen, die verwendet wird, um auf Ihr Wallet zuzugreifen und es zu steuern. Sie können ihn verwenden, um Ihr Wallet auf einem beliebigen Gerät wiederherzustellen.",
         "description3": "Teilen Sie niemals Ihren privaten Schlüssel – jeder, der Zugriff darauf hat, kann Ihre Mittel kontrollieren."
       },
@@ -1629,17 +1629,17 @@
       "verify-face-id-before-backup": "Überprüfen Sie Ihre Face ID vor der Sicherung",
       "verify-face-id": "Gesichtserkennung überprüfen",
       "verify-fingerprint": "Fingerabdruck verifizieren",
-      "verify-password-before-backup": "Überprüfen Sie Ihr Rabby-Passwort vor der Sicherung",
+      "verify-password-before-backup": "Überprüfen Sie Ihr Rabby Trust-Passwort vor der Sicherung",
       "verify-and-backup": "Überprüfen & sichern",
       "verify-fingerprint-before-backup": "Überprüfen Sie Ihren Fingerabdruck vor dem Backup"
     },
     "addToken": {
       "hasAdded": "Dieser Token wurde hinzugefügt.",
       "noTokenFound": "Kein Token gefunden",
-      "tokenSupported": "Token wird auf Rabby unterstützt.",
+      "tokenSupported": "Token wird auf Rabby Trust unterstützt.",
       "tokenNotFound": "Token von dieser Vertragsadresse nicht gefunden",
       "tokenCustomized": "Der aktuelle Token wurde bereits als benutzerdefinierter Token hinzugefügt",
-      "title": "Benutzerdefinierten Token zu Rabby hinzufügen"
+      "title": "Benutzerdefinierten Token zu Rabby Trust hinzufügen"
     },
     "customRpc": {
       "EditCustomTestnetModal": {
@@ -1719,7 +1719,7 @@
       "setUpSuccess": "Passwort erfolgreich eingerichtet",
       "enable": "Aktivieren Sie {{ bioType }}",
       "agree": "Ich habe die <1/><2>Nutzungsbedingungen</2> gelesen und stimme diesen zu.",
-      "confirmModalDesc": "Bitte bewahren Sie Ihr Passwort ordnungsgemäß auf. Einmal verloren, kann es von Rabby weder geändert noch wiederhergestellt werden.",
+      "confirmModalDesc": "Bitte bewahren Sie Ihr Passwort ordnungsgemäß auf. Einmal verloren, kann es von Rabby Trust weder geändert noch wiederhergestellt werden.",
       "setWallet": "Wallet einrichten",
       "subTitle": "Dieses Passwort entsperrt Ihre Wallet und verschlüsselt Ihre Daten auf diesem Gerät. Es kann nicht wiederhergestellt werden. Wenn Sie es verlieren, müssen Sie die Wallet zurücksetzen und erneut importieren."
     },
@@ -1732,13 +1732,13 @@
       "claimItem": {
         "claim": "Beanspruchen"
       },
-      "title": "Rabby Points",
+      "title": "Rabby Trust Points",
       "alreadyClaimedXPoints": "Bereits beansprucht: {{point}}"
     },
     "connect": {
       "markRemovedToast": "Markierung entfernt",
       "onYourWhitelist": "Auf Ihrer Zulassungsliste",
-      "verifiedByRabby": "Verifiziert von Rabby",
+      "verifiedByRabby": "Verifiziert von Rabby Trust",
       "popularLevelLow": "Niedrig",
       "noWebsite": "Keine",
       "popularLevelMedium": "Mittel",
@@ -1758,7 +1758,7 @@
       "title": "Mit DApp verbinden",
       "popularLevelHigh": "Hoch",
       "manageWhiteBlackList": "Zulassungs-/Sperrliste verwalten",
-      "flagByRabby": "Markiert durch Rabby",
+      "flagByRabby": "Markiert durch Rabby Trust",
       "trusted": "Vertraut",
       "listedBy": "Gelistet von",
       "noMark": "Keine Markierung",
@@ -1795,8 +1795,8 @@
       "title": "Genehmigungen"
     },
     "addChain": {
-      "title": "Benutzerdefiniertes Netzwerk zu Rabby hinzufügen",
-      "desc": "Rabby kann die Sicherheit benutzerdefinierter Netzwerke nicht verifizieren. Bitte fügen Sie nur vertrauenswürdige Netzwerke hinzu."
+      "title": "Benutzerdefiniertes Netzwerk zu Rabby Trust hinzufügen",
+      "desc": "Rabby Trust kann die Sicherheit benutzerdefinierter Netzwerke nicht verifizieren. Bitte fügen Sie nur vertrauenswürdige Netzwerke hinzu."
     },
     "gasAccount": {
       "deposit": "Einzahlung",
@@ -1869,7 +1869,7 @@
       "benefitCard": {
         "item2": "Unterstützt alle Netzwerke",
         "item3": "Unterstützt alle Transaktionen",
-        "item1": "Keine Rabby Gebühr",
+        "item1": "Keine Rabby Trust Gebühr",
         "desc2": "Automatische Gaszahlungen auf über 80 Netzwerken",
         "desc1": "Keine zusätzlichen Gebühren für Gas zu zahlen",
         "desc3": "Swap, Bridge, Senden, DApp und mehr",
@@ -2029,7 +2029,7 @@
       "themeMode": "Designmodus",
       "clearPending": "Ausstehende Transaktionen lokal entfernen",
       "addCustomNetwork": "Benutzerdefiniertes Netzwerk hinzufügen",
-      "clearPendingDesc1": "Dadurch werden alle Ihre ausstehenden Transaktionen gelöscht. Dies kann Ihnen helfen, das Problem zu lösen, dass in einigen Fällen der Zustand der Transaktion in Rabby nicht mit dem Zustand on-chain übereinstimmt.",
+      "clearPendingDesc1": "Dadurch werden alle Ihre ausstehenden Transaktionen gelöscht. Dies kann Ihnen helfen, das Problem zu lösen, dass in einigen Fällen der Zustand der Transaktion in Rabby Trust nicht mit dem Zustand on-chain übereinstimmt.",
       "clearPendingDesc2": "Dadurch werden die Kontosalden nicht geändert oder Sie müssen Ihre Seed-Phrase nicht erneut eingeben. Alle Ihre Vermögenswerte und Kontoinformationen bleiben sicher.",
       "autoLockTime": "Automatische Sperrzeit",
       "appLaunchLock": "Sperre beim Start",
@@ -2066,7 +2066,7 @@
       "add": "Benutzerdefiniertes Netzwerk hinzufügen",
       "empty": "Kein benutzerdefiniertes Netzwerk",
       "id": "ID",
-      "desc": "Rabby kann die Sicherheit benutzerdefinierter Netzwerke nicht überprüfen. Bitte fügen Sie nur vertrauenswürdige Netzwerke hinzu.",
+      "desc": "Rabby Trust kann die Sicherheit benutzerdefinierter Netzwerke nicht überprüfen. Bitte fügen Sie nur vertrauenswürdige Netzwerke hinzu.",
       "CustomTestnetForm": {
         "name": "Netzwerkname",
         "id": "Netzwerk-ID",
@@ -2087,11 +2087,11 @@
         "empty": "Keine Netzwerke gefunden",
         "tips": {
           "added": "Sie haben dieses Netzwerk bereits hinzugefügt",
-          "supported": "Netzwerk bereits in Rabby Wallet integriert"
+          "supported": "Netzwerk bereits in Rabby Trust Trust integriert"
         }
       },
       "ConfirmModifyRpcModal": {
-        "desc": "Das Netzwerk ist bereits von Rabby integriert. Möchten Sie die RPC-URL ändern?"
+        "desc": "Das Netzwerk ist bereits von Rabby Trust integriert. Möchten Sie die RPC-URL ändern?"
       },
       "addToken": {
         "title": "Benutzerdefiniertes Netzwerk-Token hinzufügen",
@@ -2186,12 +2186,12 @@
     "syncExtension": {
       "syncingProgress": "Scannen ({{ percent }})",
       "importedSuccessfully": "Erfolgreich importiert!",
-      "scanTips1": "Klicken Sie auf „Mobile Sync“ in der Rabby-Erweiterung",
-      "imported": "Adressen, die bereits in Rabby Mobile vorhanden sind, werden nicht erneut importiert. Adressnotizen und Zulassungslisten werden automatisch synchronisiert.",
-      "verifyTips": "Ihre Daten werden offline verschlüsselt. Geben Sie Ihr Rabby Extension-Passwort ein, um zu entschlüsseln und zu verifizieren.",
+      "scanTips1": "Klicken Sie auf „Mobile Sync“ in der Rabby Trust-Erweiterung",
+      "imported": "Adressen, die bereits in Rabby Trust Trust vorhanden sind, werden nicht erneut importiert. Adressnotizen und Zulassungslisten werden automatisch synchronisiert.",
+      "verifyTips": "Ihre Daten werden offline verschlüsselt. Geben Sie Ihr Rabby Trust Extension-Passwort ein, um zu entschlüsseln und zu verifizieren.",
       "importedTips": "Wenn die App bereits dieselbe Adresse enthält, wird sie nicht importiert. Adressnotizen und Zulassungslisten werden ebenfalls synchronisiert.",
       "verifyWithPassword": "Mit Ihrem \nRabby-Extension-Passwort bestätigen",
-      "newUserVerify": "Es wird auch als Standardpasswort für Ihr Rabby Mobile dienen.",
+      "newUserVerify": "Es wird auch als Standardpasswort für Ihr Rabby Trust Trust dienen.",
       "noNewAddr": "Keine neuen Adressen zum Importieren gefunden",
       "syncingTips": "Halten Sie die Kamera ruhig, bis der Scan abgeschlossen ist.",
       "scanTips2": "Scannen Sie den Code und beginnen Sie mit der Synchronisierung"
@@ -2242,9 +2242,9 @@
       "HyperliquidInvitePopup": {
         "title": "Hyperliquid Empfehlungsprogramm",
         "btn": "Jetzt beitreten",
-        "desc": "Treten Sie jetzt mit dem Code von Rabby bei und erhalten Sie <1>4 % Rabatt</1> auf Ihre Hyperliquid-Gebühren.",
+        "desc": "Treten Sie jetzt mit dem Code von Rabby Trust bei und erhalten Sie <1>4 % Rabatt</1> auf Ihre Hyperliquid-Gebühren.",
         "asterTitle": "Aster Empfehlungsprogramm",
-        "asterDesc": "Treten Sie jetzt mit dem Code von Rabby bei und erhalten Sie <1>4 % Rabatt</1> auf Ihre Aster-Gebühren."
+        "asterDesc": "Treten Sie jetzt mit dem Code von Rabby Trust bei und erhalten Sie <1>4 % Rabatt</1> auf Ihre Aster-Gebühren."
       },
       "WebviewError": {
         "failedToLoad": "Seite konnte nicht geladen werden",
@@ -2871,7 +2871,7 @@
         "sizeTips": "Der Gesamtwert oder die Menge Ihres Handels, festgelegt durch Margin und Hebel.",
         "feeHyperliquid": "Hyperliquid",
         "feeTitle": "Gebühr",
-        "feeRabby": "Rabby Wallet",
+        "feeRabby": "Rabby Trust Trust",
         "feeRabbyDiscount": "Zeitlich begrenzter Rabatt auf Handelsgebühren",
         "feeDesc": "Wenn Benutzer Trades platzieren, gelten sowohl <1>Handelsgebühren</1> als auch <2>Builder-Gebühren</2>.",
         "amount": "Betrag",
@@ -2976,7 +2976,7 @@
         "activateNow": "Jetzt aktivieren",
         "activatedFailed": "Aktivierung fehlgeschlagen",
         "hyperliquidFee": "Hyperliquid Handelsgebühren.",
-        "description": "Verwenden Sie den Code von Rabby, um zu aktivieren.",
+        "description": "Verwenden Sie den Code von Rabby Trust, um zu aktivieren.",
         "activatedSuccess": "4% Hyperliquid-Gebühreneinsparungen aktiviert",
         "title": "Auf Hyperliquid Gebühren sparen"
       },
@@ -3466,8 +3466,8 @@
     "newUserOnboarding": {
       "restoreWallet": {
         "subtitle": "Willkommen zurück! 🎉\nWählen Sie eine Methode, um Ihre Wallet schnell wiederherzustellen.",
-        "title": "Stellen Sie Ihre Rabby Wallet wieder her",
-        "subtitleInApp": "Wählen Sie unten eine Option, um Ihre Wallets schnell aus der Rabby-Erweiterung oder iCloud zu importieren."
+        "title": "Stellen Sie Ihre Rabby Trust Trust wieder her",
+        "subtitleInApp": "Wählen Sie unten eine Option, um Ihre Wallets schnell aus der Rabby Trust-Erweiterung oder iCloud zu importieren."
       },
       "common": {
         "orYouCanCreateNewWallet": "Oder Sie können <clickable>ein neues Wallet erstellen</clickable>"
@@ -3540,7 +3540,7 @@
     },
     "walletConnect": {
       "screenTitle": "Wallet verbinden",
-      "connectingToRabby": "Verbindung zu Rabby wird hergestellt",
+      "connectingToRabby": "Verbindung zu Rabby Trust wird hergestellt",
       "pairingFailed": "WalletConnect-Kopplung fehlgeschlagen.",
       "connected": "Erfolgreich verbunden. Bitte kehren Sie zur DApp zurück.",
       "proposalExpired": "WalletConnect-Anfrage abgelaufen.",
@@ -3598,8 +3598,8 @@
     "permissions_alert": {
       "cancel": "Nicht erlauben",
       "open_settings": "OK",
-      "title": "\"Rabby Wallet\" möchte Bluetooth verwenden",
-      "message": "Rabby Wallet verwendet Bluetooth-Zugriff, um Ledger zu verbinden"
+      "title": "\"Rabby Trust Trust\" möchte Bluetooth verwenden",
+      "message": "Rabby Trust Trust verwendet Bluetooth-Zugriff, um Ledger zu verbinden"
     },
     "powered_off_alert": {
       "title": "Bluetooth ist ausgeschaltet",

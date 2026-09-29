@@ -31,7 +31,7 @@
   },
   "native": {
     "authentication": {
-      "auth_prompt_desc": "请验证身份以使用 Rabby",
+      "auth_prompt_desc": "请验证身份以使用 Rabby Trust",
       "auth_prompt_title": "需要身份验证",
       "auth_prompt_cancel": "取消"
     },
@@ -63,7 +63,7 @@
     "Nonce": "Nonce",
     "Paste": "粘贴",
     "Cancel": "取消",
-    "appName": "Rabby Wallet",
+    "appName": "Rabby Trust Trust",
     "nonce": "nonce",
     "appDescription": "您的 Ethereum 与 EVM 首选钱包",
     "next": "下一步",
@@ -234,7 +234,7 @@
       "goToHome": "前往首页",
       "alreadyHaveAddress": "我已有一个钱包",
       "createNewAddress": "创建新钱包",
-      "alreadyUseRabby": "我已有 Rabby 钱包",
+      "alreadyUseRabby": "我已有 Rabby Trust 钱包",
       "welcomeTitle": "欢迎使用\nRabby 钱包"
     },
     "importSeedPhrase": {
@@ -313,7 +313,7 @@
       "gasLimitEmptyAlert": "请输入 Gas limit",
       "safeAddressNotSupportChain": "当前的 Safe 地址不支持 {{0}} 链",
       "addressTypeTitle": "地址类型",
-      "sigCantDecode": "此签名无法被 Rabby Wallet 解码",
+      "sigCantDecode": "此签名无法被 Rabby Trust Trust 解码",
       "transferOwner": {
         "title": "转移资产所有权",
         "description": "描述"
@@ -386,7 +386,7 @@
       "customRPCErrorModal": {
         "button": "禁用自定义 RPC",
         "title": "自定义 RPC 错误",
-        "content": "您自定义的 RPC 当前不可用。您可以禁用它并继续使用 Rabby 的官方 RPC 进行签名。"
+        "content": "您自定义的 RPC 当前不可用。您可以禁用它并继续使用 Rabby Trust 的官方 RPC 进行签名。"
       },
       "swap": {
         "receiver": "接收者",
@@ -436,7 +436,7 @@
       },
       "interacted": "之前已交互",
       "l2GasEstimateTooltip": "对于 L2 链的 Gas 估算不包括 L1 的 Gas 费用。实际费用将高于当前估算。",
-      "eip1559Desc2": "在 Rabby 中，Priority Fee（小费）= Max Fee - Base Fee。在您设置 Max Priority Fee 后，Base Fee 将从中扣除，剩余的将作为小费给矿工。",
+      "eip1559Desc2": "在 Rabby Trust 中，Priority Fee（小费）= Max Fee - Base Fee。在您设置 Max Priority Fee 后，Base Fee 将从中扣除，剩余的将作为小费给矿工。",
       "eip1559Desc1": "在支持 EIP-1559 的链上，Priority Fee 是给予矿工处理您的交易的小费。通过降低 Priority Fee，您可以节省最终的 Gas 成本，但这可能会使交易处理时间更长。",
       "submitMultisig": {
         "multisigAddress": "多重签名地址",
@@ -524,7 +524,7 @@
         "amountPopupTitle": "授权数量",
         "contractTrustValueTip": "信任值是指该合约所花费的总资产价值。信任值低可能表示风险或180天不活跃。",
         "title": "代币授权",
-        "flagByRabby": "由 Rabby 标记"
+        "flagByRabby": "由 Rabby Trust 标记"
       },
       "errorRetry": {
         "nonceTooHigh": "Nonce 太高。请调整 Nonce 后重试。",
@@ -579,7 +579,7 @@
               "desc": "在广播之前取消，无需 Gas 费"
             },
             "removeLocalPendingTx": {
-              "desc": "从 Rabby 界面中移除本地待处理记录",
+              "desc": "从 Rabby Trust 界面中移除本地待处理记录",
               "title": "清除本地待处理记录"
             }
           }
@@ -587,7 +587,7 @@
         "CancelTxConfirmPopup": {
           "title": "清除本地待处理记录",
           "warning": "清除本地记录后，原交易仍可能在链上确认，除非被另一笔交易替换。",
-          "desc": "这只会从 Rabby 界面中移除本地待处理记录，之后你可以重新发起交易。"
+          "desc": "这只会从 Rabby Trust 界面中移除本地待处理记录，之后你可以重新发起交易。"
         }
       }
     },
@@ -819,7 +819,7 @@
       "quickAddressTitle_one": "{{count}} 地址",
       "quickAddressTitle_other": "{{count}} 个地址",
       "add-address": "添加钱包",
-      "delete-checklist-1": "我明白，删除此钱包后，对应的私钥与助记词将被永久清除，Rabby 无法恢复",
+      "delete-checklist-1": "我明白，删除此钱包后，对应的私钥与助记词将被永久清除，Rabby Trust 无法恢复",
       "delete-private-key-title": "删除钱包与私钥",
       "delete-seed-phrase-title": "删除钱包与助记词",
       "delete-title": "删除钱包"
@@ -977,7 +977,7 @@
       "Auto": "自动",
       "by-transaction-simulation-the-quote-is-valid": "通过交易模拟，报价有效",
       "source": "来源",
-      "no-fees-for-wrap": "封装代币不收取 Rabby 费用",
+      "no-fees-for-wrap": "封装代币不收取 Rabby Trust 费用",
       "gas-fee": "Gas 费：{{gasUsed}}",
       "token": "代币",
       "transaction-might-be-frontrun-because-of-high-slippage-tolerance": "由于高滑点容忍度，交易可能会被抢跑。",
@@ -989,7 +989,7 @@
       "need-to-approve-token-before-swap": "需先授权代币才能兑换",
       "low-slippage-may-cause-failed-transactions-due-to-high-volatility": "低滑点可能由于高波动性导致交易失败",
       "rabbyFee": {
-        "discountTitle": "Rabby 费用优惠",
+        "discountTitle": "Rabby Trust 费用优惠",
         "case": "适用情形",
         "free": "免费",
         "cases": {
@@ -1002,9 +1002,9 @@
         "button": "明白了",
         "rate": "费率",
         "wallet": "钱包",
-        "title": "Rabby 费用",
-        "bridgeDesc": "Rabby Wallet 始终会从主流聚合器中寻找最佳汇率，并验证报价的可靠性。Rabby 收取 <1>0.25%</1> 的费用，该费用已自动计入报价。",
-        "swapDesc": "Rabby Wallet 始终会从主流聚合器中寻找最佳汇率，并验证报价的可靠性。Rabby 收取 <1>0.25%</1> 的费用（封装代币为 0%），该费用已自动计入报价。"
+        "title": "Rabby Trust 费用",
+        "bridgeDesc": "Rabby Trust Trust 始终会从主流聚合器中寻找最佳汇率，并验证报价的可靠性。Rabby Trust 收取 <1>0.25%</1> 的费用，该费用已自动计入报价。",
+        "swapDesc": "Rabby Trust Trust 始终会从主流聚合器中寻找最佳汇率，并验证报价的可靠性。Rabby Trust 收取 <1>0.25%</1> 的费用（封装代币为 0%），该费用已自动计入报价。"
       },
       "directlySwap": "通过智能合约直接封装 {{symbol}} 代币",
       "gas-fee-too-high": "Gas 费用过高",
@@ -1028,7 +1028,7 @@
         "cancel": "取消",
         "enableWhitelist": "启用白名单",
         "disableWhitelistTip": "一旦禁用，您可以将资产发送到任何地址。",
-        "enableWhitelistTip": "一旦启用，你只能使用 Rabby 将资产发送到白名单中的地址。"
+        "enableWhitelistTip": "一旦启用，你只能使用 Rabby Trust 将资产发送到白名单中的地址。"
       },
       "tokenDetail": {
         "swap": "兑换",
@@ -1038,8 +1038,8 @@
         "blocked": "屏蔽",
         "noTransactions": "暂无交易",
         "blockedTip": "被阻止的代币将不会显示在代币列表中",
-        "selectedCustom": "该代币未被 Rabby 收录。你已手动将其添加到代币列表。",
-        "notSelectedCustom": "该代币未被 Rabby 收录。开启后会将其添加到代币列表。",
+        "selectedCustom": "该代币未被 Rabby Trust 收录。你已手动将其添加到代币列表。",
+        "notSelectedCustom": "该代币未被 Rabby Trust 收录。开启后会将其添加到代币列表。",
         "notSupported": "不支持该链上的代币"
       },
       "offlineChain": {
@@ -1080,9 +1080,9 @@
         "hardWare": "连接硬件钱包",
         "tips": {
           "gotIt": "我知道了",
-          "title": "导入到 Rabby 安全吗？",
-          "entry": "导入到 Rabby 是否安全",
-          "description": "您的数据已被安全加密并存储在您的设备本地。Rabby 无法访问您的私人信息，这些信息也不会与第三方共享。"
+          "title": "导入到 Rabby Trust 安全吗？",
+          "entry": "导入到 Rabby Trust 是否安全",
+          "description": "您的数据已被安全加密并存储在您的设备本地。Rabby Trust 无法访问您的私人信息，这些信息也不会与第三方共享。"
         },
         "importTitle": "导入钱包",
         "safeTitle": "导入 Safe 钱包",
@@ -1096,12 +1096,12 @@
       },
       "addAddress": {
         "hardwareWallet": "硬件钱包",
-        "syncRabbyExtension": "同步 Rabby 扩展程序",
+        "syncRabbyExtension": "同步 Rabby Trust 扩展程序",
         "importAddress": "导入钱包",
         "createAddress": "创建钱包",
         "selectAddMethod": "选择添加方法",
         "seedPhraseOrPrivateKey": "助记词或私钥",
-        "restoreRabbyWallet": "恢复 Rabby 钱包",
+        "restoreRabbyWallet": "恢复 Rabby Trust 钱包",
         "moreOptions": "更多导入方式"
       },
       "rateModal": {
@@ -1109,8 +1109,8 @@
         "feedbackSubmit": "提交",
         "feedbackSuccess": "感谢您的反馈",
         "confirmButtonTitleIOS": "在 App Store 评分",
-        "descriptionAndroid": "如果你喜欢 Rabby，在 Google Play 上快速评分会非常重要。",
-        "descriptionIOS": "如果您喜欢 Rabby，欢迎在 App Store 上快速评分，这对我们意义重大。",
+        "descriptionAndroid": "如果你喜欢 Rabby Trust，在 Google Play 上快速评分会非常重要。",
+        "descriptionIOS": "如果您喜欢 Rabby Trust，欢迎在 App Store 上快速评分，这对我们意义重大。",
         "feedbackTitle": "有反馈吗？我们在倾听。"
       },
       "upgradeModal": {
@@ -1141,7 +1141,7 @@
         "tip2": "应用程序或恶意软件可以读取您照片库中存储的图像。"
       },
       "rateModalTriggerOnHome": {
-        "title": "为 Rabby 钱包评分"
+        "title": "为 Rabby Trust 钱包评分"
       }
     },
     "signText": {
@@ -1154,7 +1154,7 @@
     },
     "switchChain": {
       "requestsReceivedPlural": "收到 {{count}} 个请求",
-      "requestRabbyToSupport": "请求 Rabby 支持",
+      "requestRabbyToSupport": "请求 Rabby Trust 支持",
       "requestsReceived": "收到 1 个请求"
     },
     "backupSeedPhrase": {
@@ -1181,7 +1181,7 @@
           "yes": "是",
           "title": "启用 {{ bioType }}",
           "no": "取消",
-          "content": "您是否想启用 {{ bioType }} 解锁 Rabby Wallet？"
+          "content": "您是否想启用 {{ bioType }} 解锁 Rabby Trust Trust？"
         }
       },
       "password": {
@@ -1243,7 +1243,7 @@
       },
       "privateKey": {
         "isItSafeToImportItInRabby": {
-          "question": "在 Rabby 中导入安全吗？",
+          "question": "在 Rabby Trust 中导入安全吗？",
           "answer": "是的，它会在您的手机本地存储，只有您可以访问。"
         },
         "whatIsAPrivateKey": {
@@ -1267,7 +1267,7 @@
         "GotIt": "知道了",
         "title1": "备份",
         "title3": "安全性",
-        "description4": "您的助记词存储在您的设备上，并通过您的密码加密。只有您可以访问它。Rabby 无法检索或访问您的助记词。",
+        "description4": "您的助记词存储在您的设备上，并通过您的密码加密。只有您可以访问它。Rabby Trust 无法检索或访问您的助记词。",
         "description3": "切勿分享您的助记词——任何获取助记词的人都可以控制您的资金。",
         "title": "什么是“助记词”",
         "title2": "切勿分享",
@@ -1304,7 +1304,7 @@
       },
       "seedPhrase": {
         "showSeedPhrase": "显示助记词",
-        "importQuestion2": "助记词仅存储在我的手机上，Rabby 无法访问。",
+        "importQuestion2": "助记词仅存储在我的手机上，Rabby Trust 无法访问。",
         "riskTips": "在开始之前，请阅读并牢记以下安全提示。",
         "whatIsASeedPhrase": {
           "answer": "用于控制您资产的12、18或24个单词的助记词。",
@@ -1312,10 +1312,10 @@
         },
         "isItSafeToImportItInRabby": {
           "answer": "是的，它将存储在您的手机上，仅您可访问。",
-          "question": "在 Rabby 中导入它是否安全？"
+          "question": "在 Rabby Trust 中导入它是否安全？"
         },
         "importQuestion1": "如果我丢失了我的助记词或与他人分享，我的资产将永远丢失。",
-        "importQuestion3": "如果我没有备份助记词，当应用被意外删除、设备丢失或需要重新安装时，Rabby 无法帮助我找回。",
+        "importQuestion3": "如果我没有备份助记词，当应用被意外删除、设备丢失或需要重新安装时，Rabby Trust 无法帮助我找回。",
         "manuallyBackup": "手动备份",
         "passwordMinTip": "至少需要 8 个字符",
         "backupSuccessGDrive": "备份到 Google Drive",
@@ -1344,7 +1344,7 @@
         "createdSuccess": "您的助记词已创建",
         "maxAccountCount": "每次最多 50 个地址",
         "icloudBackup": "iCloud 备份",
-        "backupUnlockDesc": "请妥善保管您的密码以便恢复备份。Rabby Wallet 不会储存也无法恢复您的密码。",
+        "backupUnlockDesc": "请妥善保管您的密码以便恢复备份。Rabby Trust Trust 不会储存也无法恢复您的密码。",
         "backupUnlockButton": "继续",
         "addMoreWalletTitle": "通过此助记词\n添加更多钱包"
       },
@@ -1412,7 +1412,7 @@
         "ButtonGotIt": "我知道了",
         "description1": "私钥是一串字母和数字，用于访问和控制您的钱包。您可以使用它在任何设备上恢复您的钱包。",
         "description2": "如果您丢失私钥，将无法恢复钱包。",
-        "description4": "您的私钥存储在设备本地，并使用密码加密。只有您可以访问，Rabby 无法找回或访问您的私钥。",
+        "description4": "您的私钥存储在设备本地，并使用密码加密。只有您可以访问，Rabby Trust 无法找回或访问您的私钥。",
         "description3": "切勿分享您的私钥——任何拥有私钥的人都可以控制您的资金。",
         "title3": "永远不要分享它"
       },
@@ -1427,7 +1427,7 @@
       "alert": "这个私钥是您资产的凭证。不要丢失或泄露给他人，否则您可能会永远失去您的资产。请在安全的环境中查看并妥善保管。"
     },
     "ethSign": {
-      "alert": "使用 'eth_sign' 进行签名可能导致资产损失。为了您的安全，Rabby 不支持此方法。"
+      "alert": "使用 'eth_sign' 进行签名可能导致资产损失。为了您的安全，Rabby Trust 不支持此方法。"
     },
     "connect": {
       "blocked": "已阻止",
@@ -1449,10 +1449,10 @@
       "trusted": "可信任的",
       "markAsBlockToast": "标记为“已阻止”",
       "foundForbiddenRisk": "检测到高危风险，已阻止连接。",
-      "flagByRabby": "由 Rabby 标记",
+      "flagByRabby": "由 Rabby Trust 标记",
       "markRuleText": "我的标记",
       "popularLevelLow": "低",
-      "verifiedByRabby": "由 Rabby 验证",
+      "verifiedByRabby": "由 Rabby Trust 验证",
       "connectBtn": "连接",
       "popularLevelMedium": "中等",
       "listedBy": "收录方",
@@ -1462,7 +1462,7 @@
     },
     "walletConnect": {
       "screenTitle": "连接钱包",
-      "connectingToRabby": "正在连接到 Rabby",
+      "connectingToRabby": "正在连接到 Rabby Trust",
       "pairingFailed": "WalletConnect 配对失败。",
       "connected": "连接成功，请返回 DApp。",
       "proposalExpired": "WalletConnect 连接请求已过期。",
@@ -1482,10 +1482,10 @@
     },
     "addToken": {
       "noTokenFound": "未找到代币",
-      "tokenSupported": "Rabby 已支持该代币",
+      "tokenSupported": "Rabby Trust 已支持该代币",
       "tokenCustomized": "当前代币已添加到自定义列表",
       "tokenNotFound": "未在该合约地址找到代币",
-      "title": "向 Rabby 添加自定义代币",
+      "title": "向 Rabby Trust 添加自定义代币",
       "hasAdded": "您已添加该代币。"
     },
     "createPassword": {
@@ -1508,7 +1508,7 @@
       "ConfirmPassword": "确认密码",
       "passwordPlaceholder": "密码长度必须至少为 8 个字符",
       "confirmError": "密码不匹配",
-      "confirmModalDesc": "请妥善保存您的密码。一旦丢失，Rabby 无法更改或找回。",
+      "confirmModalDesc": "请妥善保存您的密码。一旦丢失，Rabby Trust 无法更改或找回。",
       "setWallet": "设置钱包",
       "termOfUse": "使用条款",
       "agree": "我已阅读并同意<1/> <2>使用条款</2>",
@@ -1592,7 +1592,7 @@
       "verify-fingerprint": "验证指纹",
       "verify-face-id": "验证 Face ID",
       "verify-fingerprint-before-backup": "在备份之前验证您的指纹",
-      "verify-password-before-backup": "在备份之前，请验证您的 Rabby 密码。",
+      "verify-password-before-backup": "在备份之前，请验证您的 Rabby Trust 密码。",
       "verify-password": "验证密码",
       "verify-face-id-before-backup": "在备份之前验证您的 Face ID"
     },
@@ -1600,12 +1600,12 @@
       "claimItem": {
         "claim": "领取"
       },
-      "title": "Rabby Points",
+      "title": "Rabby Trust Points",
       "alreadyClaimedXPoints": "已领取：{{point}}"
     },
     "addChain": {
-      "desc": "Rabby 无法验证自定义网络的安全性。请仅添加可信网络。",
-      "title": "添加自定义网络到 Rabby"
+      "desc": "Rabby Trust 无法验证自定义网络的安全性。请仅添加可信网络。",
+      "title": "添加自定义网络到 Rabby Trust"
     },
     "sign": {
       "transactionSpeed": "交易速度"
@@ -1653,7 +1653,7 @@
         "rpcUrl": "RPC URL"
       },
       "id": "ID",
-      "desc": "Rabby 无法验证自定义网络的安全性。请仅添加可信网络。",
+      "desc": "Rabby Trust 无法验证自定义网络的安全性。请仅添加可信网络。",
       "signTx": {
         "title": "交易数据"
       },
@@ -1663,11 +1663,11 @@
         "search": "搜索自定义网络名称或 ID",
         "tips": {
           "added": "您已经添加了此链",
-          "supported": "Rabby Wallet 已支持该链"
+          "supported": "Rabby Trust Trust 已支持该链"
         }
       },
       "ConfirmModifyRpcModal": {
-        "desc": "该链已经被 Rabby 集成。您是否需要修改其 RPC URL？"
+        "desc": "该链已经被 Rabby Trust 集成。您是否需要修改其 RPC URL？"
       },
       "addToken": {
         "title": "添加自定义网络代币",
@@ -1763,7 +1763,7 @@
         "desc2": "80+ 网络上的自动 Gas 支付",
         "desc3": "兑换、跨链、发送、DApp 等更多功能",
         "item2": "支持所有网络",
-        "item1": "无 Rabby 费用",
+        "item1": "无 Rabby Trust 费用",
         "desc1": "支付 Gas 无额外费用"
       },
       "depositNow": "立即充值",
@@ -1944,7 +1944,7 @@
       "clearPending": "清除本地待处理记录",
       "clearPendingDesc2": "这不会改变您账户中的余额，也不需要您重新输入您的助记词。您所有的资产和账户信息都将保持安全。",
       "currentVersion": "当前版本",
-      "clearPendingDesc1": "这会清除 Rabby 中的本地待处理记录，可用于解决 Rabby 显示的交易状态与链上状态不一致的问题。",
+      "clearPendingDesc1": "这会清除 Rabby Trust 中的本地待处理记录，可用于解决 Rabby Trust 显示的交易状态与链上状态不一致的问题。",
       "touchId": "Touch ID",
       "appCache": "清空应用缓存",
       "currentLanguage": "当前语言",
@@ -2040,15 +2040,15 @@
     "syncExtension": {
       "noNewAddr": "未找到可导入的新地址",
       "scanTips2": "扫描二维码并开始同步",
-      "imported": "在 Rabby Mobile 中已有的地址将不会再次导入。地址备注和白名单会自动同步。",
+      "imported": "在 Rabby Trust Trust 中已有的地址将不会再次导入。地址备注和白名单会自动同步。",
       "syncingProgress": "扫描中（{{ percent }}）",
       "importedSuccessfully": "导入成功！",
       "syncingTips": "请保持相机稳定，直至扫描完成",
-      "newUserVerify": "它也将作为您 Rabby Mobile 的默认密码。",
-      "verifyWithPassword": "使用您的 Rabby 浏览器扩展密码进行验证",
-      "scanTips1": "在 Rabby 浏览器扩展中点击“Mobile Sync”",
+      "newUserVerify": "它也将作为您 Rabby Trust Trust 的默认密码。",
+      "verifyWithPassword": "使用您的 Rabby Trust 浏览器扩展密码进行验证",
+      "scanTips1": "在 Rabby Trust 浏览器扩展中点击“Mobile Sync”",
       "importedTips": "如果应用程序中已经存在重复地址，则不会导入。地址备注和白名单也将同步。",
-      "verifyTips": "您的数据已离线加密。请输入 Rabby 浏览器扩展密码进行解密和验证。"
+      "verifyTips": "您的数据已离线加密。请输入 Rabby Trust 浏览器扩展密码进行解密和验证。"
     },
     "safeMessageQueue": {
       "noData": "没有消息",
@@ -2096,9 +2096,9 @@
       "HyperliquidInvitePopup": {
         "btn": "立即加入",
         "title": "Hyperliquid 邀请计划",
-        "desc": "现在使用 Rabby 的邀请码加入，即可享受 Hyperliquid 费用 <1>4%</1> 折扣。",
+        "desc": "现在使用 Rabby Trust 的邀请码加入，即可享受 Hyperliquid 费用 <1>4%</1> 折扣。",
         "asterTitle": "Aster 推荐计划",
-        "asterDesc": "现在使用 Rabby 的邀请码，即可享受 Aster 费用 <1>4%</1> 折扣。"
+        "asterDesc": "现在使用 Rabby Trust 的邀请码，即可享受 Aster 费用 <1>4%</1> 折扣。"
       },
       "WebviewError": {
         "error": "错误：",
@@ -2727,7 +2727,7 @@
         "sizeTips": "交易的总价值或数量，由保证金和杠杆决定。",
         "perps": "永续合约",
         "feeHyperliquid": "Hyperliquid",
-        "feeRabby": "Rabby 钱包",
+        "feeRabby": "Rabby Trust 钱包",
         "feeRabbyDiscount": "限时交易手续费折扣",
         "feeDesc": "交易时会产生<1>交易手续费</1>和<2>构建者费用</2>。",
         "feeTitle": "费用",
@@ -2833,7 +2833,7 @@
         "hyperliquidFee": "Hyperliquid 交易手续费。",
         "title": "在 Hyperliquid 上节省手续费",
         "activatedFailed": "激活失败",
-        "description": "使用 Rabby 邀请码启用",
+        "description": "使用 Rabby Trust 邀请码启用",
         "activateNow": "立即激活",
         "activatedSuccess": "已启用 4% Hyperliquid 手续费减免"
       },
@@ -3319,9 +3319,9 @@
     },
     "newUserOnboarding": {
       "restoreWallet": {
-        "title": "恢复您的 Rabby 钱包",
+        "title": "恢复您的 Rabby Trust 钱包",
         "subtitle": "欢迎回来！🎉  \n请选择一种方法快速恢复您的钱包。",
-        "subtitleInApp": "从下方选择一种方式，快速从 Rabby 浏览器扩展或 iCloud 导入您的钱包"
+        "subtitleInApp": "从下方选择一种方式，快速从 Rabby Trust 浏览器扩展或 iCloud 导入您的钱包"
       },
       "common": {
         "orYouCanCreateNewWallet": "或者，您也可以<clickable>创建新钱包</clickable>"
@@ -3528,7 +3528,7 @@
       "switchArea": {
         "skipText": "1 天内不再显示此弹窗"
       },
-      "alertText": "第三方 DApp：如遇使用问题，请联系 DApp 支持。Rabby 仅提供浏览功能。",
+      "alertText": "第三方 DApp：如遇使用问题，请联系 DApp 支持。Rabby Trust 仅提供浏览功能。",
       "title": "截图报告问题",
       "submitFailed": "提交失败。"
     },
@@ -3570,8 +3570,8 @@
   },
   "bluetooth": {
     "permissions_alert": {
-      "title": "\"Rabby Wallet\" 想要使用蓝牙",
-      "message": "Rabby Wallet 使用蓝牙连接 Ledger",
+      "title": "\"Rabby Trust Trust\" 想要使用蓝牙",
+      "message": "Rabby Trust Trust 使用蓝牙连接 Ledger",
       "open_settings": "OK",
       "cancel": "不允许"
     },

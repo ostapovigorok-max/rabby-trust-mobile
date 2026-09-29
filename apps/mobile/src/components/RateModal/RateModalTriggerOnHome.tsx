@@ -86,7 +86,7 @@ export function RateModalTriggerOnHome({ style }: RNViewProps) {
       style={style}
       testID="RateModalTriggerOnHome"
       title={t('page.nextComponent.rateModalTriggerOnHome.title', {
-        defaultValue: 'Rating Rabby Wallet',
+        defaultValue: 'Rating Rabby Trust',
       })}
       contentStyle={styles.starsContainer}
       content={Array.from({ length: 5 }, (_, index) => (

@@ -164,7 +164,7 @@
       "switchArea": {
         "skipText": "ข้ามป๊อปอัปนี้ไป 1 วัน"
       },
-      "alertText": "DApp บุคคลที่สาม: หากมีปัญหาการใช้งาน โปรดติดต่อฝ่ายสนับสนุนของ DApp Rabby ให้สิทธิ์เข้าดูเท่านั้น.",
+      "alertText": "DApp บุคคลที่สาม: หากมีปัญหาการใช้งาน โปรดติดต่อฝ่ายสนับสนุนของ DApp Rabby Trust ให้สิทธิ์เข้าดูเท่านั้น.",
       "title": "จับภาพหน้าจอเพื่อนำเสนอข้อบกพร่อง",
       "submitFailed": "ส่งไม่สำเร็จ"
     },
@@ -209,8 +209,8 @@
       "goToHome": "ไปที่หน้าแรก",
       "alreadyHaveAddress": "ฉันมีกระเป๋าเงินแล้ว",
       "createNewAddress": "สร้างกระเป๋าเงินใหม่",
-      "welcomeTitle": "ยินดีต้อนรับสู่\nRabby Wallet",
-      "alreadyUseRabby": "ฉันใช้ Rabby อยู่แล้ว"
+      "welcomeTitle": "ยินดีต้อนรับสู่\nRabby Trust",
+      "alreadyUseRabby": "ฉันใช้ Rabby Trust อยู่แล้ว"
     },
     "transactions": {
       "explain": {
@@ -565,7 +565,7 @@
         "maxPay": "การจ่ายสูงสุด",
         "title": "แลกเปลี่ยน Token จำกัดการชำระเงิน"
       },
-      "sigCantDecode": "ลายเซ็นนี้ไม่สามารถถอดรหัสโดย Rabby Wallet ได้",
+      "sigCantDecode": "ลายเซ็นนี้ไม่สามารถถอดรหัสโดย Rabby Trust Trust ได้",
       "moreSafeSigNeeded": "ต้องการการยืนยันอีก {{0}} ครั้ง",
       "nonceLowerThanExpect": "Nonce ต่ำเกินไป ค่าต่ำสุดควรเป็น {{0}}",
       "collectionTitle": "คอลเลกชัน",
@@ -631,7 +631,7 @@
       "customRPCErrorModal": {
         "title": "ข้อผิดพลาด RPC ที่กำหนดเอง",
         "button": "ปิดใช้งาน Custom RPC",
-        "content": "ขณะนี้ RPC ที่คุณกำหนดเองไม่สามารถใช้งานได้ คุณสามารถปิดการใช้งานและทำการลงนามโดยใช้ RPC อย่างเป็นทางการของ Rabby ต่อไป"
+        "content": "ขณะนี้ RPC ที่คุณกำหนดเองไม่สามารถใช้งานได้ คุณสามารถปิดการใช้งานและทำการลงนามโดยใช้ RPC อย่างเป็นทางการของ Rabby Trust ต่อไป"
       },
       "gasAccount": {
         "estimatedGas": "ประมาณการ Gas:",
@@ -676,7 +676,7 @@
       },
       "address": "ที่อยู่",
       "hasInteraction": "เคยโต้ตอบก่อนหน้านี้",
-      "eip1559Desc2": "ที่นี่ใน Rabby, Priority Fee (Tip) = Max Fee - Base Fee เมื่อคุณตั้งค่า Max Priority Fee แล้ว ค่า Base Fee จะถูกหักออกไปและส่วนที่เหลือจะเป็นทิปให้กับนักขุด",
+      "eip1559Desc2": "ที่นี่ใน Rabby Trust, Priority Fee (Tip) = Max Fee - Base Fee เมื่อคุณตั้งค่า Max Priority Fee แล้ว ค่า Base Fee จะถูกหักออกไปและส่วนที่เหลือจะเป็นทิปให้กับนักขุด",
       "no": "ไม่",
       "protocol": "โปรโตคอล",
       "yes": "ใช่",
@@ -711,7 +711,7 @@
       "l2GasEstimateTooltip": "การประเมิน gas สำหรับ L2 chain ไม่รวมค่าธรรมเนียม gas ของ L1 ค่าธรรมเนียมจริงจะสูงกว่าการประเมินปัจจุบัน",
       "tokenApprove": {
         "eoaAddress": "EOA",
-        "flagByRabby": "ทำเครื่องหมายโดย Rabby",
+        "flagByRabby": "ทำเครื่องหมายโดย Rabby Trust",
         "amountPopupTitle": "อนุมัติจำนวน",
         "approveToken": "อนุมัติโทเคน",
         "deployTimeLessThan": "< {{value}} วัน",
@@ -995,17 +995,17 @@
         "swap": "สวอป",
         "receive": "รับ",
         "noTransactions": "ไม่มีธุรกรรม",
-        "notSelectedCustom": "Token ไม่ได้อยู่ในรายการของ Rabby จะถูกเพิ่มไปยังรายการ token ถ้าคุณเปิดการใช้งาน",
+        "notSelectedCustom": "Token ไม่ได้อยู่ในรายการของ Rabby Trust จะถูกเพิ่มไปยังรายการ token ถ้าคุณเปิดการใช้งาน",
         "blockedTip": "โทเค็นที่ถูกบล็อกจะไม่แสดงในรายการโทเค็น",
         "notSupported": "ไม่รองรับโทเค็นบนเชนนี้",
-        "selectedCustom": "โทเค็นไม่ได้รับการลิสต์โดย Rabby คุณได้เพิ่มมันลงในรายการโทเค็นด้วยตนเอง"
+        "selectedCustom": "โทเค็นไม่ได้รับการลิสต์โดย Rabby Trust คุณได้เพิ่มมันลงในรายการโทเค็นด้วยตนเอง"
       },
       "settings": {
         "enableWhitelist": "เปิดใช้งานรายการที่อนุญาต",
         "cancel": "ยกเลิก",
         "disableWhitelist": "ปิดใช้งานรายการที่อนุญาต",
         "disableWhitelistTip": "คุณสามารถส่งสินทรัพย์ไปยังที่อยู่ใดก็ได้เมื่อปิดการใช้งาน",
-        "enableWhitelistTip": "เมื่อเปิดใช้งานแล้ว คุณจะสามารถส่งสินทรัพย์ไปยังที่อยู่ในรายการที่อนุญาตโดยใช้ Rabby เท่านั้น"
+        "enableWhitelistTip": "เมื่อเปิดใช้งานแล้ว คุณจะสามารถส่งสินทรัพย์ไปยังที่อยู่ในรายการที่อนุญาตโดยใช้ Rabby Trust เท่านั้น"
       },
       "offlineChain": {
         "tips": "เชน {{chain}} จะไม่รองรับตั้งแต่ {{date}} สินทรัพย์จะไม่ได้รับผลกระทบ แต่จะไม่รวมอยู่ในยอดคงเหลือทั้งหมด หากต้องการเข้าถึง ให้เพิ่มเป็นเครือข่ายที่กำหนดเองใน “การตั้งค่า”",
@@ -1026,7 +1026,7 @@
       "quickAddressTitle_one": "{{count}} ที่อยู่",
       "quickAddressTitle_other": "{{count}} ที่อยู่",
       "add-address": "เพิ่มกระเป๋าเงิน",
-      "delete-checklist-1": "ฉันเข้าใจว่าหากลบกระเป๋าเงินนี้ Private Key และ Seed Phrase ที่เกี่ยวข้องจะถูกลบ และ Rabby จะไม่สามารถกู้คืนได้",
+      "delete-checklist-1": "ฉันเข้าใจว่าหากลบกระเป๋าเงินนี้ Private Key และ Seed Phrase ที่เกี่ยวข้องจะถูกลบ และ Rabby Trust จะไม่สามารถกู้คืนได้",
       "delete-private-key-title": "ลบกระเป๋าเงินและคีย์ส่วนตัว",
       "delete-seed-phrase-title": "ลบกระเป๋าเงินและวลีเมล็ดกำเนิด",
       "delete-title": "ลบกระเป๋าเงิน"
@@ -1052,7 +1052,7 @@
       "security-verification-failed": "การยืนยันความปลอดภัยล้มเหลว",
       "hidden-no-quote-rates_one": "อัตรา {{count}} ไม่สามารถใช้งานได้",
       "unable-to-fetch-the-price": "ไม่สามารถดึงราคามาได้",
-      "no-fees-for-wrap": "ไม่มีค่าธรรมเนียม Rabby สำหรับ Wrap",
+      "no-fees-for-wrap": "ไม่มีค่าธรรมเนียม Rabby Trust สำหรับ Wrap",
       "from": "จาก",
       "directlySwap": "ห่อโทเค็น {{symbol}} โดยตรงผ่านสัญญาอัจฉริยะ",
       "hidden-no-quote-rates_other": "{{count}} อัตราไม่พร้อมใช้งาน",
@@ -1069,7 +1069,7 @@
       },
       "slippage-tolerance": "ค่าความคลาดเคลื่อนของราคา",
       "rabbyFee": {
-        "discountTitle": "ส่วนลดค่าธรรมเนียม Rabby",
+        "discountTitle": "ส่วนลดค่าธรรมเนียม Rabby Trust",
         "case": "เงื่อนไข",
         "free": "ฟรี",
         "cases": {
@@ -1079,12 +1079,12 @@
           "million": "ปริมาณ $1M+",
           "hundredThousand": "ปริมาณ $100k - $1M"
         },
-        "title": "ค่าธรรมเนียม Rabby",
+        "title": "ค่าธรรมเนียม Rabby Trust",
         "button": "เข้าใจแล้ว",
         "rate": "อัตราค่าธรรมเนียม",
         "wallet": "กระเป๋าเงิน",
-        "swapDesc": "Rabby Wallet จะค้นหาอัตราที่ดีที่สุดจากผู้รวบรวมชั้นนำและตรวจสอบความน่าเชื่อถือของข้อเสนอเหล่านั้นเสมอ Rabby คิดค่าธรรมเนียม <1>0.25%</1> (0% สำหรับการห่อ) ซึ่งรวมอยู่ในใบเสนอราคาโดยอัตโนมัติ",
-        "bridgeDesc": "Rabby Wallet จะค้นหาอัตราที่ดีที่สุดจากผู้รวมอันดับต้น ๆ และยืนยันความเชื่อถือได้ของข้อเสนอ Rabby จะคิดค่าธรรมเนียม <1>0.25%</1> ซึ่งรวมอยู่ในราคาที่เสนอโดยอัตโนมัติ"
+        "swapDesc": "Rabby Trust Trust จะค้นหาอัตราที่ดีที่สุดจากผู้รวบรวมชั้นนำและตรวจสอบความน่าเชื่อถือของข้อเสนอเหล่านั้นเสมอ Rabby Trust คิดค่าธรรมเนียม <1>0.25%</1> (0% สำหรับการห่อ) ซึ่งรวมอยู่ในใบเสนอราคาโดยอัตโนมัติ",
+        "bridgeDesc": "Rabby Trust Trust จะค้นหาอัตราที่ดีที่สุดจากผู้รวมอันดับต้น ๆ และยืนยันความเชื่อถือได้ของข้อเสนอ Rabby Trust จะคิดค่าธรรมเนียม <1>0.25%</1> ซึ่งรวมอยู่ในราคาที่เสนอโดยอัตโนมัติ"
       },
       "recommend-slippage": "เพื่อป้องกันการซื้อขายล่วงหน้า เราขอแนะนำให้ตั้งค่า slippage ที่ <2>{{ slippage }}</2>%",
       "need-to-approve-token-before-swap": "จำเป็นต้องอนุมัติโทเค็นก่อนการ swap",
@@ -1099,12 +1099,12 @@
     "nextComponent": {
       "addAddress": {
         "hardwareWallet": "ฮาร์ดแวร์วอลเล็ต",
-        "syncRabbyExtension": "ซิงค์ Rabby Extension",
+        "syncRabbyExtension": "ซิงค์ Rabby Trust Extension",
         "createAddress": "สร้างกระเป๋าเงิน",
         "importAddress": "นำเข้ากระเป๋าเงิน",
         "selectAddMethod": "เลือกวิธีการเพิ่ม",
         "seedPhraseOrPrivateKey": "Seed Phrase หรือ Private Key",
-        "restoreRabbyWallet": "กู้คืน Rabby Wallet",
+        "restoreRabbyWallet": "กู้คืน Rabby Trust Trust",
         "moreOptions": "ตัวเลือกเพิ่มเติม"
       },
       "multiAddressHome": {
@@ -1118,9 +1118,9 @@
         "hardWare": "เชื่อมต่อกระเป๋าฮาร์ดแวร์",
         "tips": {
           "gotIt": "ฉันเข้าใจแล้ว",
-          "entry": "นำเข้าไปยัง Rabby ปลอดภัยหรือไม่",
-          "title": "ปลอดภัยหรือไม่ที่จะนำเข้าไปยัง Rabby?",
-          "description": "ข้อมูลของคุณจะถูกเข้ารหัสอย่างปลอดภัยและเก็บไว้ในอุปกรณ์ของคุณ Rabby ไม่สามารถเข้าถึงข้อมูลส่วนตัวของคุณ และจะไม่มีการแชร์ให้กับบุคคลที่สาม"
+          "entry": "นำเข้าไปยัง Rabby Trust ปลอดภัยหรือไม่",
+          "title": "ปลอดภัยหรือไม่ที่จะนำเข้าไปยัง Rabby Trust?",
+          "description": "ข้อมูลของคุณจะถูกเข้ารหัสอย่างปลอดภัยและเก็บไว้ในอุปกรณ์ของคุณ Rabby Trust ไม่สามารถเข้าถึงข้อมูลส่วนตัวของคุณ และจะไม่มีการแชร์ให้กับบุคคลที่สาม"
         },
         "safeTitle": "นำเข้ากระเป๋าเงิน Safe",
         "importTitle": "นำเข้ากระเป๋าเงิน",
@@ -1157,9 +1157,9 @@
         "feedbackSubmit": "ส่ง",
         "confirmButtonTitleIOS": "ให้คะแนนบน App Store",
         "confirmButtonTitleAndroid": "ให้คะแนนบน Google Play",
-        "descriptionAndroid": "หากคุณชอบ Rabby การให้คะแนนสั้น ๆ บน Google Play จะเป็นกำลังใจให้เรามาก",
+        "descriptionAndroid": "หากคุณชอบ Rabby Trust การให้คะแนนสั้น ๆ บน Google Play จะเป็นกำลังใจให้เรามาก",
         "feedbackSuccess": "ขอขอบคุณสำหรับข้อเสนอแนะของคุณ",
-        "descriptionIOS": "หากคุณชอบ Rabby การให้คะแนนสั้น ๆ บน App Store จะเป็นกำลังใจให้เรามาก",
+        "descriptionIOS": "หากคุณชอบ Rabby Trust การให้คะแนนสั้น ๆ บน App Store จะเป็นกำลังใจให้เรามาก",
         "feedbackTitle": "มีข้อเสนอแนะไหม? เรายินดีรับฟัง"
       },
       "upgradeModal": {
@@ -1190,11 +1190,11 @@
         "tip1": "ภาพหน้าจออาจซิงค์ไปยังคลาวด์หรืออุปกรณ์อื่น และอาจถูกเข้าถึงได้หากอุปกรณ์สูญหาย ถูกขโมย หรือถูกแฮ็ก"
       },
       "rateModalTriggerOnHome": {
-        "title": "ให้คะแนน Rabby Wallet"
+        "title": "ให้คะแนน Rabby Trust Trust"
       }
     },
     "switchChain": {
-      "requestRabbyToSupport": "ขอความช่วยเหลือจาก Rabby",
+      "requestRabbyToSupport": "ขอความช่วยเหลือจาก Rabby Trust",
       "requestsReceivedPlural": "ได้รับคำขอ {{count}} รายการ",
       "requestsReceived": "ได้รับคำขอ 1 รายการ"
     },
@@ -1203,8 +1203,8 @@
       "tokenNotFound": "ไม่พบโทเค็นจากที่อยู่สัญญานี้",
       "hasAdded": "คุณได้เพิ่มโทเค็นนี้แล้ว",
       "tokenCustomized": "โทเค็นนี้ถูกเพิ่มเป็นโทเค็นที่กำหนดเองแล้ว",
-      "title": "เพิ่มโทเค็นที่กำหนดเองไปยัง Rabby",
-      "tokenSupported": "Rabby รองรับโทเค็นนี้แล้ว"
+      "title": "เพิ่มโทเค็นที่กำหนดเองไปยัง Rabby Trust",
+      "tokenSupported": "Rabby Trust รองรับโทเค็นนี้แล้ว"
     },
     "signText": {
       "title": "ลงชื่อในข้อความ",
@@ -1270,7 +1270,7 @@
       },
       "backup": "สำรองข้อมูล",
       "basicInfo": "ข้อมูลพื้นฐาน",
-      "verify-password-before-backup": "ตรวจสอบรหัสผ่าน Rabby ของคุณก่อนสำรองข้อมูล",
+      "verify-password-before-backup": "ตรวจสอบรหัสผ่าน Rabby Trust ของคุณก่อนสำรองข้อมูล",
       "verify-fingerprint": "ตรวจสอบลายนิ้วมือ",
       "verify-and-backup": "ตรวจสอบ & สำรองข้อมูล",
       "verify-password": "ตรวจสอบรหัสผ่าน",
@@ -1294,7 +1294,7 @@
       "popularLevelVeryLow": "ต่ำมาก",
       "sitePopularity": "ความนิยมของเว็บไซต์",
       "flagByScamSniffer": "ติดธงโดย ScamSniffer",
-      "flagByRabby": "ถูกตั้งค่าสถานะโดย Rabby",
+      "flagByRabby": "ถูกตั้งค่าสถานะโดย Rabby Trust",
       "flagByMM": "ถูกตั้งค่าสถานะโดย MetaMask",
       "popularLevelHigh": "สูง",
       "blocked": "ถูกบล็อก",
@@ -1308,7 +1308,7 @@
       "markAsBlockToast": "ทำเครื่องหมายว่า \"บล็อกแล้ว\"",
       "noWebsite": "ไม่มี",
       "markRemovedToast": "ลบเครื่องหมายแล้ว",
-      "verifiedByRabby": "ยืนยันโดย Rabby",
+      "verifiedByRabby": "ยืนยันโดย Rabby Trust",
       "onYourWhitelist": "ในรายการอนุญาตของคุณ",
       "popularLevelLow": "ต่ำ",
       "noMark": "ไม่มีการทำเครื่องหมาย",
@@ -1321,7 +1321,7 @@
       "connectWallet": "เชื่อมต่อกระเป๋าเงิน"
     },
     "ethSign": {
-      "alert": "การเซ็นชื่อด้วย 'eth_sign' อาจทำให้สูญเสียสินทรัพย์ เพื่อความปลอดภัยของคุณ Rabby ไม่รองรับวิธีนี้"
+      "alert": "การเซ็นชื่อด้วย 'eth_sign' อาจทำให้สูญเสียสินทรัพย์ เพื่อความปลอดภัยของคุณ Rabby Trust ไม่รองรับวิธีนี้"
     },
     "unlock": {
       "btn": {
@@ -1342,7 +1342,7 @@
           "yes": "ใช่",
           "title": "เปิดใช้งาน {{ bioType }}",
           "no": "ยกเลิก",
-          "content": "คุณต้องการเปิดใช้งาน {{ bioType }} เพื่อปลดล็อก Rabby Wallet หรือไม่?"
+          "content": "คุณต้องการเปิดใช้งาน {{ bioType }} เพื่อปลดล็อก Rabby Trust Trust หรือไม่?"
         }
       },
       "unlocking": "กำลังปลดล็อก"
@@ -1361,7 +1361,7 @@
         "title3": "ความปลอดภัย",
         "description2": "หากคุณสูญเสีย seed phrase คุณจะไม่สามารถกู้คืนกระเป๋าเงินของคุณได้",
         "description3": "ห้ามแชร์ Seed Phrase ของคุณเด็ดขาด เพราะผู้ที่เข้าถึงได้สามารถควบคุมเงินทุนของคุณ",
-        "description4": "Seed Phrase ของคุณจะถูกจัดเก็บไว้ในอุปกรณ์และเข้ารหัสด้วยรหัสผ่าน มีเพียงคุณเท่านั้นที่เข้าถึงได้ Rabby ไม่สามารถเรียกคืนหรือเข้าถึง Seed Phrase ของคุณได้",
+        "description4": "Seed Phrase ของคุณจะถูกจัดเก็บไว้ในอุปกรณ์และเข้ารหัสด้วยรหัสผ่าน มีเพียงคุณเท่านั้นที่เข้าถึงได้ Rabby Trust ไม่สามารถเรียกคืนหรือเข้าถึง Seed Phrase ของคุณได้",
         "description1": "Seed Phrase คือชุดคำที่ใช้เข้าถึงและควบคุมกระเป๋าเงินของคุณ และใช้กู้คืนกระเป๋าเงินบนอุปกรณ์ใดก็ได้"
       },
       "ledger": {
@@ -1404,7 +1404,7 @@
         },
         "isItSafeToImportItInRabby": {
           "answer": "ใช่ จะถูกเก็บไว้ในโทรศัพท์ของคุณและสามารถเข้าถึงได้เฉพาะคุณเท่านั้น",
-          "question": "นำเข้าคีย์ส่วนตัวใน Rabby ปลอดภัยหรือไม่?"
+          "question": "นำเข้าคีย์ส่วนตัวใน Rabby Trust ปลอดภัยหรือไม่?"
         },
         "repeatImportTips": "กระเป๋าเงินนี้ได้ถูกนำเข้าแล้ว"
       },
@@ -1456,11 +1456,11 @@
         },
         "isItSafeToImportItInRabby": {
           "answer": "ใช่ มันจะถูกเก็บไว้ในโทรศัพท์ของคุณและสามารถเข้าถึงได้เฉพาะคุณเท่านั้น",
-          "question": "นำเข้าสู่ Rabby ปลอดภัยหรือไม่?"
+          "question": "นำเข้าสู่ Rabby Trust ปลอดภัยหรือไม่?"
         },
-        "importQuestion3": "หากฉันไม่ได้สำรองข้อมูล seed phrase และแอปถูกลบโดยไม่ตั้งใจ อุปกรณ์สูญหาย หรือจำเป็นต้องติดตั้งใหม่ Rabby จะไม่สามารถกู้คืนให้ฉันได้",
+        "importQuestion3": "หากฉันไม่ได้สำรองข้อมูล seed phrase และแอปถูกลบโดยไม่ตั้งใจ อุปกรณ์สูญหาย หรือจำเป็นต้องติดตั้งใหม่ Rabby Trust จะไม่สามารถกู้คืนให้ฉันได้",
         "riskTips": "ก่อนที่คุณจะเริ่ม กรุณาอ่านและจดจำเคล็ดลับความปลอดภัยต่อไปนี้ไว้ในใจ",
-        "importQuestion2": "Seed Phrase จะถูกจัดเก็บไว้ในโทรศัพท์ของฉันเท่านั้น และ Rabby ไม่สามารถเข้าถึงได้",
+        "importQuestion2": "Seed Phrase จะถูกจัดเก็บไว้ในโทรศัพท์ของฉันเท่านั้น และ Rabby Trust ไม่สามารถเข้าถึงได้",
         "passwordMinTip": "ต้องมีอย่างน้อย 8 อักขระ",
         "backupFailedButton": "ลองใหม่",
         "backupUnlockButton": "ดำเนินการต่อ",
@@ -1488,7 +1488,7 @@
         "chooseBackupMethodDesc": "ข้อมูลสำรองช่วยให้คุณกู้คืนกระเป๋าเงินได้หากลบแอปหรือทำอุปกรณ์สูญหาย",
         "backupFailedTitle": "การสำรองข้อมูลล้มเหลว",
         "backupUploadToGDrive": "กำลังสำรองข้อมูลไปยัง Google Drive...",
-        "backupUnlockDesc": "เก็บรหัสผ่านของคุณให้ปลอดภัยเพื่อใช้กู้คืนข้อมูลสำรอง Rabby Wallet จะไม่จัดเก็บและไม่สามารถกู้คืนรหัสผ่านนี้ให้ได้",
+        "backupUnlockDesc": "เก็บรหัสผ่านของคุณให้ปลอดภัยเพื่อใช้กู้คืนข้อมูลสำรอง Rabby Trust Trust จะไม่จัดเก็บและไม่สามารถกู้คืนรหัสผ่านนี้ให้ได้",
         "backupRestoreUnlockDesc": "ใช้รหัสผ่านเดียวกันที่คุณตั้งไว้เพื่อเข้ารหัสการสำรองข้อมูลของคุณ",
         "backupErrorCloudNotAvailable": "iCloud ใช้งานไม่ได้",
         "addMoreWalletTitle": "เพิ่มกระเป๋าเงินเพิ่มเติม\nจากวลีนี้"
@@ -1557,7 +1557,7 @@
         "title": "กุญแจส่วนตัวคืออะไร",
         "description3": "ห้ามแชร์คีย์ส่วนตัวของคุณเด็ดขาด เพราะผู้ที่เข้าถึงได้สามารถควบคุมเงินทุนของคุณ",
         "description1": "คีย์ส่วนตัวคือชุดของตัวอักษรและตัวเลขที่ใช้ในการเข้าถึงและควบคุมกระเป๋าเงินของคุณ คุณสามารถใช้มันในการกู้คืนกระเป๋าเงินของคุณบนอุปกรณ์ใดก็ได้",
-        "description4": "คีย์ส่วนตัวของคุณจะถูกจัดเก็บไว้ในอุปกรณ์และเข้ารหัสด้วยรหัสผ่าน มีเพียงคุณเท่านั้นที่เข้าถึงได้ Rabby ไม่สามารถเรียกคืนหรือเข้าถึงคีย์ส่วนตัวของคุณได้",
+        "description4": "คีย์ส่วนตัวของคุณจะถูกจัดเก็บไว้ในอุปกรณ์และเข้ารหัสด้วยรหัสผ่าน มีเพียงคุณเท่านั้นที่เข้าถึงได้ Rabby Trust ไม่สามารถเรียกคืนหรือเข้าถึงคีย์ส่วนตัวของคุณได้",
         "description2": "หากคุณทำคีย์ส่วนตัวสูญหาย คุณจะไม่สามารถกู้คืนกระเป๋าเงินได้",
         "ButtonGotIt": "เข้าใจแล้ว"
       },
@@ -1621,7 +1621,7 @@
       "confirmTitle": "ยืนยันรหัสผ่าน",
       "passwordPlaceholder": "รหัสผ่านต้องมีความยาวอย่างน้อย 8 ตัวอักษร",
       "settingUp": "การตั้งรหัสผ่าน",
-      "confirmModalDesc": "โปรดเก็บรักษารหัสผ่านของคุณให้ดี หากสูญหาย ไม่สามารถเปลี่ยนหรือกู้คืนได้โดย Rabby",
+      "confirmModalDesc": "โปรดเก็บรักษารหัสผ่านของคุณให้ดี หากสูญหาย ไม่สามารถเปลี่ยนหรือกู้คืนได้โดย Rabby Trust",
       "setWallet": "ตั้งค่ากระเป๋าเงิน",
       "passwordMinTip": "ต้องมีอย่างน้อย 8 ตัวอักษร",
       "passwordMin": "รหัสผ่านต้องมีความยาวอย่างน้อย 8 ตัวอักษร",
@@ -1643,7 +1643,7 @@
       }
     },
     "rabbyPoints": {
-      "title": "Rabby Points",
+      "title": "Rabby Trust Points",
       "claimItem": {
         "claim": "รับ"
       },
@@ -1777,7 +1777,7 @@
       "depositSuccess": "ฝากเงินสำเร็จ",
       "loginSuccess": "ล็อกอินสำเร็จ",
       "benefitCard": {
-        "item1": "ไม่มีค่าธรรมเนียม Rabby",
+        "item1": "ไม่มีค่าธรรมเนียม Rabby Trust",
         "desc1": "ไม่ต้องจ่ายค่าธรรมเนียมเพิ่มเติมสำหรับการจ่าย gas",
         "item2": "รองรับทุกเครือข่าย",
         "desc2": "การชำระค่า Gas อัตโนมัติบน 80+ เครือข่าย",
@@ -1797,8 +1797,8 @@
       "title": "GasAccount"
     },
     "addChain": {
-      "title": "เพิ่มเครือข่ายที่กำหนดเองไปยัง Rabby",
-      "desc": "Rabby ไม่สามารถตรวจสอบความปลอดภัยของเครือข่ายที่กำหนดเองได้ กรุณาเพิ่มเฉพาะเครือข่ายที่เชื่อถือได้เท่านั้น"
+      "title": "เพิ่มเครือข่ายที่กำหนดเองไปยัง Rabby Trust",
+      "desc": "Rabby Trust ไม่สามารถตรวจสอบความปลอดภัยของเครือข่ายที่กำหนดเองได้ กรุณาเพิ่มเฉพาะเครือข่ายที่เชื่อถือได้เท่านั้น"
     },
     "customTestnet": {
       "currency": "สกุลเงิน",
@@ -1816,7 +1816,7 @@
         "rpcUrlRequired": "กรุณาใส่ URL RPC"
       },
       "add": "เพิ่มเครือข่ายที่กำหนดเอง",
-      "desc": "Rabby ไม่สามารถยืนยันความปลอดภัยของเครือข่ายที่กำหนดเองได้ กรุณาเพิ่มเครือข่ายที่เชื่อถือได้เท่านั้น",
+      "desc": "Rabby Trust ไม่สามารถยืนยันความปลอดภัยของเครือข่ายที่กำหนดเองได้ กรุณาเพิ่มเครือข่ายที่เชื่อถือได้เท่านั้น",
       "signTx": {
         "title": "ข้อมูลธุรกรรม"
       },
@@ -1826,11 +1826,11 @@
         "title": "เพิ่มอย่างรวดเร็วจาก Chainlist",
         "tips": {
           "added": "คุณได้เพิ่ม chain นี้แล้ว",
-          "supported": "Rabby Wallet รองรับเชนนี้แล้ว"
+          "supported": "Rabby Trust Trust รองรับเชนนี้แล้ว"
         }
       },
       "ConfirmModifyRpcModal": {
-        "desc": "Rabby ได้รวมเชนนี้แล้ว คุณต้องการแก้ไข URL RPC หรือไม่?"
+        "desc": "Rabby Trust ได้รวมเชนนี้แล้ว คุณต้องการแก้ไข URL RPC หรือไม่?"
       },
       "addToken": {
         "title": "เพิ่มโทเค็นเครือข่ายที่กำหนดเอง",
@@ -1972,7 +1972,7 @@
       "tou": "ข้อกำหนดการใช้งาน",
       "clearPending": "ล้างธุรกรรมที่รอดำเนินการในเครื่อง",
       "addCustomNetwork": "เพิ่มเครือข่ายที่กำหนดเอง",
-      "clearPendingDesc1": "วิธีนี้จะล้างธุรกรรมที่ยังค้างอยู่ทั้งหมดของคุณ สิ่งนี้สามารถช่วยคุณแก้ปัญหาที่ในบางกรณีสถานะของธุรกรรมใน Rabby ไม่ตรงกับสถานะบนเชน",
+      "clearPendingDesc1": "วิธีนี้จะล้างธุรกรรมที่ยังค้างอยู่ทั้งหมดของคุณ สิ่งนี้สามารถช่วยคุณแก้ปัญหาที่ในบางกรณีสถานะของธุรกรรมใน Rabby Trust ไม่ตรงกับสถานะบนเชน",
       "clearPendingDesc2": "การดำเนินการนี้จะไม่เปลี่ยนยอดคงเหลือในบัญชีหรือกำหนดให้คุณต้องป้อน Seed Phrase ใหม่ ข้อมูลสินทรัพย์และบัญชีทั้งหมดของคุณจะยังคงปลอดภัย",
       "followUs": "ติดตามเรา",
       "currentLanguage": "ภาษาปัจจุบัน",
@@ -2069,14 +2069,14 @@
     "syncExtension": {
       "syncingTips": "ถือกล้องให้นิ่งจนกว่าการสแกนจะเสร็จสิ้น",
       "importedSuccessfully": "นำเข้าเรียบร้อยแล้ว!",
-      "newUserVerify": "มันยังใช้เป็นรหัสผ่านเริ่มต้นสำหรับ Rabby Mobile ของคุณ",
+      "newUserVerify": "มันยังใช้เป็นรหัสผ่านเริ่มต้นสำหรับ Rabby Trust Trust ของคุณ",
       "syncingProgress": "กำลังสแกน ({{ percent }})",
-      "scanTips1": "คลิก “Mobile Sync” บน Rabby Extension",
-      "verifyWithPassword": "ยืนยันด้วยรหัสผ่าน Rabby Extension ของคุณ",
+      "scanTips1": "คลิก “Mobile Sync” บน Rabby Trust Extension",
+      "verifyWithPassword": "ยืนยันด้วยรหัสผ่าน Rabby Trust Extension ของคุณ",
       "noNewAddr": "ไม่พบที่อยู่ใหม่สำหรับนำเข้า",
       "scanTips2": "สแกนโค้ดและเริ่มการซิงค์",
-      "verifyTips": "ข้อมูลของคุณถูกเข้ารหัสแบบออฟไลน์ กรุณากรอกรหัสผ่าน Rabby Extension ของคุณเพื่อถอดรหัสและตรวจสอบ",
-      "imported": "ที่อยู่ใน Rabby Mobile อยู่แล้วจะไม่ถูกนำเข้าอีกครั้ง หมายเหตุที่อยู่และรายการที่อนุญาตจะซิงค์โดยอัตโนมัติ",
+      "verifyTips": "ข้อมูลของคุณถูกเข้ารหัสแบบออฟไลน์ กรุณากรอกรหัสผ่าน Rabby Trust Extension ของคุณเพื่อถอดรหัสและตรวจสอบ",
+      "imported": "ที่อยู่ใน Rabby Trust Trust อยู่แล้วจะไม่ถูกนำเข้าอีกครั้ง หมายเหตุที่อยู่และรายการที่อนุญาตจะซิงค์โดยอัตโนมัติ",
       "importedTips": "หากแอปมีที่อยู่ซ้ำอยู่แล้ว จะไม่ถูกนำเข้า หมายเหตุที่อยู่และรายชื่อที่อนุญาตจะซิงค์ด้วย"
     },
     "safeMessageQueue": {
@@ -2125,9 +2125,9 @@
       "HyperliquidInvitePopup": {
         "btn": "เข้าร่วมตอนนี้",
         "title": "โปรแกรมแนะนำ Hyperliquid",
-        "desc": "เข้าร่วมตอนนี้โดยใช้รหัสของ Rabby เพื่อรับส่วนลด <1>4%</1> สำหรับค่าธรรมเนียม Hyperliquid ของคุณ",
+        "desc": "เข้าร่วมตอนนี้โดยใช้รหัสของ Rabby Trust เพื่อรับส่วนลด <1>4%</1> สำหรับค่าธรรมเนียม Hyperliquid ของคุณ",
         "asterTitle": "โปรแกรมแนะนำของ Aster",
-        "asterDesc": "เข้าร่วมตอนนี้โดยใช้รหัสของ Rabby เพื่อรับส่วนลด <1>4%</1> สำหรับค่าธรรมเนียม Aster ของคุณ"
+        "asterDesc": "เข้าร่วมตอนนี้โดยใช้รหัสของ Rabby Trust เพื่อรับส่วนลด <1>4%</1> สำหรับค่าธรรมเนียม Aster ของคุณ"
       },
       "WebviewError": {
         "failedToLoad": "ไม่สามารถโหลดหน้าเว็บได้",
@@ -2753,7 +2753,7 @@
         "gotItBtn": "เข้าใจแล้ว",
         "sizeTips": "มูลค่าหรือปริมาณรวมของการเทรดของคุณ ซึ่งกำหนดโดยมาร์จิ้นและเลเวอเรจ.",
         "feeTitle": "ค่าธรรมเนียม",
-        "feeRabby": "Rabby Wallet",
+        "feeRabby": "Rabby Trust Trust",
         "feeRabbyDiscount": "ส่วนลดค่าธรรมเนียมการเทรดแบบจำกัดเวลา",
         "feeHyperliquid": "Hyperliquid",
         "feeDesc": "เมื่อผู้ใช้ทำการซื้อขาย จะมีทั้ง <1>ค่าธรรมเนียมการซื้อขาย</1> และ <2>ค่าธรรมเนียม Builder</2>",
@@ -2856,7 +2856,7 @@
         "hyperliquidPosition": "โพซิชัน Hyperliquid"
       },
       "invitePopup": {
-        "description": "ใช้รหัสของ Rabby เพื่อเปิดใช้งาน",
+        "description": "ใช้รหัสของ Rabby Trust เพื่อเปิดใช้งาน",
         "title": "ประหยัดค่าธรรมเนียม Hyperliquid",
         "hyperliquidFee": "ค่าธรรมเนียมการซื้อขาย Hyperliquid",
         "activatedFailed": "การเปิดใช้งานล้มเหลว",
@@ -3348,9 +3348,9 @@
     },
     "newUserOnboarding": {
       "restoreWallet": {
-        "title": "กู้คืนกระเป๋าเงิน Rabby ของคุณ",
+        "title": "กู้คืนกระเป๋าเงิน Rabby Trust ของคุณ",
         "subtitle": "ยินดีต้อนรับกลับมา! 🎉  \nเลือกวิธีการเพื่อกู้คืนกระเป๋าเงินของคุณอย่างรวดเร็ว",
-        "subtitleInApp": "เลือกตัวเลือกด้านล่างเพื่อนำเข้ากระเป๋าเงินของคุณอย่างรวดเร็วจากส่วนขยาย Rabby หรือ iCloud"
+        "subtitleInApp": "เลือกตัวเลือกด้านล่างเพื่อนำเข้ากระเป๋าเงินของคุณอย่างรวดเร็วจากส่วนขยาย Rabby Trust หรือ iCloud"
       },
       "common": {
         "orYouCanCreateNewWallet": "หรือคุณสามารถ <clickable>สร้างกระเป๋าเงินใหม่</clickable> ได้"
@@ -3423,7 +3423,7 @@
     },
     "walletConnect": {
       "screenTitle": "เชื่อมต่อวอลเล็ต",
-      "connectingToRabby": "กำลังเชื่อมต่อกับ Rabby",
+      "connectingToRabby": "กำลังเชื่อมต่อกับ Rabby Trust",
       "pairingFailed": "การจับคู่ WalletConnect ล้มเหลว",
       "connected": "เชื่อมต่อสำเร็จ โปรดกลับไปที่ DApp",
       "proposalExpired": "ข้อเสนอ WalletConnect หมดอายุแล้ว",
@@ -3453,7 +3453,7 @@
     },
     "authentication": {
       "auth_prompt_cancel": "ยกเลิก",
-      "auth_prompt_desc": "โปรดรับรองตัวตนเพื่อใช้งาน Rabby",
+      "auth_prompt_desc": "โปรดรับรองตัวตนเพื่อใช้งาน Rabby Trust",
       "auth_prompt_title": "ต้องการการพิสูจน์ตัวตน"
     }
   },
@@ -3478,7 +3478,7 @@
       "ago": "{{time}}ที่แล้ว"
     },
     "Cancel": "ยกเลิก",
-    "appName": "Rabby Wallet",
+    "appName": "Rabby Trust Trust",
     "cancel": "ยกเลิก",
     "next": "ถัดไป",
     "proceedButton": "ดำเนินการ",
@@ -3608,10 +3608,10 @@
       "message": "ดูวิธีการอัปเดตเฟิร์มแวร์ Ledger จากการสนับสนุนของ Ledger"
     },
     "permissions_alert": {
-      "title": "\"Rabby Wallet\" ต้องการใช้บลูทูธ",
+      "title": "\"Rabby Trust Trust\" ต้องการใช้บลูทูธ",
       "open_settings": "OK",
       "cancel": "ไม่อนุญาต",
-      "message": "Rabby Wallet ใช้การเข้าถึงบลูทูธเพื่อเชื่อมต่อ Ledger"
+      "message": "Rabby Trust Trust ใช้การเข้าถึงบลูทูธเพื่อเชื่อมต่อ Ledger"
     }
   },
   "common": {

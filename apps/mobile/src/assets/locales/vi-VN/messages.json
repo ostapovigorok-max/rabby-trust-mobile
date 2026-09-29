@@ -40,7 +40,7 @@
     },
     "authentication": {
       "auth_prompt_cancel": "Hủy",
-      "auth_prompt_desc": "Vui lòng xác thực để sử dụng Rabby",
+      "auth_prompt_desc": "Vui lòng xác thực để sử dụng Rabby Trust",
       "auth_prompt_title": "Yêu cầu xác thực"
     }
   },
@@ -50,7 +50,7 @@
     "next": "Tiếp theo",
     "backButton": "Quay lại",
     "cancelButton": "Hủy",
-    "appName": "Rabby Wallet",
+    "appName": "Rabby Trust Trust",
     "refresh": "Làm mới",
     "confirm": "Xác nhận",
     "unknownNFT": "NFT không xác định",
@@ -225,8 +225,8 @@
       "goToHome": "Đi đến Trang chủ",
       "alreadyHaveAddress": "Tôi đã có một ví",
       "createNewAddress": "Tạo Ví Mới",
-      "alreadyUseRabby": "Tôi đang dùng Rabby",
-      "welcomeTitle": "Chào mừng đến với\nRabby Wallet"
+      "alreadyUseRabby": "Tôi đang dùng Rabby Trust",
+      "welcomeTitle": "Chào mừng đến với\nRabby Trust"
     },
     "importSeedPhrase": {
       "enterYourSeedPhrase": "Nhập cụm từ khôi phục, phân cách từng từ bằng dấu cách"
@@ -457,12 +457,12 @@
         "minReceive": "Số nhận tối thiểu",
         "notPaymentAddress": "Không phải ví thanh toán"
       },
-      "eip1559Desc2": "Tại Rabby, Phí Ưu Tiên (Tip) = Phí Tối Đa - Phí Cơ Bản. Sau khi bạn thiết lập Phí Ưu Tiên Tối Đa, Phí Cơ Bản sẽ được trừ ra và phần còn lại sẽ được tip cho thợ đào.",
+      "eip1559Desc2": "Tại Rabby Trust, Phí Ưu Tiên (Tip) = Phí Tối Đa - Phí Cơ Bản. Sau khi bạn thiết lập Phí Ưu Tiên Tối Đa, Phí Cơ Bản sẽ được trừ ra và phần còn lại sẽ được tip cho thợ đào.",
       "gasNotRequireForSafeTransaction": "Phí Gas không cần thiết cho các giao dịch Safe",
       "customRPCErrorModal": {
         "title": "Lỗi RPC tùy chỉnh",
         "button": "Tắt Custom RPC",
-        "content": "RPC tùy chỉnh của bạn hiện không khả dụng. Bạn có thể tắt nó và tiếp tục ký bằng RPC chính thức của Rabby."
+        "content": "RPC tùy chỉnh của bạn hiện không khả dụng. Bạn có thể tắt nó và tiếp tục ký bằng RPC chính thức của Rabby Trust."
       },
       "gasPriceTitle": "Giá gas (Gwei)",
       "unknownAction": "Không rõ loại chữ ký",
@@ -526,7 +526,7 @@
       },
       "trustValueTitle": "Giá trị tin cậy",
       "markRemoved": "Đã xóa đánh dấu",
-      "sigCantDecode": "Chữ ký này không thể được giải mã bởi Rabby Wallet",
+      "sigCantDecode": "Chữ ký này không thể được giải mã bởi Rabby Trust Trust",
       "myMarkWithContract": "Đánh dấu của tôi trên hợp đồng {{chainName}}",
       "assetOrder": {
         "title": "Lệnh giao dịch tài sản",
@@ -572,7 +572,7 @@
         "title": "Phê duyệt Token",
         "eoaAddress": "EOA",
         "deployTimeLessThan": "< {{value}} ngày",
-        "flagByRabby": "Được Rabby đánh dấu",
+        "flagByRabby": "Được Rabby Trust đánh dấu",
         "myBalance": "Số dư của tôi",
         "contractTrustValueTip": "Giá trị tin cậy là tổng giá trị tài sản đã được chi tiêu qua hợp đồng này. Giá trị thấp cho thấy rủi ro hoặc hợp đồng không hoạt động trong 180 ngày."
       },
@@ -852,7 +852,7 @@
       "gas-fee": "Phí gas: {{gasUsed}}",
       "transaction-might-be-frontrun-because-of-high-slippage-tolerance": "Giao dịch có thể bị frontrun do độ dung sai trượt giá cao",
       "insufficient-balance": "Số dư không đủ",
-      "no-fees-for-wrap": "Không có phí Rabby khi bọc token",
+      "no-fees-for-wrap": "Không có phí Rabby Trust khi bọc token",
       "usd-after-fees": "≈ {{usd}}",
       "approve-swap": "Phê duyệt và hoán đổi",
       "recommend-slippage": "Để ngăn chặn front-running, chúng tôi khuyến nghị một mức trượt giá là <2>{{ slippage }}</2>%",
@@ -866,7 +866,7 @@
       "title": "Hoán đổi",
       "no-slippage-for-wrap": "Không trượt giá khi bọc token",
       "rabbyFee": {
-        "discountTitle": "Giảm phí Rabby",
+        "discountTitle": "Giảm phí Rabby Trust",
         "case": "Điều kiện",
         "free": "Miễn phí",
         "cases": {
@@ -877,11 +877,11 @@
           "hundredThousand": "KL $100k - $1M"
         },
         "rate": "Tỷ lệ phí",
-        "title": "Phí Rabby",
+        "title": "Phí Rabby Trust",
         "wallet": "Ví",
         "button": "Đã hiểu",
-        "swapDesc": "Rabby Wallet luôn tìm tỷ giá tốt nhất từ các trình tổng hợp hàng đầu và xác minh độ tin cậy của báo giá. Rabby thu phí <1>0.25%</1> (0% khi bọc token), được tự động tính vào báo giá.",
-        "bridgeDesc": "Rabby Wallet luôn tìm tỷ giá tốt nhất từ các trình tổng hợp hàng đầu và xác minh độ tin cậy của báo giá. Rabby thu phí <1>0.25%</1>, được tự động tính vào báo giá."
+        "swapDesc": "Rabby Trust Trust luôn tìm tỷ giá tốt nhất từ các trình tổng hợp hàng đầu và xác minh độ tin cậy của báo giá. Rabby Trust thu phí <1>0.25%</1> (0% khi bọc token), được tự động tính vào báo giá.",
+        "bridgeDesc": "Rabby Trust Trust luôn tìm tỷ giá tốt nhất từ các trình tổng hợp hàng đầu và xác minh độ tin cậy của báo giá. Rabby Trust thu phí <1>0.25%</1>, được tự động tính vào báo giá."
       },
       "hidden-no-quote-rates_one": "{{count}} tỷ giá không khả dụng",
       "search-by-name-address": "Tìm kiếm theo tên / địa chỉ",
@@ -965,7 +965,7 @@
       "quickAddressTitle_other": "{{count}} địa chỉ",
       "quickAddressTitle_one": "{{count}} địa chỉ",
       "add-address": "Thêm ví",
-      "delete-checklist-1": "Tôi hiểu rằng nếu xóa ví này, khóa riêng tư và cụm từ khôi phục tương ứng sẽ bị xóa, và Rabby sẽ KHÔNG thể khôi phục chúng.",
+      "delete-checklist-1": "Tôi hiểu rằng nếu xóa ví này, khóa riêng tư và cụm từ khôi phục tương ứng sẽ bị xóa, và Rabby Trust sẽ KHÔNG thể khôi phục chúng.",
       "delete-private-key-title": "Xóa ví và khóa riêng tư",
       "delete-seed-phrase-title": "Xóa ví và cụm từ khôi phục",
       "delete-title": "Xóa ví"
@@ -977,7 +977,7 @@
       "settings": {
         "enableWhitelist": "Bật danh sách cho phép",
         "cancel": "Hủy",
-        "enableWhitelistTip": "Sau khi bật, bạn chỉ có thể dùng Rabby để gửi tài sản đến địa chỉ trong danh sách cho phép.",
+        "enableWhitelistTip": "Sau khi bật, bạn chỉ có thể dùng Rabby Trust để gửi tài sản đến địa chỉ trong danh sách cho phép.",
         "disableWhitelist": "Tắt danh sách cho phép",
         "disableWhitelistTip": "Sau khi tắt, bạn có thể gửi tài sản đến bất kỳ địa chỉ nào"
       },
@@ -987,14 +987,14 @@
       "tokenDetail": {
         "send": "Gửi",
         "notSupported": "Token trên chuỗi này không được hỗ trợ",
-        "selectedCustom": "Token không được Rabby niêm yết. Bạn đã thêm token này vào danh sách theo cách thủ công.",
+        "selectedCustom": "Token không được Rabby Trust niêm yết. Bạn đã thêm token này vào danh sách theo cách thủ công.",
         "blockedTip": "Token bị chặn sẽ không được hiển thị trong danh sách token",
         "blocked": "Bị chặn",
         "customized": "Tùy chỉnh",
         "receive": "Nhận",
         "noTransactions": "Không có giao dịch",
         "swap": "Swap",
-        "notSelectedCustom": "Token chưa được Rabby niêm yết. Nó sẽ được thêm vào danh sách token nếu bạn bật lên."
+        "notSelectedCustom": "Token chưa được Rabby Trust niêm yết. Nó sẽ được thêm vào danh sách token nếu bạn bật lên."
       },
       "offlineChain": {
         "chain": "{{chain}} sẽ sớm không được tích hợp.",
@@ -1009,12 +1009,12 @@
       },
       "addAddress": {
         "hardwareWallet": "Ví phần cứng",
-        "syncRabbyExtension": "Đồng bộ tiện ích mở rộng Rabby",
+        "syncRabbyExtension": "Đồng bộ tiện ích mở rộng Rabby Trust",
         "createAddress": "Tạo ví",
         "importAddress": "Nhập ví",
         "selectAddMethod": "Chọn phương thức thêm",
         "seedPhraseOrPrivateKey": "Cụm từ khôi phục hoặc khóa riêng tư",
-        "restoreRabbyWallet": "Khôi phục Rabby Wallet",
+        "restoreRabbyWallet": "Khôi phục Rabby Trust Trust",
         "moreOptions": "Thêm tùy chọn"
       },
       "importAddress": {
@@ -1022,10 +1022,10 @@
         "privateKey": "Nhập khóa riêng tư",
         "seedPhrase": "Nhập cụm từ khôi phục",
         "tips": {
-          "entry": "Có an toàn khi nhập vào Rabby không?",
+          "entry": "Có an toàn khi nhập vào Rabby Trust không?",
           "gotIt": "Tôi đã hiểu",
-          "title": "Có an toàn để nhập vào Rabby không?",
-          "description": "Dữ liệu của bạn được mã hóa an toàn và lưu trữ cục bộ trên thiết bị của bạn. Rabby không có quyền truy cập vào thông tin cá nhân của bạn và thông tin đó không bao giờ được chia sẻ với bên thứ ba."
+          "title": "Có an toàn để nhập vào Rabby Trust không?",
+          "description": "Dữ liệu của bạn được mã hóa an toàn và lưu trữ cục bộ trên thiết bị của bạn. Rabby Trust không có quyền truy cập vào thông tin cá nhân của bạn và thông tin đó không bao giờ được chia sẻ với bên thứ ba."
         },
         "watch": "Ví chỉ xem",
         "safeTitle": "Nhập ví Safe",
@@ -1063,9 +1063,9 @@
         "confirmButtonTitleIOS": "Đánh giá trên App Store",
         "confirmButtonTitleAndroid": "Đánh giá trên Google Play",
         "feedbackSuccess": "Cảm ơn bạn đã phản hồi.",
-        "descriptionAndroid": "Nếu bạn thích Rabby, một đánh giá nhanh trên Google Play sẽ là nguồn động viên lớn đối với chúng tôi.",
+        "descriptionAndroid": "Nếu bạn thích Rabby Trust, một đánh giá nhanh trên Google Play sẽ là nguồn động viên lớn đối với chúng tôi.",
         "feedbackTitle": "Bạn có phản hồi? Chúng tôi đang lắng nghe.",
-        "descriptionIOS": "Nếu bạn thích Rabby, một đánh giá nhanh trên App Store sẽ là nguồn động viên lớn đối với chúng tôi."
+        "descriptionIOS": "Nếu bạn thích Rabby Trust, một đánh giá nhanh trên App Store sẽ là nguồn động viên lớn đối với chúng tôi."
       },
       "upgradeModal": {
         "title": "Có gì mới",
@@ -1095,7 +1095,7 @@
         "tip1": "Hình chụp màn hình có thể đồng bộ với đám mây hoặc các thiết bị khác, và có thể được truy cập nếu thiết bị bị mất, bị đánh cắp hoặc bị xâm phạm."
       },
       "rateModalTriggerOnHome": {
-        "title": "Đánh giá Rabby Wallet"
+        "title": "Đánh giá Rabby Trust Trust"
       }
     },
     "signText": {
@@ -1108,7 +1108,7 @@
     },
     "switchChain": {
       "requestsReceived": "Đã nhận 1 yêu cầu",
-      "requestRabbyToSupport": "Yêu cầu Rabby hỗ trợ",
+      "requestRabbyToSupport": "Yêu cầu Rabby Trust hỗ trợ",
       "requestsReceivedPlural": "Đã nhận {{count}} yêu cầu"
     },
     "unlock": {
@@ -1119,7 +1119,7 @@
           "yes": "Có",
           "title": "Bật {{ bioType }}",
           "no": "Hủy",
-          "content": "Bạn có muốn bật {{ bioType }} để mở khóa Rabby Wallet không?"
+          "content": "Bạn có muốn bật {{ bioType }} để mở khóa Rabby Trust Trust không?"
         }
       },
       "password": {
@@ -1136,9 +1136,9 @@
       "unlocking": "Đang mở khóa"
     },
     "addToken": {
-      "tokenSupported": "Token đã được hỗ trợ trên Rabby",
+      "tokenSupported": "Token đã được hỗ trợ trên Rabby Trust",
       "hasAdded": "Bạn đã thêm token này.",
-      "title": "Thêm token tùy chỉnh vào Rabby",
+      "title": "Thêm token tùy chỉnh vào Rabby Trust",
       "tokenNotFound": "Không tìm thấy token từ địa chỉ hợp đồng này",
       "noTokenFound": "Không tìm thấy token",
       "tokenCustomized": "Token này đã được thêm vào danh sách tùy chỉnh"
@@ -1193,12 +1193,12 @@
     },
     "connect": {
       "connectBtn": "Kết nối",
-      "verifiedByRabby": "Đã được Rabby xác minh",
+      "verifiedByRabby": "Đã được Rabby Trust xác minh",
       "popularLevelVeryLow": "Rất thấp",
       "popularLevelHigh": "Cao",
       "noWebsite": "Không có",
       "listedBy": "Được liệt kê bởi",
-      "flagByRabby": "Được gắn cờ bởi Rabby",
+      "flagByRabby": "Được gắn cờ bởi Rabby Trust",
       "markRemovedToast": "Đã xóa đánh dấu",
       "popularLevelMedium": "Trung bình",
       "ignoreAll": "Bỏ qua tất cả",
@@ -1227,7 +1227,7 @@
       "createNewSeedPhrase": "Tạo cụm từ khôi phục mới",
       "privateKey": {
         "isItSafeToImportItInRabby": {
-          "question": "Nhập khóa riêng vào Rabby có an toàn không?",
+          "question": "Nhập khóa riêng vào Rabby Trust có an toàn không?",
           "answer": "Có, nó sẽ được lưu trữ cục bộ trên điện thoại của bạn và chỉ bạn mới có thể truy cập."
         },
         "whatIsAPrivateKey": {
@@ -1291,7 +1291,7 @@
         "description2": "Nếu bạn mất cụm từ khôi phục, bạn sẽ không thể khôi phục lại ví của mình.",
         "title3": "An toàn",
         "description3": "Tuyệt đối không chia sẻ cụm từ khôi phục—bất kỳ ai có cụm từ này đều có thể kiểm soát tài sản của bạn.",
-        "description4": "Cụm từ khôi phục được lưu trữ cục bộ trên thiết bị và mã hóa bằng mật khẩu của bạn. Chỉ bạn mới có thể truy cập. Rabby không thể truy xuất hoặc truy cập cụm từ khôi phục của bạn.",
+        "description4": "Cụm từ khôi phục được lưu trữ cục bộ trên thiết bị và mã hóa bằng mật khẩu của bạn. Chỉ bạn mới có thể truy cập. Rabby Trust không thể truy xuất hoặc truy cập cụm từ khôi phục của bạn.",
         "description1": "Cụm từ khôi phục là một chuỗi từ dùng để truy cập và kiểm soát ví. Bạn có thể dùng cụm từ này để khôi phục ví trên bất kỳ thiết bị nào."
       },
       "hd": {
@@ -1371,8 +1371,8 @@
         "backupRestoreLoadingText": "Đang tìm cụm từ khôi phục đã sao lưu...",
         "backupFailedTitle": "Sao lưu thất bại",
         "importQuestion1": "Nếu tôi làm mất cụm từ khôi phục hoặc chia sẻ nó với người khác, tài sản của tôi sẽ bị mất vĩnh viễn.",
-        "importQuestion3": "Nếu tôi không sao lưu cụm từ khôi phục và ứng dụng vô tình bị xóa, thiết bị bị mất hoặc cần cài đặt lại, Rabby không thể khôi phục cụm từ đó cho tôi.",
-        "importQuestion2": "Cụm từ khôi phục chỉ được lưu trữ trên điện thoại của tôi và Rabby không có quyền truy cập vào nó.",
+        "importQuestion3": "Nếu tôi không sao lưu cụm từ khôi phục và ứng dụng vô tình bị xóa, thiết bị bị mất hoặc cần cài đặt lại, Rabby Trust không thể khôi phục cụm từ đó cho tôi.",
+        "importQuestion2": "Cụm từ khôi phục chỉ được lưu trữ trên điện thoại của tôi và Rabby Trust không có quyền truy cập vào nó.",
         "maxAccountCount": "Tối đa 50 địa chỉ mỗi lần",
         "backupRestoreUnlockDesc": "Sử dụng cùng một mật khẩu mà bạn đã đặt để mã hóa các bản sao lưu của mình.",
         "backupUnlockPlaceholder": "Nhập mật khẩu để xác nhận",
@@ -1380,7 +1380,7 @@
         "backupUnlockButton": "Tiếp tục",
         "riskTips": "Trước khi bắt đầu, vui lòng đọc và ghi nhớ các mẹo bảo mật sau.",
         "isItSafeToImportItInRabby": {
-          "question": "Nhập cụm từ khôi phục vào Rabby có an toàn không?",
+          "question": "Nhập cụm từ khôi phục vào Rabby Trust có an toàn không?",
           "answer": "Vâng, nó sẽ được lưu trữ cục bộ trên điện thoại của bạn và chỉ bạn mới có quyền truy cập."
         },
         "backupRestoreTitle": "Đã tìm thấy {{count}} cụm từ khôi phục",
@@ -1391,7 +1391,7 @@
         "backupUnlockTitle": "Mã hóa bằng mật khẩu ứng dụng",
         "passwordMinTip": "Phải có ít nhất 8 ký tự",
         "backupUploadToGDrive": "Đang sao lưu lên Google Drive...",
-        "backupUnlockDesc": "Hãy giữ an toàn mật khẩu dùng để khôi phục bản sao lưu. Rabby Wallet không lưu trữ và không thể khôi phục mật khẩu này.",
+        "backupUnlockDesc": "Hãy giữ an toàn mật khẩu dùng để khôi phục bản sao lưu. Rabby Trust Trust không lưu trữ và không thể khôi phục mật khẩu này.",
         "chooseBackupMethodDesc": "Sao lưu cho phép bạn khôi phục ví của mình nếu bạn xóa ứng dụng hoặc mất thiết bị của mình.",
         "chooseBackupMethodTitle": "Chọn một phương pháp sao lưu",
         "addMoreWalletTitle": "Thêm ví khác\ntừ cụm từ này"
@@ -1434,7 +1434,7 @@
         "ButtonGotIt": "Tôi đã hiểu",
         "description3": "Không bao giờ chia sẻ khóa riêng của bạn - bất kỳ ai có quyền truy cập vào nó đều có thể kiểm soát tài sản của bạn.",
         "description1": "Một khóa riêng là một chuỗi các chữ cái và số được sử dụng để truy cập và kiểm soát ví của bạn. Bạn có thể sử dụng nó để phục hồi ví của mình trên bất kỳ thiết bị nào.",
-        "description4": "Khoá riêng của bạn được lưu trữ cục bộ trên thiết bị của bạn và được mã hoá bằng mật khẩu của bạn. Chỉ có bạn mới có thể truy cập nó. Rabby không thể lấy lại hoặc truy cập khoá riêng của bạn."
+        "description4": "Khoá riêng của bạn được lưu trữ cục bộ trên thiết bị của bạn và được mã hoá bằng mật khẩu của bạn. Chỉ có bạn mới có thể truy cập nó. Rabby Trust không thể lấy lại hoặc truy cập khoá riêng của bạn."
       },
       "importing": "Đang nhập...",
       "Done": "Xong",
@@ -1490,7 +1490,7 @@
       "verify-face-id": "Xác minh Face ID",
       "verify-fingerprint": "Xác minh vân tay",
       "verify-and-backup": "Xác minh & sao lưu",
-      "verify-password-before-backup": "Xác minh mật khẩu Rabby trước khi sao lưu",
+      "verify-password-before-backup": "Xác minh mật khẩu Rabby Trust trước khi sao lưu",
       "verify-fingerprint-before-backup": "Xác minh dấu vân tay của bạn trước khi sao lưu.",
       "verify-face-id-before-backup": "Xác minh Face ID của bạn trước khi sao lưu"
     },
@@ -1560,8 +1560,8 @@
       "transactionSpeed": "Tốc độ giao dịch"
     },
     "addChain": {
-      "title": "Thêm mạng tùy chỉnh vào Rabby",
-      "desc": "Rabby không thể xác minh tính bảo mật của các mạng tùy chỉnh. Vui lòng chỉ thêm các mạng đáng tin cậy."
+      "title": "Thêm mạng tùy chỉnh vào Rabby Trust",
+      "desc": "Rabby Trust không thể xác minh tính bảo mật của các mạng tùy chỉnh. Vui lòng chỉ thêm các mạng đáng tin cậy."
     },
     "gasAccount": {
       "deposit": "Nạp tiền",
@@ -1636,7 +1636,7 @@
         "item3": "Hỗ trợ tất cả các giao dịch",
         "desc2": "Thanh toán Gas tự động trên 80+ mạng lưới",
         "desc1": "Không có phí bổ sung để thanh toán gas",
-        "item1": "Không có phí Rabby",
+        "item1": "Không có phí Rabby Trust",
         "desc3": "Swap, Bridge, gửi, DApp và nhiều tính năng khác",
         "title": "Thanh toán phí Gas trên tất cả các chain",
         "subtitle": "khi bạn hết gas"
@@ -1672,7 +1672,7 @@
       "modifyRPCURL": "Chỉnh sửa URL RPC",
       "addCustomNetwork": "Thêm mạng tùy chỉnh",
       "clearPendingDesc2": "Điều này sẽ không thay đổi số dư trong các tài khoản của bạn hoặc yêu cầu bạn nhập lại cụm từ khôi phục. Tất cả tài sản và thông tin tài khoản của bạn sẽ được bảo mật.",
-      "clearPendingDesc1": "Điều này sẽ xóa tất cả các giao dịch đang chờ xử lý của bạn. Điều này có thể giúp bạn giải quyết vấn đề trong một số trường hợp trạng thái giao dịch trong Rabby không khớp với trạng thái trên chuỗi.",
+      "clearPendingDesc1": "Điều này sẽ xóa tất cả các giao dịch đang chờ xử lý của bạn. Điều này có thể giúp bạn giải quyết vấn đề trong một số trường hợp trạng thái giao dịch trong Rabby Trust không khớp với trạng thái trên chuỗi.",
       "currentLanguage": "Ngôn ngữ hiện tại",
       "appCache": "Xóa bộ nhớ cache của ứng dụng",
       "clearPendingToast": "Giao dịch chờ trên thiết bị đã được xóa",
@@ -1801,7 +1801,7 @@
       "alert": "Khóa riêng này là thông tin xác thực để truy cập tài sản của bạn. KHÔNG được làm mất hay tiết lộ cho người khác, nếu không bạn có thể mất tài sản vĩnh viễn. Vui lòng xem trong môi trường an toàn và giữ gìn cẩn thận."
     },
     "ethSign": {
-      "alert": "Ký bằng 'eth_sign' có thể dẫn đến mất tài sản. Để đảm bảo an toàn cho bạn, Rabby không hỗ trợ phương pháp này."
+      "alert": "Ký bằng 'eth_sign' có thể dẫn đến mất tài sản. Để đảm bảo an toàn cho bạn, Rabby Trust không hỗ trợ phương pháp này."
     },
     "importSafe": {
       "error": {
@@ -1855,7 +1855,7 @@
       "and": "và",
       "passwordPlaceholder": "Mật khẩu phải có độ dài tối thiểu 8 ký tự",
       "settingUp": "Thiết lập mật khẩu",
-      "confirmModalDesc": "Vui lòng lưu trữ mật khẩu của bạn đúng cách. Khi đã mất, Rabby không thể thay đổi hoặc khôi phục lại được.",
+      "confirmModalDesc": "Vui lòng lưu trữ mật khẩu của bạn đúng cách. Khi đã mất, Rabby Trust không thể thay đổi hoặc khôi phục lại được.",
       "setWallet": "Thiết lập ví",
       "confirmError": "Mật khẩu không khớp",
       "setUpSuccess": "Thiết lập mật khẩu thành công",
@@ -1874,18 +1874,18 @@
       "id": "ID",
       "add": "Thêm mạng tùy chỉnh",
       "ConfirmModifyRpcModal": {
-        "desc": "Rabby đã tích hợp chain này. Bạn có muốn thay đổi URL RPC của chain không?"
+        "desc": "Rabby Trust đã tích hợp chain này. Bạn có muốn thay đổi URL RPC của chain không?"
       },
       "signTx": {
         "title": "Dữ liệu giao dịch"
       },
-      "desc": "Rabby không thể xác minh tính bảo mật của mạng tùy chỉnh. Vui lòng chỉ thêm các mạng đáng tin cậy.",
+      "desc": "Rabby Trust không thể xác minh tính bảo mật của mạng tùy chỉnh. Vui lòng chỉ thêm các mạng đáng tin cậy.",
       "AddFromChainList": {
         "title": "Thêm nhanh từ Chainlist",
         "search": "Tìm kiếm tên mạng tùy chỉnh hoặc ID",
         "empty": "Không tìm thấy chuỗi nào",
         "tips": {
-          "supported": "Chuỗi này đã được Rabby Wallet tích hợp",
+          "supported": "Chuỗi này đã được Rabby Trust Trust tích hợp",
           "added": "Bạn đã thêm chuỗi này rồi"
         }
       },
@@ -1918,7 +1918,7 @@
       }
     },
     "rabbyPoints": {
-      "title": "Rabby Points",
+      "title": "Rabby Trust Points",
       "claimItem": {
         "claim": "Nhận"
       },
@@ -2012,12 +2012,12 @@
       "importedSuccessfully": "Đã nhập thành công!",
       "syncingProgress": "Đang quét ({{ percent }})",
       "noNewAddr": "Không tìm thấy địa chỉ mới để nhập",
-      "verifyTips": "Dữ liệu của bạn được mã hóa ngoại tuyến. Nhập mật khẩu Rabby Extension của bạn để giải mã và xác minh.",
-      "verifyWithPassword": "Xác minh bằng mật khẩu Rabby Extension",
-      "newUserVerify": "Nó cũng sẽ là mật khẩu mặc định cho Rabby Mobile của bạn",
-      "imported": "Các địa chỉ đã có trong Rabby Mobile sẽ không được nhập lại. Ghi chú địa chỉ và danh sách trắng sẽ được đồng bộ hóa tự động.",
+      "verifyTips": "Dữ liệu của bạn được mã hóa ngoại tuyến. Nhập mật khẩu Rabby Trust Extension của bạn để giải mã và xác minh.",
+      "verifyWithPassword": "Xác minh bằng mật khẩu Rabby Trust Extension",
+      "newUserVerify": "Nó cũng sẽ là mật khẩu mặc định cho Rabby Trust Trust của bạn",
+      "imported": "Các địa chỉ đã có trong Rabby Trust Trust sẽ không được nhập lại. Ghi chú địa chỉ và danh sách trắng sẽ được đồng bộ hóa tự động.",
       "scanTips2": "Quét mã và bắt đầu đồng bộ hóa",
-      "scanTips1": "Nhấp vào \"Mobile Sync\" trên Rabby Extension",
+      "scanTips1": "Nhấp vào \"Mobile Sync\" trên Rabby Trust Extension",
       "syncingTips": "Giữ máy ảnh ổn định cho đến khi quét xong",
       "importedTips": "Nếu trong ứng dụng đã có địa chỉ trùng lặp, nó sẽ không được nhập. Ghi chú địa chỉ và danh sách trắng cũng sẽ được đồng bộ hóa."
     },
@@ -2067,9 +2067,9 @@
       "HyperliquidInvitePopup": {
         "btn": "Tham gia ngay",
         "title": "Chương trình Giới thiệu Hyperliquid",
-        "desc": "Tham gia ngay bằng mã của Rabby để nhận <1>giảm giá 4%</1> trên khoản phí Hyperliquid của bạn.",
+        "desc": "Tham gia ngay bằng mã của Rabby Trust để nhận <1>giảm giá 4%</1> trên khoản phí Hyperliquid của bạn.",
         "asterTitle": "Chương trình giới thiệu Aster",
-        "asterDesc": "Tham gia ngay bằng mã của Rabby để nhận <1>giảm giá 4%</1> trên phí Aster của bạn."
+        "asterDesc": "Tham gia ngay bằng mã của Rabby Trust để nhận <1>giảm giá 4%</1> trên phí Aster của bạn."
       },
       "WebviewError": {
         "error": "Lỗi:",
@@ -2695,7 +2695,7 @@
         "perps": "Perps",
         "sizeTips": "Giá trị hoặc số lượng tổng thể của giao dịch của bạn, được xác định bởi ký quỹ và đòn bẩy.",
         "feeHyperliquid": "Hyperliquid",
-        "feeRabby": "Rabby Wallet",
+        "feeRabby": "Rabby Trust Trust",
         "feeRabbyDiscount": "Giảm phí giao dịch trong thời gian có hạn",
         "feeTitle": "Phí",
         "feeDesc": "Khi người dùng giao dịch, cả <1>phí giao dịch</1> và <2>phí builder</2> đều được áp dụng.",
@@ -2800,7 +2800,7 @@
       "invitePopup": {
         "activateNow": "Kích hoạt ngay",
         "activatedFailed": "Kích hoạt không thành công",
-        "description": "Sử dụng mã của Rabby để kích hoạt",
+        "description": "Sử dụng mã của Rabby Trust để kích hoạt",
         "title": "Tiết kiệm phí trên Hyperliquid",
         "hyperliquidFee": "Phí giao dịch Hyperliquid.",
         "activatedSuccess": "Đã kích hoạt ưu đãi giảm 4% phí Hyperliquid"
@@ -3290,9 +3290,9 @@
     },
     "newUserOnboarding": {
       "restoreWallet": {
-        "title": "Khôi phục ví Rabby của bạn",
+        "title": "Khôi phục ví Rabby Trust của bạn",
         "subtitle": "Chào mừng bạn trở lại! 🎉  \nChọn một phương pháp để khôi phục ví của bạn nhanh chóng.",
-        "subtitleInApp": "Chọn một tùy chọn bên dưới để nhanh chóng nhập ví của bạn từ tiện ích Rabby hoặc iCloud."
+        "subtitleInApp": "Chọn một tùy chọn bên dưới để nhanh chóng nhập ví của bạn từ tiện ích Rabby Trust hoặc iCloud."
       },
       "common": {
         "orYouCanCreateNewWallet": "Hoặc bạn có thể <clickable>tạo một ví mới</clickable>"
@@ -3365,7 +3365,7 @@
     },
     "walletConnect": {
       "screenTitle": "Kết nối ví",
-      "connectingToRabby": "Đang kết nối với Rabby",
+      "connectingToRabby": "Đang kết nối với Rabby Trust",
       "pairingFailed": "Ghép nối WalletConnect thất bại.",
       "connected": "Đã kết nối thành công. Vui lòng quay lại DApp.",
       "proposalExpired": "Yêu cầu kết nối WalletConnect đã hết hạn.",
@@ -3519,7 +3519,7 @@
       "switchArea": {
         "skipText": "Bỏ qua thông báo này trong 1 ngày"
       },
-      "alertText": "DApp bên thứ ba: nếu gặp vấn đề sử dụng, vui lòng liên hệ bộ phận hỗ trợ DApp. Rabby chỉ cung cấp quyền truy cập xem.",
+      "alertText": "DApp bên thứ ba: nếu gặp vấn đề sử dụng, vui lòng liên hệ bộ phận hỗ trợ DApp. Rabby Trust chỉ cung cấp quyền truy cập xem.",
       "title": "Chụp màn hình để Báo cáo Lỗi",
       "submitFailed": "Gửi thất bại."
     },
@@ -3576,10 +3576,10 @@
       "message": "Vui lòng bật Bluetooth để sử dụng tính năng này"
     },
     "permissions_alert": {
-      "title": "\"Rabby Wallet\" muốn sử dụng Bluetooth",
+      "title": "\"Rabby Trust Trust\" muốn sử dụng Bluetooth",
       "cancel": "Không Cho Phép",
       "open_settings": "OK",
-      "message": "Rabby Wallet sử dụng kết nối bluetooth để kết nối Ledger"
+      "message": "Rabby Trust Trust sử dụng kết nối bluetooth để kết nối Ledger"
     },
     "update_firmware_alert": {
       "update": "Cập nhật",

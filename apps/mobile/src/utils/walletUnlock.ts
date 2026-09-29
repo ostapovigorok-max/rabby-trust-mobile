@@ -214,7 +214,7 @@ export async function ensureWalletUnlocked() {
     const { AuthenticationModal2024 } = authModalModule;
     markWalletUnlockDiagnosticStage(diagnosticsAttemptId, 'password_modal');
     const { hideModal } = await AuthenticationModal2024.show({
-      title: 'Unlock Rabby Wallet',
+      title: 'Unlock Rabby Trust',
       authType: ['password'],
       onFinished: resolveUnlock,
       onCancel: rejectUnlock,

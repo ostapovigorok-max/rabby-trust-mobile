@@ -34,8 +34,8 @@
       "goToHome": "Ana Sayfaya Git",
       "createNewAddress": "Yeni Cüzdan Oluştur",
       "alreadyHaveAddress": "Zaten bir cüzdanım var",
-      "alreadyUseRabby": "Zaten Rabby kullanıyorum.",
-      "welcomeTitle": "Rabby Wallet'a\nhoş geldiniz"
+      "alreadyUseRabby": "Zaten Rabby Trust kullanıyorum.",
+      "welcomeTitle": "Rabby Trust Trust'a\nhoş geldiniz"
     },
     "transactions": {
       "itemTitle": {
@@ -129,7 +129,7 @@
       "customRPCErrorModal": {
         "title": "Özel RPC Hatası",
         "button": "Özel RPC'yi Devre Dışı Bırak",
-        "content": "Özel RPC'niz şu anda kullanılamıyor. Bunu devre dışı bırakabilir ve Rabby'nin resmi RPC'sini kullanarak imzalamaya devam edebilirsiniz."
+        "content": "Özel RPC'niz şu anda kullanılamıyor. Bunu devre dışı bırakabilir ve Rabby Trust'nin resmi RPC'sini kullanarak imzalamaya devam edebilirsiniz."
       },
       "swap": {
         "slippageTolerance": "Kayma toleransı",
@@ -184,7 +184,7 @@
         "approveToken": "Token onayla",
         "title": "Token Onayı",
         "deployTimeLessThan": "< {{value}} gün",
-        "flagByRabby": "Rabby tarafından işaretlendi",
+        "flagByRabby": "Rabby Trust tarafından işaretlendi",
         "myBalance": "Bakiyem",
         "approveTo": "Onay verilecek adres",
         "contractTrustValueTip": "Güven değeri, bu sözleşme tarafından harcanan toplam varlık değerini ifade eder. Düşük bir güven değeri, ya risk ya da 180 gün boyunca faaliyetsizlik anlamına gelir."
@@ -332,7 +332,7 @@
       "safeAddressNotSupportChain": "Mevcut Safe adresi {{0}} zincirinde desteklenmiyor.",
       "canOnlyUseImportedAddress": "Sadece görüntüleme adresi ile işlemleri imzalayamazsınız.",
       "recommendGasLimitTip": "Tahm. {{est}}. Mevcut {{current}}x, önerilen ",
-      "eip1559Desc2": "Rabby'de Öncelik Ücreti (İpucu) = Maksimum Ücret - Temel Ücret. Maksimum Öncelik Ücretini ayarladıktan sonra, Temel Ücret ondan düşülecek ve geriye kalan miktar madencilere ipucu olarak verilecektir.",
+      "eip1559Desc2": "Rabby Trust'de Öncelik Ücreti (İpucu) = Maksimum Ücret - Temel Ücret. Maksimum Öncelik Ücretini ayarladıktan sonra, Temel Ücret ondan düşülecek ve geriye kalan miktar madencilere ipucu olarak verilecektir.",
       "eip1559Desc1": "EIP-1559'u destekleyen zincirlerde, Öncelik Ücreti, madencilerin işleminizi işleme alması için verilen bahşiştir. Öncelik Ücretini düşürerek nihai gaz maliyetinizi azaltabilirsiniz, bu da işlemin işlenmesi için daha fazla zaman alabilir.",
       "safeAdminSigned": "İmzalı",
       "myNativeTokenBalance": "Gas bakiyem:",
@@ -388,7 +388,7 @@
       "maxPriorityFeeDisabledAlert": "Lütfen önce gas fiyatını ayarlayın",
       "protocol": "Protokol",
       "addressSource": "Adres Kaynağı",
-      "sigCantDecode": "Bu imza Rabby Wallet tarafından çözülemez.",
+      "sigCantDecode": "Bu imza Rabby Trust Trust tarafından çözülemez.",
       "errorRetry": {
         "InvalidTx": "Geçersiz işlem.",
         "gasLimitTooLow": "Gas limiti çok düşük",
@@ -649,7 +649,7 @@
     },
     "confirmAddress": {
       "risks": {
-        "scamAddress": "Alıcı adresi Rabby tarafından dolandırıcılık adresi olarak işaretlendi.",
+        "scamAddress": "Alıcı adresi Rabby Trust tarafından dolandırıcılık adresi olarak işaretlendi.",
         "contractAddress": "Alıcı adresi bir sözleşme adresidir, bu potansiyel olarak fon kaybına neden olabilir.",
         "cexNoDeposite": "Alıcı adresi bir CEX'ten gelen bir non-deposit adresidir. Lütfen depozit adresinizin doğru olduğundan emin olun.",
         "noSend": "Bu adrese 180 gündür gönderim yapmadınız."
@@ -766,7 +766,7 @@
     },
     "swap": {
       "rabbyFee": {
-        "discountTitle": "Rabby Ücret İndirimi",
+        "discountTitle": "Rabby Trust Ücret İndirimi",
         "case": "Koşul",
         "free": "Ücretsiz",
         "cases": {
@@ -777,9 +777,9 @@
           "hundredThousand": "Hac. $100k - $1M"
         },
         "wallet": "Cüzdan",
-        "title": "Rabby ücreti",
-        "bridgeDesc": "Rabby Wallet, önde gelen toplayıcılardan en iyi oranı bulur ve tekliflerin güvenilirliğini doğrular. Rabby, teklife otomatik olarak dahil edilen <1>%0,25</1> ücret alır.",
-        "swapDesc": "Rabby Wallet, en iyi agregatörlerden her zaman en iyi oranı bulacak ve tekliflerinin güvenilirliğini doğrulayacaktır. Rabby, teklifin içinde otomatik olarak dahil edilen <1>0,25%</1> bir ücret alır (sarılması için %0).",
+        "title": "Rabby Trust ücreti",
+        "bridgeDesc": "Rabby Trust Trust, önde gelen toplayıcılardan en iyi oranı bulur ve tekliflerin güvenilirliğini doğrular. Rabby Trust, teklife otomatik olarak dahil edilen <1>%0,25</1> ücret alır.",
+        "swapDesc": "Rabby Trust Trust, en iyi agregatörlerden her zaman en iyi oranı bulacak ve tekliflerinin güvenilirliğini doğrulayacaktır. Rabby Trust, teklifin içinde otomatik olarak dahil edilen <1>0,25%</1> bir ücret alır (sarılması için %0).",
         "button": "Tamamdır",
         "rate": "Ücret oranı"
       },
@@ -813,7 +813,7 @@
       "low-slippage-may-cause-failed-transactions-due-to-high-volatility": "Düşük kayma, yüksek volatilite nedeniyle başarısız işlemlere neden olabilir.",
       "transaction-might-be-frontrun-because-of-high-slippage-tolerance": "İşlem, yüksek kayma toleransı nedeniyle öne alınabilir.",
       "Auto": "Otomatik",
-      "no-fees-for-wrap": "Wrap için Rabby ücreti yok.",
+      "no-fees-for-wrap": "Wrap için Rabby Trust ücreti yok.",
       "security-verification-failed": "Güvenlik doğrulama başarısız oldu",
       "select-token": "Token Seçin",
       "need-to-approve-token-before-swap": "Token'un takas edilmeden önce onaylanması gerekiyor.",
@@ -897,7 +897,7 @@
       "quickAddressTitle_other": "{{count}} Adresler",
       "quickAddressTitle_one": "{{count}} Adres",
       "add-address": "Cüzdan Ekle",
-      "delete-checklist-1": "Anladım ki, bu cüzdanı silersem, ilgili özel anahtar ve kurtarma ifadesi silinecek ve Rabby bunları kurtaramayacak.",
+      "delete-checklist-1": "Anladım ki, bu cüzdanı silersem, ilgili özel anahtar ve kurtarma ifadesi silinecek ve Rabby Trust bunları kurtaramayacak.",
       "delete-private-key-title": "Cüzdanı ve Özel Anahtarı Sil",
       "delete-seed-phrase-title": "Cüzdanı ve Kurtarma İfadesini Sil",
       "delete-title": "Cüzdanı Sil"
@@ -943,7 +943,7 @@
       "settings": {
         "cancel": "İptal et",
         "enableWhitelist": "Beyaz Listeyi Etkinleştir",
-        "enableWhitelistTip": "Etkinleştirildikten sonra, yalnızca Rabby kullanarak beyaz listedeki adreslere varlık gönderebilirsiniz.",
+        "enableWhitelistTip": "Etkinleştirildikten sonra, yalnızca Rabby Trust kullanarak beyaz listedeki adreslere varlık gönderebilirsiniz.",
         "disableWhitelistTip": "Aktif edildiğinde, varlıkları herhangi bir adrese gönderebilirsiniz.",
         "disableWhitelist": "Beyaz Listeyi Devre Dışı Bırak"
       },
@@ -955,9 +955,9 @@
         "blocked": "Engellenmiş",
         "blockedTip": "Engellenen token, token listesindeki görüntülenmeyecek.",
         "notSupported": "Bu zincirdeki token desteklenmiyor.",
-        "selectedCustom": "Token, Rabby tarafından listelenmemiştir. Onu özel olarak token listesine eklediniz.",
+        "selectedCustom": "Token, Rabby Trust tarafından listelenmemiştir. Onu özel olarak token listesine eklediniz.",
         "noTransactions": "Hiç İşlem Yok",
-        "notSelectedCustom": "Token Rabby tarafından listelenmemiştir. Eğer açarsanız, token listesine eklenecektir."
+        "notSelectedCustom": "Token Rabby Trust tarafından listelenmemiştir. Eğer açarsanız, token listesine eklenecektir."
       },
       "assets": {
         "comingSoon": "Yakında..."
@@ -993,13 +993,13 @@
         "WriteSeedPhrase": "Bu sizin kurtarma ifadenizdir. Not alın ve güvenli bir yerde saklayın. Kaybeder veya paylaşırsanız varlıklarınızı kalıcı olarak kaybedebilirsiniz. Sonraki adımda bu ifadeyi doğru sırayla yeniden girmeniz istenecektir."
       },
       "addAddress": {
-        "syncRabbyExtension": "Rabby Uzantısını Senkronize Et",
+        "syncRabbyExtension": "Rabby Trust Uzantısını Senkronize Et",
         "hardwareWallet": "Donanım Cüzdanı",
         "importAddress": "Cüzdanı İçe Aktar",
         "createAddress": "Cüzdan Oluştur",
         "selectAddMethod": "Ekleme Yöntemini Seçin",
         "seedPhraseOrPrivateKey": "Kurtarma ifadesi veya özel anahtar",
-        "restoreRabbyWallet": "Rabby Cüzdanını Geri Yükle",
+        "restoreRabbyWallet": "Rabby Trust Cüzdanını Geri Yükle",
         "moreOptions": "Daha fazla seçenek"
       },
       "multiAddressHome": {
@@ -1010,9 +1010,9 @@
       "importAddress": {
         "tips": {
           "gotIt": "Anladım",
-          "title": "Rabby'ye aktarmak güvenli mi?",
-          "entry": "Rabby'e aktarmak güvenli mi?",
-          "description": "Verileriniz güvenli bir şekilde şifrelendi ve cihazınızda yerel olarak depolandı. Rabby, özel bilgilerinize erişemez ve bu bilgiler asla üçüncü şahıslarla paylaşılmaz."
+          "title": "Rabby Trust'ye aktarmak güvenli mi?",
+          "entry": "Rabby Trust'e aktarmak güvenli mi?",
+          "description": "Verileriniz güvenli bir şekilde şifrelendi ve cihazınızda yerel olarak depolandı. Rabby Trust, özel bilgilerinize erişemez ve bu bilgiler asla üçüncü şahıslarla paylaşılmaz."
         },
         "seedPhrase": "Kurtarma İfadesini İçe Aktar",
         "privateKey": "Özel Anahtarı İçe Aktar",
@@ -1032,9 +1032,9 @@
         "feedbackSuccess": "Geri bildiriminiz için teşekkür ederiz",
         "confirmButtonTitleAndroid": "Google Play'de Puan Ver",
         "confirmButtonTitleIOS": "Uygulama Mağazasında Puan Ver",
-        "descriptionAndroid": "Eğer Rabby'yi beğendiyseniz, Google Play'de vereceğiniz hızlı bir puan çok şey ifade eder.",
+        "descriptionAndroid": "Eğer Rabby Trust'yi beğendiyseniz, Google Play'de vereceğiniz hızlı bir puan çok şey ifade eder.",
         "feedbackTitle": "Geri bildiriminiz mi var? Dinliyoruz.",
-        "descriptionIOS": "Eğer Rabby'i beğeniyorsanız, App Store'da vereceğiniz hızlı bir puan çok şey ifade eder."
+        "descriptionIOS": "Eğer Rabby Trust'i beğeniyorsanız, App Store'da vereceğiniz hızlı bir puan çok şey ifade eder."
       },
       "upgradeModal": {
         "title": "Yenilikler",
@@ -1053,7 +1053,7 @@
         "tip2": "Kurtarma ifadenizi bulut hizmetlerine veya not uygulamalarına yapıştırmayın ya da kaydetmeyin.",
         "copyAnyway": "Yine de kopyala",
         "title": "Kurtarma İfadenizi Gizli Tutun",
-        "tip3": "Kurtarma ifadenizi asla paylaşmayın. Rabby sizden bunu hiçbir zaman istemez.",
+        "tip3": "Kurtarma ifadenizi asla paylaşmayın. Rabby Trust sizden bunu hiçbir zaman istemez.",
         "tip1": "Diğer uygulamalar panonuzu okuyabilir, bu yüzden kopyalama işlemi sonrası uygulamalar arasında geçiş yapmaktan kaçının."
       },
       "screenshotSecureTip": {
@@ -1064,7 +1064,7 @@
         "subTitle": "Kurtarma ifadenizi görsel olarak kaydetmek ifşa olmasına yol açabilir; bu nedenle yazılı olarak saklamak daha güvenlidir."
       },
       "rateModalTriggerOnHome": {
-        "title": "Rabby Wallet'ı değerlendirin"
+        "title": "Rabby Trust Trust'ı değerlendirin"
       }
     },
     "newAddress": {
@@ -1075,7 +1075,7 @@
         "title2": "Asla Paylaşmayın",
         "description3": "Kurtarma ifadenizi asla paylaşmayın; ona erişen herkes varlıklarınızı kontrol edebilir.",
         "description2": "Eğer kurtarma ifadenizi kaybederseniz, cüzdanınızı geri yükleyemezsiniz.",
-        "description4": "Kurtarma ifadeniz cihazınızda yerel olarak saklanır ve şifrenizle şifrelenir. Yalnızca siz erişebilirsiniz. Rabby kurtarma ifadenize erişemez veya onu geri getiremez.",
+        "description4": "Kurtarma ifadeniz cihazınızda yerel olarak saklanır ve şifrenizle şifrelenir. Yalnızca siz erişebilirsiniz. Rabby Trust kurtarma ifadenize erişemez veya onu geri getiremez.",
         "GotIt": "Anladım",
         "description1": "Kurtarma ifadesi, cüzdanınıza erişmek ve onu kontrol etmek için kullanılan bir dizi kelimedir. Cüzdanınızı herhangi bir cihazda geri yüklemek için kullanabilirsiniz."
       },
@@ -1088,7 +1088,7 @@
           "answer": "12, 18 veya 24 kelimelik bir cümle, varlıklarınızı kontrol etmek için kullanılır."
         },
         "isItSafeToImportItInRabby": {
-          "question": "Rabby'de içe aktarmak güvenli mi?",
+          "question": "Rabby Trust'de içe aktarmak güvenli mi?",
           "answer": "Evet, telefonunuzda yerel olarak depolanacak ve sadece sizin erişiminize açık olacak."
         },
         "showSeedPhrase": "Kurtarma İfadesini Göster",
@@ -1099,13 +1099,13 @@
         "googleDriveBackup": "Google Drive Yedekleme",
         "chooseBackupMethodTitle": "Yedekleme yöntemi seçin",
         "pastedAndClear": "Yapıştırıldı ve pano temizlendi",
-        "importQuestion2": "Kurtarma ifadesi yalnızca telefonumda saklanır ve Rabby buna erişemez.",
+        "importQuestion2": "Kurtarma ifadesi yalnızca telefonumda saklanır ve Rabby Trust buna erişemez.",
         "backupTips": "Kurtarma ifadenizi yedeklerken ekranınızı başka kimsenin görmediğinden emin olun.",
         "importQuestion1": "Kurtarma ifademi kaybedersem veya başkalarıyla paylaşırsam varlıklarımı kalıcı olarak kaybederim.",
         "createdSuccess": "Kurtarma ifadeniz oluşturuldu",
         "riskTips": "Başlamadan önce, lütfen aşağıdaki güvenlik ipuçlarını okuyun ve aklınızda bulundurun.",
         "chooseBackupMethodDesc": "Yedekler, uygulamayı silerseniz veya cihazınızı kaybederseniz cüzdanınızı geri yüklemenizi sağlar.",
-        "importQuestion3": "Kurtarma ifadesini yedeklemeden uygulama silinir, cihaz kaybolur veya yeniden kurulum gerekirse Rabby onu benim için geri getiremez.",
+        "importQuestion3": "Kurtarma ifadesini yedeklemeden uygulama silinir, cihaz kaybolur veya yeniden kurulum gerekirse Rabby Trust onu benim için geri getiremez.",
         "backupRestoreButton": "Kurtarma İfadesini İçe Aktar",
         "backupRestoreCreatedAt": "Yedekleme Zamanı:",
         "backupRestoreImported": "İçe Aktarıldı",
@@ -1125,7 +1125,7 @@
         "backupSuccessGDrive": "Google Drive'a Yedeklendi",
         "backupRestoreUnlockDesc": "Yedeklerinizi şifrelemek için ayarladığınız aynı şifreyi kullanın.",
         "passwordMinTip": "En az 8 karakter olmalıdır",
-        "backupUnlockDesc": "Şifrenizi yedekleri geri yüklemek için güvende tutun. Rabby Wallet bunu depolamaz ve geri alamaz.",
+        "backupUnlockDesc": "Şifrenizi yedekleri geri yüklemek için güvende tutun. Rabby Trust Trust bunu depolamaz ve geri alamaz.",
         "addMoreWalletTitle": "Bu cümleden daha fazla cüzdan ekle"
       },
       "privateKey": {
@@ -1134,7 +1134,7 @@
           "answer": "Varlıklarınızı kontrol etmek için kullanılan harfler ve rakamlardan oluşan bir dizi."
         },
         "isItSafeToImportItInRabby": {
-          "question": "Rabby'de bunu içe aktarmak güvenli mi?",
+          "question": "Rabby Trust'de bunu içe aktarmak güvenli mi?",
           "answer": "Evet, telefonunuzda yerel olarak saklanacak ve yalnızca sizin erişiminize açık olacak."
         },
         "repeatImportTips": "Bu cüzdan içe aktarılmıştır"
@@ -1276,7 +1276,7 @@
         "description2": "Özel anahtarınızı kaybederseniz cüzdanınızı geri yükleyemezsiniz.",
         "title2": "Yedekleme",
         "title": "Özel anahtar nedir",
-        "description4": "Özel anahtarınız cihazınızda yerel olarak saklanır ve şifrenizle şifrelenir. Ona yalnızca siz erişebilirsiniz. Rabby özel anahtarınıza erişemez veya onu geri alamaz.",
+        "description4": "Özel anahtarınız cihazınızda yerel olarak saklanır ve şifrenizle şifrelenir. Ona yalnızca siz erişebilirsiniz. Rabby Trust özel anahtarınıza erişemez veya onu geri alamaz.",
         "description3": "Asla özel anahtarınızı paylaşmayın—ona erişimi olan herkes fonlarınızı kontrol edebilir.",
         "description1": "Özel anahtar, cüzdanınıza erişmek ve kontrol etmek için kullanılan harf ve rakamlar dizisidir. Cüzdanınızı herhangi bir cihazda kurtarmak için bunu kullanabilirsiniz.",
         "title3": "Asla Paylaşma"
@@ -1302,7 +1302,7 @@
         "enableBiometricAlert": {
           "yes": "Evet",
           "title": "{{ bioType }}'yi etkinleştir",
-          "content": "{{ bioType }}'yi Rabby Wallet'ı kilidini açmak için etkinleştirmek ister misiniz?",
+          "content": "{{ bioType }}'yi Rabby Trust Trust'ı kilidini açmak için etkinleştirmek ister misiniz?",
           "no": "İptal et"
         },
         "failedAndTipTitle": "Kilid açma başarısız oldu",
@@ -1313,15 +1313,15 @@
     "addToken": {
       "noTokenFound": "Token bulunamadı",
       "tokenNotFound": "Bu sözleşme adresinden token bulunamadı.",
-      "tokenSupported": "Token, Rabby üzerinde desteklenmektedir.",
+      "tokenSupported": "Token, Rabby Trust üzerinde desteklenmektedir.",
       "hasAdded": "Bu token eklendi.",
-      "title": "Rabby'ye özel token ekle",
+      "title": "Rabby Trust'ye özel token ekle",
       "tokenCustomized": "Mevcut token özelleştirilmiş'e zaten eklenmiştir."
     },
     "switchChain": {
       "requestsReceivedPlural": "{{count}} istek alındı",
       "requestsReceived": "1 istek alındı",
-      "requestRabbyToSupport": "Rabby'den Destek İsteği"
+      "requestRabbyToSupport": "Rabby Trust'den Destek İsteği"
     },
     "signText": {
       "createKey": {
@@ -1356,7 +1356,7 @@
       "manageWhiteBlackList": "Beyaz liste/siyah liste yönetimi",
       "markRemovedToast": "İşaret silindi",
       "markAsBlockToast": "\"Engelli\" olarak işaretle",
-      "verifiedByRabby": "Rabby tarafından doğrulandı",
+      "verifiedByRabby": "Rabby Trust tarafından doğrulandı",
       "title": "DApp'e Bağlan",
       "trusted": "Güvenilir",
       "noMark": "İşaret yok",
@@ -1367,7 +1367,7 @@
       "markAsTrustToast": "\" Güvenilir\" Olarak İşaretle",
       "flagByMM": "MetaMask tarafından işaretlendi",
       "onYourWhitelist": "Beyaz listenizde",
-      "flagByRabby": "Rabby tarafından işaretlendi",
+      "flagByRabby": "Rabby Trust tarafından işaretlendi",
       "connectBtn": "Bağlanın",
       "noWebsite": "Hiçbiri",
       "markRuleText": "Benim işaretim",
@@ -1424,7 +1424,7 @@
       "verify-face-id": "Yüz Tanıma Doğrula",
       "verify-face-id-before-backup": "Yedeklemeden önce Face ID'nizi doğrulayın",
       "verify-and-backup": "Doğrula ve yedekle",
-      "verify-password-before-backup": "Rabby şifrenizi yedeklemeden önce doğrulayın"
+      "verify-password-before-backup": "Rabby Trust şifrenizi yedeklemeden önce doğrulayın"
     },
     "customRpc": {
       "EditCustomTestnetModal": {
@@ -1477,7 +1477,7 @@
       "alert": "Bu Özel Anahtar, varlıklarınıza erişim sağlar. Onu kaybetmeyin veya başkalarına ifşa etmeyin, aksi takdirde varlıklarınızı sonsuza dek kaybedebilirsiniz. Lütfen bunu güvenli bir ortamda görüntüleyin ve dikkatlice saklayın."
     },
     "ethSign": {
-      "alert": "'eth_sign' ile imza atmak varlık kaybına yol açabilir. Güvenliğiniz için, Rabby bu yöntemi desteklememektedir."
+      "alert": "'eth_sign' ile imza atmak varlık kaybına yol açabilir. Güvenliğiniz için, Rabby Trust bu yöntemi desteklememektedir."
     },
     "createPassword": {
       "setUpSuccess": "Şifre Başarıyla Ayarlandı",
@@ -1495,7 +1495,7 @@
       "ConfirmPassword": "Şifreyi doğrula",
       "termOfUse": "Kullanım Şartları",
       "biometricsFail": "Biyometrik kimlik doğrulama etkinleştirme başarısız oldu",
-      "confirmModalDesc": "Lütfen şifrenizi düzgün bir şekilde saklayın. Bir kez kaybolduğunda, Rabby tarafından değiştirilemez veya kurtarılamaz.",
+      "confirmModalDesc": "Lütfen şifrenizi düzgün bir şekilde saklayın. Bir kez kaybolduğunda, Rabby Trust tarafından değiştirilemez veya kurtarılamaz.",
       "setWallet": "Cüzdanı Ayarla",
       "confirmError": "Şifreler uyuşmuyor",
       "confirmTitle": "Şifreyi Onayla",
@@ -1520,7 +1520,7 @@
       "claimItem": {
         "claim": "Talep Et"
       },
-      "title": "Rabby Puanları",
+      "title": "Rabby Trust Puanları",
       "alreadyClaimedXPoints": "Zaten talep edildi: {{point}}"
     },
     "customTestnet": {
@@ -1537,7 +1537,7 @@
       },
       "AddFromChainList": {
         "tips": {
-          "supported": "Rabby Wallet tarafından zaten entegre edilmiş zincir",
+          "supported": "Rabby Trust Trust tarafından zaten entegre edilmiş zincir",
           "added": "Bu zinciri zaten eklediniz."
         },
         "empty": "Zincir bulunamadı",
@@ -1548,13 +1548,13 @@
         "title": "İşlem Verisi"
       },
       "ConfirmModifyRpcModal": {
-        "desc": "Zincir zaten Rabby tarafından entegre edilmiştir. RPC URL'sini değiştirmenize gerek var mı?"
+        "desc": "Zincir zaten Rabby Trust tarafından entegre edilmiştir. RPC URL'sini değiştirmenize gerek var mı?"
       },
       "currency": "Para",
       "empty": "Özel Ağ Yok",
       "id": "Tanım",
       "add": "Özel Ağ Ekle",
-      "desc": "Rabby, özel ağların güvenliğini doğrulayamaz. Lütfen sadece güvenilir ağlar ekleyin.",
+      "desc": "Rabby Trust, özel ağların güvenliğini doğrulayamaz. Lütfen sadece güvenilir ağlar ekleyin.",
       "addToken": {
         "title": "Özel Ağ Tokeni Ekle",
         "chain": "Zincir",
@@ -1572,8 +1572,8 @@
       }
     },
     "addChain": {
-      "title": "Rabby'ye Özel Ağı Ekle",
-      "desc": "Rabby, özel ağların güvenliğini doğrulayamaz. Lütfen yalnızca güvenilir ağlar ekleyin."
+      "title": "Rabby Trust'ye Özel Ağı Ekle",
+      "desc": "Rabby Trust, özel ağların güvenliğini doğrulayamaz. Lütfen yalnızca güvenilir ağlar ekleyin."
     },
     "sign": {
       "transactionSpeed": "İşlem Hızı"
@@ -1659,7 +1659,7 @@
       "benefitCard": {
         "item2": "Tüm ağları destekler.",
         "desc1": "Gaz ödemek için ek ücret yoktur.",
-        "item1": "Ücret Yok Rabby",
+        "item1": "Ücret Yok Rabby Trust",
         "item3": "Tüm işlemleri destekler",
         "desc2": "80+ ağda otomatik gas ödemeleri",
         "desc3": "Değiştir, Köprü, Gönder, DApp ve daha fazlası",
@@ -1851,7 +1851,7 @@
       "clearPendingToast": "Yerel bekleyen işlem kaldırıldı",
       "clearPendingResetDesc": "Ayrıca yerel nonce verimi ve imza kaydımı sıfırlayın.",
       "clearPendingWarning": "Kaldırılan işlem, yerine geçilmediği sürece hala zincir üzerinde onaylanabilir.",
-      "clearPendingDesc1": "Bu, tüm bekleyen işlemlerinizi temizleyecektir. Bu, bazı durumlarda Rabby'deki işlemin durumunun zincirdeki durumla eşleşmemesi sorununu çözmenize yardımcı olabilir.",
+      "clearPendingDesc1": "Bu, tüm bekleyen işlemlerinizi temizleyecektir. Bu, bazı durumlarda Rabby Trust'deki işlemin durumunun zincirdeki durumla eşleşmemesi sorununu çözmenize yardımcı olabilir.",
       "clearPendingDesc2": "Bu işlem hesap bakiyelerinizi değiştirmez veya kurtarma ifadenizi yeniden girmenizi gerektirmez. Tüm varlıklarınız ve hesap bilgileriniz güvende kalır.",
       "addCustomNetwork": "Özel Ağ Ekle",
       "clearBrowserData": "Tarayıcı Verilerini Temizle",
@@ -1892,17 +1892,17 @@
       "alert": "EIP-7702 henüz desteklenmiyor."
     },
     "syncExtension": {
-      "scanTips1": "Rabby Uzantısı'nda \"Mobile Sync\"a tıklayın",
-      "verifyWithPassword": "Rabby Uzantı Şifrenizle Doğrulayın",
+      "scanTips1": "Rabby Trust Uzantısı'nda \"Mobile Sync\"a tıklayın",
+      "verifyWithPassword": "Rabby Trust Uzantı Şifrenizle Doğrulayın",
       "syncingTips": "Tarayıcı tamamlanana kadar kamerayı sabit tutun.",
       "importedSuccessfully": "Başarıyla İçe Aktarıldı!",
       "noNewAddr": "İçe aktarılacak yeni adres bulunamadı.",
       "syncingProgress": "Tarama ({{ percent }})",
-      "imported": "Rabby Mobile'da zaten bulunan adresler tekrar içe aktarılmayacaktır. Adres notları ve beyaz listeler otomatik olarak senkronize edilecektir.",
-      "newUserVerify": "Ayrıca, bu sizin Rabby Mobile için varsayılan şifre olarak da hizmet edecektir.",
+      "imported": "Rabby Trust Trust'da zaten bulunan adresler tekrar içe aktarılmayacaktır. Adres notları ve beyaz listeler otomatik olarak senkronize edilecektir.",
+      "newUserVerify": "Ayrıca, bu sizin Rabby Trust Trust için varsayılan şifre olarak da hizmet edecektir.",
       "scanTips2": "Kodu tara ve senkronizasyona başla",
       "importedTips": "Eğer UYGULAMA zaten bir kopya adrese sahipse, bu adres içe aktarılmayacaktır. Adres notları ve beyaz listeler de senkronize edilecektir.",
-      "verifyTips": "Veri bilgileriniz çevrimdışı olarak şifrelenmiştir. Şifreyi çözüp doğrulamak için Rabby Extension parolanızı girin."
+      "verifyTips": "Veri bilgileriniz çevrimdışı olarak şifrelenmiştir. Şifreyi çözüp doğrulamak için Rabby Trust Extension parolanızı girin."
     },
     "safeMessageQueue": {
       "loading": "Yükleniyor mesajlar",
@@ -1950,9 +1950,9 @@
       "HyperliquidInvitePopup": {
         "btn": "Şimdi Katıl",
         "title": "Hyperliquid Referans Programı",
-        "desc": "Şimdi Rabby’nin kodunu kullanarak Hyperliquid ücretlerinizde <1>4% indirim</1> kazanın.",
+        "desc": "Şimdi Rabby Trust’nin kodunu kullanarak Hyperliquid ücretlerinizde <1>4% indirim</1> kazanın.",
         "asterTitle": "Aster Referans Programı",
-        "asterDesc": "Şimdi Rabby’nin kodunu kullanarak Aster ücretlerinizde <1> %4 indirim </1> almak için katılın."
+        "asterDesc": "Şimdi Rabby Trust’nin kodunu kullanarak Aster ücretlerinizde <1> %4 indirim </1> almak için katılın."
       },
       "WebviewError": {
         "error": "Hata:",
@@ -2577,7 +2577,7 @@
         "gotItBtn": "Tamamdır",
         "perps": "Perps",
         "sizeTips": "Ticaretinizin toplam değeri veya miktarı, teminat ve kaldıraç tarafından belirlenir.",
-        "feeRabby": "Rabby Cüzdan",
+        "feeRabby": "Rabby Trust Cüzdan",
         "feeRabbyDiscount": "Sınırlı süreli işlem ücreti indirimi",
         "feeHyperliquid": "Hyperliquid",
         "feeTitle": "Ücret",
@@ -2685,7 +2685,7 @@
         "activatedFailed": "Aktivasyon başarısız oldu",
         "hyperliquidFee": "Hyperliquid işlem ücretleri.",
         "activatedSuccess": "%4 Hyperliquid ücret tasarrufu etkinleştirildi",
-        "description": "Etkinleştirmek için Rabby kodunu kullanın",
+        "description": "Etkinleştirmek için Rabby Trust kodunu kullanın",
         "activateNow": "Şimdi Etkinleştir"
       },
       "dappSelect": {
@@ -3173,9 +3173,9 @@
     },
     "newUserOnboarding": {
       "restoreWallet": {
-        "title": "Rabby cüzdanınızı geri yükleyin",
+        "title": "Rabby Trust cüzdanınızı geri yükleyin",
         "subtitle": "Tekrar hoş geldiniz! 🎉\nCüzdanınızı hızla geri yüklemek için bir yöntem seçin.",
-        "subtitleInApp": "Cüzdanlarınızı Rabby uzantısından veya iCloud'dan hızlıca içe aktarmak için aşağıdan bir seçenek belirleyin."
+        "subtitleInApp": "Cüzdanlarınızı Rabby Trust uzantısından veya iCloud'dan hızlıca içe aktarmak için aşağıdan bir seçenek belirleyin."
       },
       "importSecret": {
         "seedPhrasePlaceholder": "Kurtarma ifadenizi girin",
@@ -3248,7 +3248,7 @@
     },
     "walletConnect": {
       "screenTitle": "Cüzdanı Bağla",
-      "connectingToRabby": "Rabby'ye bağlanıyor",
+      "connectingToRabby": "Rabby Trust'ye bağlanıyor",
       "pairingFailed": "WalletConnect eşleştirmesi başarısız.",
       "connected": "Başarıyla bağlandı. Lütfen DApp'e geri dönün.",
       "proposalExpired": "WalletConnect teklifinin süresi doldu.",
@@ -3402,7 +3402,7 @@
       "switchArea": {
         "skipText": "Bu açılır pencereyi 1 gün için atla"
       },
-      "alertText": "Üçüncü taraf DApp: kullanım sorunları için lütfen DApp desteğiyle iletişime geçin. Rabby yalnızca görüntüleme erişimi sağlar.",
+      "alertText": "Üçüncü taraf DApp: kullanım sorunları için lütfen DApp desteğiyle iletişime geçin. Rabby Trust yalnızca görüntüleme erişimi sağlar.",
       "title": "Hata Bildirmek için Ekran Görüntüsü",
       "submitFailed": "Gönderim başarısız."
     },
@@ -3454,7 +3454,7 @@
     "authentication": {
       "auth_prompt_cancel": "İptal Et",
       "auth_prompt_title": "Kimlik doğrulama gerekiyor",
-      "auth_prompt_desc": "Lütfen Rabby'yi kullanmak için kimlik doğrulaması yapın."
+      "auth_prompt_desc": "Lütfen Rabby Trust'yi kullanmak için kimlik doğrulaması yapın."
     }
   },
   "global": {
@@ -3485,7 +3485,7 @@
     "nonce": "nonce",
     "backButton": "Geri",
     "folded": "Daraltıldı",
-    "appName": "Rabby Wallet",
+    "appName": "Rabby Trust Trust",
     "refresh": "Yenile",
     "Deleted": "Silindi",
     "WalletCreated": "Cüzdan oluşturuldu",
@@ -3604,8 +3604,8 @@
     "permissions_alert": {
       "cancel": "İzin Verme",
       "open_settings": "Tamam",
-      "message": "Rabby Wallet, Ledger ile bağlantı kurmak için bluetooth erişimi kullanır.",
-      "title": "\"Rabby Wallet\" Bluetooth Kullanmak İstiyor"
+      "message": "Rabby Trust Trust, Ledger ile bağlantı kurmak için bluetooth erişimi kullanır.",
+      "title": "\"Rabby Trust Trust\" Bluetooth Kullanmak İstiyor"
     },
     "update_firmware_alert": {
       "cancel": "İptal et",

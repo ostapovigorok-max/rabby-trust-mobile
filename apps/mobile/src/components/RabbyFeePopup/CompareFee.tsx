@@ -31,7 +31,7 @@ const swapFee = [
     rate: '0.85%',
   },
   {
-    name: 'Rabby Wallet',
+    name: 'Rabby Trust',
     logo: ImgRabbyWallet,
     rate: '0.25%',
   },
@@ -44,7 +44,7 @@ const bridgeList = [
     rate: '0.875%',
   },
   {
-    name: 'Rabby Wallet',
+    name: 'Rabby Trust',
     logo: ImgRabbyWallet,
     rate: '0.25%',
   },
@@ -163,7 +163,7 @@ export const CompareFee = ({
                   <Text
                     style={[
                       styles.itemText,
-                      item.name === 'Rabby Wallet' ? styles.highItem : {},
+                      item.name === 'Rabby Trust' ? styles.highItem : {},
                     ]}>
                     {item.name}
                   </Text>
@@ -171,7 +171,7 @@ export const CompareFee = ({
                 <Text
                   style={[
                     styles.itemText,
-                    item.name === 'Rabby Wallet' ? styles.highItem : {},
+                    item.name === 'Rabby Trust' ? styles.highItem : {},
                   ]}>
                   {item.rate}
                 </Text>

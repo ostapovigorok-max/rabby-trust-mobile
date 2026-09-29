@@ -252,7 +252,7 @@ export const FooterBar: React.FC<Props> = ({
 
   const displayOrigin = useMemo(() => {
     if (origin === INTERNAL_REQUEST_ORIGIN) {
-      return 'Rabby Wallet';
+      return 'Rabby Trust';
     }
     return origin;
   }, [origin]);

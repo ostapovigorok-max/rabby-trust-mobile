@@ -1,10 +1,10 @@
 export const WALLETCONNECT_METADATA = {
-  name: 'Rabby Mobile',
-  description: 'Rabby Mobile WalletConnect wallet.',
+  name: 'Rabby Trust',
+  description: 'Rabby Trust WalletConnect wallet.',
   url: 'https://rabby.io',
   icons: ['https://rabby.io/assets/images/logo-128.png'],
   redirect: {
-    native: 'rabby://walletconnect',
+    native: 'rabbytrust://walletconnect',
   },
 };
 

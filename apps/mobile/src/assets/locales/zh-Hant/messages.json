@@ -40,7 +40,7 @@
   },
   "native": {
     "authentication": {
-      "auth_prompt_desc": "請驗證身分以使用 Rabby",
+      "auth_prompt_desc": "請驗證身分以使用 Rabby Trust",
       "auth_prompt_title": "需要身份驗證",
       "auth_prompt_cancel": "取消"
     },
@@ -61,7 +61,7 @@
     "proceedButton": "繼續",
     "copied": "已複製",
     "pin": "置頂",
-    "appName": "Rabby Wallet",
+    "appName": "Rabby Trust Trust",
     "cancel": "取消",
     "refresh": "重新整理",
     "Cancel": "取消",
@@ -183,10 +183,10 @@
   },
   "bluetooth": {
     "permissions_alert": {
-      "title": "\"Rabby Wallet\" 想要使用藍牙",
+      "title": "\"Rabby Trust Trust\" 想要使用藍牙",
       "open_settings": "OK",
       "cancel": "不允許",
-      "message": "Rabby Wallet 使用藍牙連接 Ledger"
+      "message": "Rabby Trust Trust 使用藍牙連接 Ledger"
     },
     "powered_off_alert": {
       "open_settings": "OK",
@@ -214,8 +214,8 @@
       "goToHome": "前往首頁",
       "alreadyHaveAddress": "我已經擁有一個錢包",
       "createNewAddress": "建立新錢包",
-      "alreadyUseRabby": "我已經在使用 Rabby",
-      "welcomeTitle": "歡迎來到\nRabby Wallet"
+      "alreadyUseRabby": "我已經在使用 Rabby Trust",
+      "welcomeTitle": "歡迎來到\nRabby Trust"
     },
     "transactions": {
       "explain": {
@@ -391,7 +391,7 @@
             },
             "removeLocalPendingTx": {
               "title": "清除本機待處理記錄",
-              "desc": "從 Rabby 介面中移除本機待處理記錄"
+              "desc": "從 Rabby Trust 介面中移除本機待處理記錄"
             }
           }
         },
@@ -406,7 +406,7 @@
         },
         "CancelTxConfirmPopup": {
           "title": "清除本機待處理記錄",
-          "desc": "這只會從 Rabby 介面中移除本機待處理記錄，之後你可以重新發起交易。",
+          "desc": "這只會從 Rabby Trust 介面中移除本機待處理記錄，之後你可以重新發起交易。",
           "warning": "清除本機記錄後，原交易仍可能在鏈上確認，除非被另一筆交易取代。"
         }
       }
@@ -463,7 +463,7 @@
       },
       "gasLimitTitle": "Gas 上限",
       "markAsBlock": "標記為已封鎖",
-      "sigCantDecode": "此簽名無法被 Rabby Wallet 解碼",
+      "sigCantDecode": "此簽名無法被 Rabby Trust Trust 解碼",
       "gasLimitEmptyAlert": "請輸入 Gas limit",
       "addressTypeTitle": "地址類型",
       "viewRaw": "檢視原始內容",
@@ -525,7 +525,7 @@
       "customRPCErrorModal": {
         "title": "自訂 RPC 錯誤",
         "button": "停用自訂 RPC",
-        "content": "您自訂的 RPC 目前不可用。您可以停用它並繼續使用 Rabby 的官方 RPC 進行簽名。"
+        "content": "您自訂的 RPC 目前不可用。您可以停用它並繼續使用 Rabby Trust 的官方 RPC 進行簽名。"
       },
       "nativeTokenForGas": "在 {{chainName}} 上使用 {{tokenName}} 代幣支付 Gas 費用",
       "nftApprove": {
@@ -646,13 +646,13 @@
         "myBalance": "我的餘額",
         "approveTo": "授權至",
         "amountPopupTitle": "授權數量",
-        "flagByRabby": "由 Rabby 標記",
+        "flagByRabby": "由 Rabby Trust 標記",
         "deployTimeLessThan": "< {{value}} 天",
         "eoaAddress": "EOA",
         "approveToken": "授權代幣",
         "contractTrustValueTip": "信任值是指該合約已花費的總資產價值。信任值低可能代表存在風險，或合約已 180 天未活躍。"
       },
-      "eip1559Desc2": "在 Rabby 中，Priority Fee（小費）= Max Fee - Base Fee。設定 Max Priority Fee 後，Base Fee 會先從中扣除，剩餘部分會作為小費支付給礦工。",
+      "eip1559Desc2": "在 Rabby Trust 中，Priority Fee（小費）= Max Fee - Base Fee。設定 Max Priority Fee 後，Base Fee 會先從中扣除，剩餘部分會作為小費支付給礦工。",
       "l2GasEstimateTooltip": "對於 L2 鏈的 Gas 估算不包括 L1 的 Gas 費用。實際費用將高於目前估算。",
       "contract": "智慧合約",
       "typedDataMessage": "簽署類型化資料",
@@ -840,7 +840,7 @@
       "quickAddressTitle_one": "{{count}} 地址",
       "quickAddressTitle_other": "{{count}} 個地址",
       "add-address": "新增錢包",
-      "delete-checklist-1": "我了解，如果我刪除這個錢包，對應的私鑰和助記詞將被刪除，Rabby 將無法恢復它們。",
+      "delete-checklist-1": "我了解，如果我刪除這個錢包，對應的私鑰和助記詞將被刪除，Rabby Trust 將無法恢復它們。",
       "delete-private-key-title": "刪除錢包和私鑰",
       "delete-seed-phrase-title": "刪除錢包和助記詞",
       "delete-title": "刪除錢包"
@@ -891,7 +891,7 @@
         "disableWhitelist": "停用白名單",
         "enableWhitelist": "啟用白名單",
         "disableWhitelistTip": "一旦停用，您可以將資產發送到任何地址。",
-        "enableWhitelistTip": "一旦啟用，你只能使用 Rabby 將資產發送到白名單中的地址。"
+        "enableWhitelistTip": "一旦啟用，你只能使用 Rabby Trust 將資產發送到白名單中的地址。"
       },
       "assets": {
         "comingSoon": "即將推出…"
@@ -904,9 +904,9 @@
         "noTransactions": "暫無交易",
         "send": "發送",
         "notSupported": "不支援該鏈上的代幣",
-        "selectedCustom": "此代幣未被 Rabby 收錄。你已手動將其加入代幣清單。",
+        "selectedCustom": "此代幣未被 Rabby Trust 收錄。你已手動將其加入代幣清單。",
         "blockedTip": "被封鎖的代幣不會顯示在代幣清單中",
-        "notSelectedCustom": "此代幣未被 Rabby 收錄。開啟後會將其加入代幣清單。"
+        "notSelectedCustom": "此代幣未被 Rabby Trust 收錄。開啟後會將其加入代幣清單。"
       },
       "offlineChain": {
         "chain": "即將停止支援 {{chain}}。",
@@ -1029,7 +1029,7 @@
       "got": "我明白了"
     },
     "switchChain": {
-      "requestRabbyToSupport": "請求 Rabby 支援",
+      "requestRabbyToSupport": "請求 Rabby Trust 支援",
       "requestsReceived": "收到 1 個請求",
       "requestsReceivedPlural": "收到 {{count}} 個請求"
     },
@@ -1066,13 +1066,13 @@
         "title": "該代幣的信用值較低",
         "desc": "較低的信用值通常表示高風險，例如蜜罐代幣或流動性非常低。"
       },
-      "no-fees-for-wrap": "封裝代幣不收取 Rabby 費用",
+      "no-fees-for-wrap": "封裝代幣不收取 Rabby Trust 費用",
       "directlySwap": "透過智慧合約直接封裝 {{symbol}} 代幣",
       "gas-fee-too-high": "Gas 費用過高",
       "low-slippage-may-cause-failed-transactions-due-to-high-volatility": "低滑點可能由於高波動性導致交易失敗",
       "recommend-slippage": "為了防止搶先交易，我們建議滑點為<2>{{ slippage }}</2>%",
       "rabbyFee": {
-        "discountTitle": "Rabby 費用優惠",
+        "discountTitle": "Rabby Trust 費用優惠",
         "case": "適用情形",
         "free": "免費",
         "cases": {
@@ -1085,9 +1085,9 @@
         "rate": "費率",
         "button": "明白了",
         "wallet": "錢包",
-        "title": "Rabby 費用",
-        "bridgeDesc": "Rabby Wallet 始終會從主流聚合器中尋找最佳匯率，並驗證報價的可靠性。Rabby 收取 <1>0.25%</1> 的費用，該費用已自動計入報價。",
-        "swapDesc": "Rabby Wallet 始終會從主流聚合器中尋找最佳匯率，並驗證報價的可靠性。Rabby 收取 <1>0.25%</1> 的費用（封裝代幣為 0%），該費用已自動計入報價。"
+        "title": "Rabby Trust 費用",
+        "bridgeDesc": "Rabby Trust Trust 始終會從主流聚合器中尋找最佳匯率，並驗證報價的可靠性。Rabby Trust 收取 <1>0.25%</1> 的費用，該費用已自動計入報價。",
+        "swapDesc": "Rabby Trust Trust 始終會從主流聚合器中尋找最佳匯率，並驗證報價的可靠性。Rabby Trust 收取 <1>0.25%</1> 的費用（封裝代幣為 0%），該費用已自動計入報價。"
       },
       "Completed": "完成",
       "historyTitle": "兌換記錄",
@@ -1125,7 +1125,7 @@
           "no": "取消",
           "title": "啟用 {{ bioType }}",
           "yes": "是",
-          "content": "您是否想啟用 {{ bioType }} 解鎖 Rabby Wallet？"
+          "content": "您是否想啟用 {{ bioType }} 解鎖 Rabby Trust Trust？"
         }
       },
       "unlocking": "解鎖"
@@ -1169,12 +1169,12 @@
       },
       "addAddress": {
         "hardwareWallet": "硬體錢包",
-        "syncRabbyExtension": "同步 Rabby 擴充功能",
+        "syncRabbyExtension": "同步 Rabby Trust 擴充功能",
         "createAddress": "建立錢包",
         "importAddress": "匯入錢包",
         "selectAddMethod": "選擇新增方式",
         "seedPhraseOrPrivateKey": "助記詞或私鑰",
-        "restoreRabbyWallet": "恢復 Rabby 錢包",
+        "restoreRabbyWallet": "恢復 Rabby Trust 錢包",
         "moreOptions": "更多匯入方式"
       },
       "importAddress": {
@@ -1182,10 +1182,10 @@
         "privateKey": "匯入私鑰",
         "hardWare": "連接硬體錢包",
         "tips": {
-          "entry": "匯入到 Rabby 是否安全",
-          "title": "匯入到 Rabby 安全嗎？",
+          "entry": "匯入到 Rabby Trust 是否安全",
+          "title": "匯入到 Rabby Trust 安全嗎？",
           "gotIt": "我知道了",
-          "description": "你的資料會安全加密並儲存在裝置本機。Rabby 無法存取你的私人資訊，也不會與第三方共享。"
+          "description": "你的資料會安全加密並儲存在裝置本機。Rabby Trust 無法存取你的私人資訊，也不會與第三方共享。"
         },
         "watchOnlyTitle": "匯入只讀錢包",
         "importTitle": "匯入錢包",
@@ -1202,8 +1202,8 @@
         "feedbackSuccess": "感謝您的回饋",
         "confirmButtonTitleIOS": "在 App Store 上評價",
         "feedbackTitle": "有回饋嗎？我們在聆聽。",
-        "descriptionIOS": "如果你喜歡 Rabby，在 App Store 上快速評分將對我們非常重要。",
-        "descriptionAndroid": "如果你喜歡 Rabby，在 Google Play 上的快速評分將非常重要。",
+        "descriptionIOS": "如果你喜歡 Rabby Trust，在 App Store 上快速評分將對我們非常重要。",
+        "descriptionAndroid": "如果你喜歡 Rabby Trust，在 Google Play 上的快速評分將非常重要。",
         "confirmButtonTitleAndroid": "在 Google Play 上評分"
       },
       "upgradeModal": {
@@ -1234,11 +1234,11 @@
         "subTitle": "把助記詞儲存為圖片可能導致外洩，寫在紙上會更安全。"
       },
       "rateModalTriggerOnHome": {
-        "title": "為 Rabby 錢包評分"
+        "title": "為 Rabby Trust 錢包評分"
       }
     },
     "ethSign": {
-      "alert": "使用 'eth_sign' 進行簽名可能導致資產損失。為了您的安全，Rabby 不支援此方法。"
+      "alert": "使用 'eth_sign' 進行簽名可能導致資產損失。為了您的安全，Rabby Trust 不支援此方法。"
     },
     "createPassword": {
       "confirmRequired": "請確認密碼",
@@ -1259,7 +1259,7 @@
       "passwordPlaceholder": "密碼長度必須至少為 8 個字元",
       "agree": "我已閱讀並同意<1/> <2>使用條款</2>",
       "title": "設定密碼",
-      "confirmModalDesc": "請妥善儲存你的密碼。一旦遺失，Rabby 無法更改或找回。",
+      "confirmModalDesc": "請妥善儲存你的密碼。一旦遺失，Rabby Trust 無法更改或找回。",
       "setWallet": "設定錢包",
       "passwordRequired": "請輸入密碼",
       "setUpSuccess": "密碼設定成功",
@@ -1297,14 +1297,14 @@
     },
     "connect": {
       "popularLevelHigh": "高",
-      "flagByRabby": "由 Rabby 標記",
+      "flagByRabby": "由 Rabby Trust 標記",
       "popularLevelVeryLow": "非常低",
       "flagByMM": "已被 MetaMask 標記",
       "markAsTrustToast": "標記為「受信任」",
       "sitePopularity": "站點熱度",
       "myMark": "我的標記",
       "noMark": "無標記",
-      "verifiedByRabby": "由 Rabby 驗證",
+      "verifiedByRabby": "由 Rabby Trust 驗證",
       "blocked": "已封鎖",
       "SignTestnetPermission": {
         "title": "簽名權限"
@@ -1327,11 +1327,11 @@
       "connectWallet": "連接錢包"
     },
     "addToken": {
-      "title": "向 Rabby 新增自訂代幣",
+      "title": "向 Rabby Trust 新增自訂代幣",
       "noTokenFound": "找不到代幣",
       "tokenNotFound": "在該合約地址中找不到代幣",
       "hasAdded": "此代幣已被新增。",
-      "tokenSupported": "Rabby 已支援該代幣",
+      "tokenSupported": "Rabby Trust 已支援該代幣",
       "tokenCustomized": "目前代幣已新增到自訂清單"
     },
     "backupPrivateKey": {
@@ -1358,7 +1358,7 @@
       },
       "privateKey": {
         "isItSafeToImportItInRabby": {
-          "question": "匯入到 Rabby 安全嗎？",
+          "question": "匯入到 Rabby Trust 安全嗎？",
           "answer": "安全。它會儲存在你的手機本機，只有你可以存取。"
         },
         "whatIsAPrivateKey": {
@@ -1408,7 +1408,7 @@
         "title": "什麼是「助記詞」",
         "description3": "切勿分享你的助記詞，任何取得它的人都可以控制你的資金。",
         "description2": "如果遺失助記詞，你將無法恢復錢包。",
-        "description4": "你的助記詞會儲存在裝置本機，並使用密碼加密。只有你可以存取。Rabby 無法找回或存取你的助記詞。",
+        "description4": "你的助記詞會儲存在裝置本機，並使用密碼加密。只有你可以存取。Rabby Trust 無法找回或存取你的助記詞。",
         "description1": "助記詞是一組用於存取和控制錢包的詞。你可以用它在任何裝置上恢復錢包。"
       },
       "onekey": {
@@ -1456,7 +1456,7 @@
         "backupErrorCloudNotAvailable": "iCloud 暫不可用",
         "backupRestoreButton": "匯入助記詞",
         "isItSafeToImportItInRabby": {
-          "question": "匯入到 Rabby 安全嗎？",
+          "question": "匯入到 Rabby Trust 安全嗎？",
           "answer": "安全。它會儲存在你的手機本機，只有你可以存取。"
         },
         "chooseBackupMethodTitle": "選擇備份方式",
@@ -1465,7 +1465,7 @@
         "importQuestion1": "如果我遺失助記詞或分享給他人，我的資產將永久丟失。",
         "backupRestoreTitle": "發現 {{count}} 個助記詞",
         "pastedAndClear": "已貼上並清除剪貼簿",
-        "importQuestion2": "助記詞僅儲存在我的手機上，Rabby 無法存取。",
+        "importQuestion2": "助記詞僅儲存在我的手機上，Rabby Trust 無法存取。",
         "backupUnlockButton": "繼續",
         "riskTips": "在開始之前，請閱讀並牢記以下安全提示。",
         "backupRestoreUnlockTitle": "輸入備份密碼",
@@ -1478,8 +1478,8 @@
           "answer": "用於控制你資產的 12、18 或 24 個詞。"
         },
         "backupTips": "確保在備份助記詞時沒有其他人看到您的螢幕。",
-        "backupUnlockDesc": "請妥善保管您的密碼以便恢復備份。Rabby Wallet 不會儲存也無法恢復您的密碼。",
-        "importQuestion3": "如果我沒有備份助記詞，當 App 被意外刪除、裝置遺失或需要重新安裝時，Rabby 無法幫我找回。",
+        "backupUnlockDesc": "請妥善保管您的密碼以便恢復備份。Rabby Trust Trust 不會儲存也無法恢復您的密碼。",
+        "importQuestion3": "如果我沒有備份助記詞，當 App 被意外刪除、裝置遺失或需要重新安裝時，Rabby Trust 無法幫我找回。",
         "backupRestoreUnlockDesc": "請輸入加密備份時設定的相同密碼。",
         "createdSuccess": "你的助記詞已建立",
         "backupUnlockPlaceholder": "輸入密碼進行確認",
@@ -1550,7 +1550,7 @@
         "description3": "切勿分享你的私鑰，任何取得它的人都可以控制你的資金。",
         "title2": "備份",
         "description2": "如果遺失私鑰，你將無法恢復錢包。",
-        "description4": "你的私鑰會儲存在裝置本機，並使用密碼加密。只有你可以存取。Rabby 無法找回或存取你的私鑰。",
+        "description4": "你的私鑰會儲存在裝置本機，並使用密碼加密。只有你可以存取。Rabby Trust 無法找回或存取你的私鑰。",
         "description1": "私鑰是一串字母和數字，用於存取和控制你的錢包。你可以用它在任何裝置上恢復錢包。"
       },
       "importing": "匯入中…",
@@ -1593,7 +1593,7 @@
       }
     },
     "rabbyPoints": {
-      "title": "Rabby Points",
+      "title": "Rabby Trust Points",
       "claimItem": {
         "claim": "領取"
       },
@@ -1696,7 +1696,7 @@
       "loginSuccess": "登入成功",
       "benefitCard": {
         "desc2": "在 80+ 個網路上自動支付 Gas",
-        "item1": "無 Rabby 費用",
+        "item1": "無 Rabby Trust 費用",
         "desc3": "兌換、跨鏈、發送、DApp 等更多功能",
         "desc1": "支付 Gas 無額外費用",
         "item2": "支援所有網路",
@@ -1848,13 +1848,13 @@
         "search": "搜尋自訂網路名稱或 ID",
         "tips": {
           "added": "你已新增此鏈",
-          "supported": "Rabby Wallet 已支援該鏈"
+          "supported": "Rabby Trust Trust 已支援該鏈"
         },
         "title": "快速從 Chainlist 新增"
       },
-      "desc": "Rabby 無法驗證自訂網路的安全性。請僅新增可信網路。",
+      "desc": "Rabby Trust 無法驗證自訂網路的安全性。請僅新增可信網路。",
       "ConfirmModifyRpcModal": {
-        "desc": "該鏈已經被 Rabby 整合。您是否需要修改其 RPC URL？"
+        "desc": "該鏈已經被 Rabby Trust 整合。您是否需要修改其 RPC URL？"
       },
       "addToken": {
         "title": "新增自訂網路代幣",
@@ -1883,8 +1883,8 @@
       "fixedModeTag": "固定模式"
     },
     "addChain": {
-      "title": "新增自訂網路到 Rabby",
-      "desc": "Rabby 無法驗證自訂網路的安全性。請僅新增可信網路。"
+      "title": "新增自訂網路到 Rabby Trust",
+      "desc": "Rabby Trust 無法驗證自訂網路的安全性。請僅新增可信網路。"
     },
     "addressDetail": {
       "assets": "資產",
@@ -1937,7 +1937,7 @@
       "verify-face-id-before-backup": "在備份之前驗證您的 Face ID",
       "verify-fingerprint-before-backup": "在備份之前驗證您的指紋",
       "verify-fingerprint": "驗證指紋",
-      "verify-password-before-backup": "在備份之前驗證您的 Rabby 密碼"
+      "verify-password-before-backup": "在備份之前驗證您的 Rabby Trust 密碼"
     },
     "setting": {
       "followUs": "關注我們",
@@ -1960,7 +1960,7 @@
       "screenTitle": "設定",
       "modifyRPCURL": "修改 RPC URL",
       "clearPendingDesc2": "這不會改變你帳戶中的餘額，也不需要重新輸入助記詞。你的所有資產和帳戶資訊都會保持安全。",
-      "clearPendingDesc1": "這會清除 Rabby 中的本機待處理記錄，可用於解決 Rabby 顯示的交易狀態與鏈上狀態不一致的問題。",
+      "clearPendingDesc1": "這會清除 Rabby Trust 中的本機待處理記錄，可用於解決 Rabby Trust 顯示的交易狀態與鏈上狀態不一致的問題。",
       "currentLanguage": "目前語言",
       "appCache": "清除應用程式快取",
       "clearPendingResetDesc": "同時重設本機 Nonce 資料和簽名記錄",
@@ -2066,15 +2066,15 @@
     "syncExtension": {
       "scanTips2": "掃描 QR 碼以開始同步",
       "syncingTips": "保持鏡頭穩定直到掃描完成",
-      "verifyWithPassword": "使用你的 Rabby 擴充功能密碼驗證",
+      "verifyWithPassword": "使用你的 Rabby Trust 擴充功能密碼驗證",
       "syncingProgress": "掃描中（{{ percent }}）",
       "importedSuccessfully": "匯入成功！",
-      "newUserVerify": "它也將作為您 Rabby Mobile 的預設密碼。",
-      "imported": "Rabby Mobile 中已存在的地址將不會再次匯入。地址備註和白名單將自動同步。",
+      "newUserVerify": "它也將作為您 Rabby Trust Trust 的預設密碼。",
+      "imported": "Rabby Trust Trust 中已存在的地址將不會再次匯入。地址備註和白名單將自動同步。",
       "noNewAddr": "未找到可匯入的新地址",
       "importedTips": "如果 App 中已存在重複地址，則不會匯入。地址備註和白名單也將同步。",
-      "scanTips1": "在 Rabby 瀏覽器擴充功能中點選「Mobile Sync」",
-      "verifyTips": "你的資料已離線加密。請輸入你的 Rabby 擴充功能密碼以解密並驗證。"
+      "scanTips1": "在 Rabby Trust 瀏覽器擴充功能中點選「Mobile Sync」",
+      "verifyTips": "你的資料已離線加密。請輸入你的 Rabby Trust 擴充功能密碼以解密並驗證。"
     },
     "safeMessageQueue": {
       "noData": "沒有訊息",
@@ -2122,9 +2122,9 @@
       "HyperliquidInvitePopup": {
         "btn": "立即加入",
         "title": "Hyperliquid 介紹計劃",
-        "desc": "現在使用 Rabby 的邀請碼加入，即可享受 Hyperliquid 費用 <1>4%</1> 折扣。",
+        "desc": "現在使用 Rabby Trust 的邀請碼加入，即可享受 Hyperliquid 費用 <1>4%</1> 折扣。",
         "asterTitle": "Aster 推介計劃",
-        "asterDesc": "現在使用 Rabby 的邀請碼，即可享受 Aster 費用 <1>4%</1> 折扣。"
+        "asterDesc": "現在使用 Rabby Trust 的邀請碼，即可享受 Aster 費用 <1>4%</1> 折扣。"
       },
       "WebviewError": {
         "error": "錯誤：",
@@ -2749,7 +2749,7 @@
         "provider": "服務商",
         "gotItBtn": "我知道了",
         "sizeTips": "交易的總價值或數量，由保證金和槓桿決定。",
-        "feeRabby": "Rabby Wallet",
+        "feeRabby": "Rabby Trust Trust",
         "feeRabbyDiscount": "限時交易手續費折扣",
         "feeHyperliquid": "Hyperliquid",
         "feeDesc": "交易時會產生<1>交易手續費</1>和<2>建構者費用</2>。",
@@ -2855,7 +2855,7 @@
       "invitePopup": {
         "hyperliquidFee": "Hyperliquid 交易費用。",
         "title": "節省 Hyperliquid 手續費",
-        "description": "使用 Rabby 邀請碼啟用",
+        "description": "使用 Rabby Trust 邀請碼啟用",
         "activatedFailed": "啟用失敗",
         "activatedSuccess": "已啟用 4% Hyperliquid 手續費減免",
         "activateNow": "立即啟用"
@@ -3345,9 +3345,9 @@
     },
     "newUserOnboarding": {
       "restoreWallet": {
-        "title": "恢復你的 Rabby 錢包",
+        "title": "恢復你的 Rabby Trust 錢包",
         "subtitle": "歡迎回來！🎉  \n選擇一種方法來快速恢復您的錢包。",
-        "subtitleInApp": "從下方選擇一種方式，快速從 Rabby 瀏覽器擴充功能或 iCloud 匯入你的錢包"
+        "subtitleInApp": "從下方選擇一種方式，快速從 Rabby Trust 瀏覽器擴充功能或 iCloud 匯入你的錢包"
       },
       "common": {
         "orYouCanCreateNewWallet": "或者，你也可以<clickable>建立新錢包</clickable>"
@@ -3420,7 +3420,7 @@
     },
     "walletConnect": {
       "screenTitle": "連接錢包",
-      "connectingToRabby": "正在連接到 Rabby",
+      "connectingToRabby": "正在連接到 Rabby Trust",
       "pairingFailed": "WalletConnect 配對失敗。",
       "connected": "連接成功，請返回 DApp。",
       "proposalExpired": "WalletConnect 連接請求已過期。",
@@ -3574,7 +3574,7 @@
       "switchArea": {
         "skipText": "1 天內不再顯示此彈窗"
       },
-      "alertText": "第三方 DApp：如遇使用問題，請聯絡 DApp 支援。Rabby 僅提供瀏覽功能。",
+      "alertText": "第三方 DApp：如遇使用問題，請聯絡 DApp 支援。Rabby Trust 僅提供瀏覽功能。",
       "title": "截圖回報問題",
       "submitFailed": "提交失敗。"
     },

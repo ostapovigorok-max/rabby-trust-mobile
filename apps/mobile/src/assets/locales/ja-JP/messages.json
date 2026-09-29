@@ -42,7 +42,7 @@
     "authentication": {
       "auth_prompt_cancel": "キャンセル",
       "auth_prompt_title": "認証が必要です",
-      "auth_prompt_desc": "Rabbyを使用するには認証してください"
+      "auth_prompt_desc": "Rabby Trustを使用するには認証してください"
     },
     "biometrics": {
       "enable_device_passcode_ios": "デバイスのパスコードでロックを解除しますか？",
@@ -84,8 +84,8 @@
       "goToHome": "ホームに移動",
       "createNewAddress": "新しいウォレットを作成",
       "alreadyHaveAddress": "私はすでにウォレットを持っています",
-      "welcomeTitle": "Rabby Walletへ\nようこそ",
-      "alreadyUseRabby": "Rabbyをすでに使っています"
+      "welcomeTitle": "Rabby Trust Trustへ\nようこそ",
+      "alreadyUseRabby": "Rabby Trustをすでに使っています"
     },
     "transactions": {
       "explain": {
@@ -212,7 +212,7 @@
       "multiSigChainNotMatch": "マルチシグネチャアドレスはこのチェーン上にはなく、トランザクションを開始することはできません。",
       "nativeTokenForGas": "{{chainName}}でガスを支払うために{{tokenName}}トークンを使用",
       "gasLimitLessThanGasUsed": "ガス上限が低すぎます。トランザクションが失敗する可能性が95%あります。",
-      "eip1559Desc2": "Rabbyでは、優先手数料（チップ）＝最大手数料－基本手数料です。最大優先手数料を設定すると、そこから基本手数料が差し引かれ、残額がマイナーへのチップになります。",
+      "eip1559Desc2": "Rabby Trustでは、優先手数料（チップ）＝最大手数料－基本手数料です。最大優先手数料を設定すると、そこから基本手数料が差し引かれ、残額がマイナーへのチップになります。",
       "eip1559Desc1": "EIP-1559対応チェーンでは、優先手数料はトランザクションを処理するマイナーへのチップです。優先手数料を下げるとガス代を節約できますが、処理に時間がかかる場合があります。",
       "unknownAction": "未知の署名タイプ",
       "floorPrice": "フロア価格",
@@ -234,7 +234,7 @@
       "yes": "はい",
       "maxPriorityFeeDisabledAlert": "先にガス価格を設定してください。",
       "contract": "スマートコントラクト",
-      "sigCantDecode": "Rabby Walletではこの署名をデコードできません。",
+      "sigCantDecode": "Rabby Trust Trustではこの署名をデコードできません。",
       "contractPopularity": "{{1}}のNo.{{0}}",
       "contractAddress": "コントラクトアドレス",
       "viewRaw": "生データを見る",
@@ -413,7 +413,7 @@
       "customRPCErrorModal": {
         "title": "カスタム RPC エラー",
         "button": "カスタムRPCを無効化",
-        "content": "カスタムRPCは現在利用できません。それを無効にして、Rabbyの公式RPCを使用して署名を続行できます。"
+        "content": "カスタムRPCは現在利用できません。それを無効にして、Rabby Trustの公式RPCを使用して署名を続行できます。"
       },
       "firstOnChain": "最初のオンチェーン",
       "tokenApprove": {
@@ -423,7 +423,7 @@
         "approveTo": "承認先",
         "eoaAddress": "EOA",
         "deployTimeLessThan": "< {{value}} 日",
-        "flagByRabby": "Rabby によってフラグされました",
+        "flagByRabby": "Rabby Trust によってフラグされました",
         "title": "トークン承認",
         "contractTrustValueTip": "信頼値とは、このコントラクトによって使用された資産の総額です。信頼値が低い場合は、リスクがあるか、180日間利用されていないことを示します。"
       },
@@ -753,7 +753,7 @@
       "gas-fee": "ガス代: {{gasUsed}}",
       "Auto": "オート",
       "wrap-contract": "ラップ用コントラクト",
-      "no-fees-for-wrap": "ラップ時のRabby手数料なし",
+      "no-fees-for-wrap": "ラップ時のRabby Trust手数料なし",
       "slippage-tolerance": "スリッページ許容度",
       "low-slippage-may-cause-failed-transactions-due-to-high-volatility": "低スリッページは、高いボラティリティによりトランザクション失敗の原因となる可能性があります。",
       "by-transaction-simulation-the-quote-is-valid": "トランザクションシミュレーションにより、見積もりが有効です。",
@@ -765,7 +765,7 @@
       },
       "recommend-slippage": "フロントランニングを防ぐために、<2>{{ slippage }}</2>% のスリッページをお勧めします。",
       "rabbyFee": {
-        "discountTitle": "Rabby 手数料割引",
+        "discountTitle": "Rabby Trust 手数料割引",
         "case": "条件",
         "free": "無料",
         "cases": {
@@ -777,10 +777,10 @@
         },
         "button": "了解しました",
         "wallet": "ウォレット",
-        "title": "Rabby 手数料",
+        "title": "Rabby Trust 手数料",
         "rate": "手数料レート",
-        "bridgeDesc": "Rabby Walletは常にトップアグリゲーターから可能な限り最良のレートを見つけ、そのオファーの信頼性を確認します。Rabbyは<1>0.25%</1>の手数料を請求し、これは見積もりに自動的に含まれます。",
-        "swapDesc": "Rabby Walletは常にトップアグリゲーターから最適なレートを見つけ、そのオファーの信頼性を確認します。Rabbyは<1>0.25%</1>の手数料（ラッピング時は0%）を請求し、この手数料は見積もりに自動的に含まれます。"
+        "bridgeDesc": "Rabby Trust Trustは常にトップアグリゲーターから可能な限り最良のレートを見つけ、そのオファーの信頼性を確認します。Rabby Trustは<1>0.25%</1>の手数料を請求し、これは見積もりに自動的に含まれます。",
+        "swapDesc": "Rabby Trust Trustは常にトップアグリゲーターから最適なレートを見つけ、そのオファーの信頼性を確認します。Rabby Trustは<1>0.25%</1>の手数料（ラッピング時は0%）を請求し、この手数料は見積もりに自動的に含まれます。"
       },
       "directlySwap": "スマートコントラクトで{{symbol}}トークンを直接ラッピングする",
       "historyTitle": "スワップ履歴",
@@ -875,12 +875,12 @@
       },
       "addAddress": {
         "hardwareWallet": "ハードウェアウォレット",
-        "syncRabbyExtension": "Rabby Extension を同期",
+        "syncRabbyExtension": "Rabby Trust Extension を同期",
         "createAddress": "ウォレットを作成",
         "importAddress": "ウォレットをインポートする",
         "selectAddMethod": "追加方法を選択",
         "seedPhraseOrPrivateKey": "シードフレーズまたは秘密鍵",
-        "restoreRabbyWallet": "Rabbyウォレットを復元",
+        "restoreRabbyWallet": "Rabby Trustウォレットを復元",
         "moreOptions": "その他のオプション"
       },
       "createNewAddress": {
@@ -909,9 +909,9 @@
         "hardWare": "ハードウェアウォレットを接続",
         "tips": {
           "gotIt": "了解しました",
-          "entry": "Rabby にインポートするのは安全ですか",
-          "description": "データは安全に暗号化され、端末内に保存されます。Rabbyが個人情報にアクセスしたり、第三者と共有したりすることはありません。",
-          "title": "Rabbyにインポートしても安全ですか？"
+          "entry": "Rabby Trust にインポートするのは安全ですか",
+          "description": "データは安全に暗号化され、端末内に保存されます。Rabby Trustが個人情報にアクセスしたり、第三者と共有したりすることはありません。",
+          "title": "Rabby Trustにインポートしても安全ですか？"
         },
         "seedPhrase": "シードフレーズをインポート",
         "watch": "ウォッチオンリーウォレット",
@@ -930,8 +930,8 @@
         "confirmButtonTitleIOS": "App Storeで評価する",
         "confirmButtonTitleAndroid": "Google Playで評価する",
         "feedbackTitle": "ご意見はありますか？ぜひお聞かせください。",
-        "descriptionIOS": "Rabbyを気に入っていただけたら、App Storeで簡単な評価をいただけると、とても励みになります。",
-        "descriptionAndroid": "Rabbyを気に入っていただけたら、Google Playで簡単な評価をいただけると、とても励みになります。"
+        "descriptionIOS": "Rabby Trustを気に入っていただけたら、App Storeで簡単な評価をいただけると、とても励みになります。",
+        "descriptionAndroid": "Rabby Trustを気に入っていただけたら、Google Playで簡単な評価をいただけると、とても励みになります。"
       },
       "upgradeModal": {
         "title": "新機能",
@@ -961,12 +961,12 @@
         "subTitle": "シードフレーズを画像として保存すると、漏洩する可能性があるため、書き留める方が安全な選択肢です。"
       },
       "rateModalTriggerOnHome": {
-        "title": "Rabby Walletを評価する"
+        "title": "Rabby Trust Trustを評価する"
       }
     },
     "switchChain": {
       "requestsReceived": "1件のリクエストを受信しました",
-      "requestRabbyToSupport": "Rabbyにサポートをリクエスト",
+      "requestRabbyToSupport": "Rabby Trustにサポートをリクエスト",
       "requestsReceivedPlural": "{{count}} 件のリクエストを受信しました。"
     },
     "bridge": {
@@ -1031,7 +1031,7 @@
         "enableWhitelist": "ホワイトリストを有効にする",
         "cancel": "キャンセル",
         "disableWhitelist": "ホワイトリストを無効にする",
-        "enableWhitelistTip": "有効化すると、Rabbyを使用してホワイトリストのアドレスにのみ資産を送信できます。",
+        "enableWhitelistTip": "有効化すると、Rabby Trustを使用してホワイトリストのアドレスにのみ資産を送信できます。",
         "disableWhitelistTip": "無効にすると、任意のアドレスに資産を送信できます。"
       },
       "assets": {
@@ -1045,8 +1045,8 @@
         "swap": "スワップ",
         "blockedTip": "ブロックされたトークンはトークンリストに表示されません",
         "noTransactions": "トランザクションなし",
-        "selectedCustom": "このトークンはRabbyに掲載されていません。トークンリストに手動で追加しました。",
-        "notSelectedCustom": "トークンはRabbyにリストされていません。スイッチをオンにすると、トークンリストに追加されます。",
+        "selectedCustom": "このトークンはRabby Trustに掲載されていません。トークンリストに手動で追加しました。",
+        "notSelectedCustom": "トークンはRabby Trustにリストされていません。スイッチをオンにすると、トークンリストに追加されます。",
         "send": "送る"
       },
       "offlineChain": {
@@ -1079,7 +1079,7 @@
           "title": "{{ bioType }} を有効にする",
           "no": "キャンセル",
           "yes": "はい",
-          "content": "{{ bioType }}でRabby Walletのロックを解除できるようにしますか？"
+          "content": "{{ bioType }}でRabby Trust Trustのロックを解除できるようにしますか？"
         }
       },
       "password": {
@@ -1102,7 +1102,7 @@
       "quickAddressTitle_other": "{{count}} アドレス",
       "quickAddressTitle_one": "{{count}} アドレス",
       "add-address": "ウォレットを追加",
-      "delete-checklist-1": "このウォレットを削除すると、対応する秘密鍵とシードフレーズも削除され、Rabbyでは復元できないことを理解しました。",
+      "delete-checklist-1": "このウォレットを削除すると、対応する秘密鍵とシードフレーズも削除され、Rabby Trustでは復元できないことを理解しました。",
       "delete-private-key-title": "ウォレットと秘密鍵を削除",
       "delete-seed-phrase-title": "ウォレットとシードフレーズを削除",
       "delete-title": "ウォレットを削除",
@@ -1117,10 +1117,10 @@
       "sameSafeMessageAlert": "同じメッセージが確認されました。追加の署名は必要ありません。"
     },
     "addToken": {
-      "tokenSupported": "このトークンはRabbyでサポートされています。",
+      "tokenSupported": "このトークンはRabby Trustでサポートされています。",
       "hasAdded": "このトークンが追加されました。",
       "noTokenFound": "トークンが見つかりません",
-      "title": "Rabby にカスタムトークンを追加",
+      "title": "Rabby Trust にカスタムトークンを追加",
       "tokenNotFound": "このコントラクトアドレスからトークンが見つかりませんでした。",
       "tokenCustomized": "このトークンはカスタムトークンとして追加済みです。"
     },
@@ -1137,12 +1137,12 @@
       "markRemovedToast": "マークを削除しました",
       "markAsTrustToast": "「信頼済み」としてマーク",
       "onYourWhitelist": "ホワイトリストに登録済み",
-      "verifiedByRabby": "Rabbyによって確認済み",
+      "verifiedByRabby": "Rabby Trustによって確認済み",
       "popularLevelHigh": "高い",
       "noMark": "印はありません。",
       "title": "DAppに接続",
       "markRuleText": "自分の評価",
-      "flagByRabby": "Rabby によってフラグされました",
+      "flagByRabby": "Rabby Trust によってフラグされました",
       "blocked": "ブロックされています",
       "flagByScamSniffer": "ScamSniffer によってフラグされました",
       "foundForbiddenRisk": "重大なリスクが検出されたため、接続がブロックされました。",
@@ -1169,17 +1169,17 @@
         "title2": "絶対に共有しないでください",
         "description2": "シードフレーズを紛失すると、ウォレットを復元できなくなります。",
         "description3": "シードフレーズは絶対に共有しないでください。シードフレーズを入手した人は資金を自由に操作できます。",
-        "description4": "シードフレーズは端末内に保存され、パスワードで暗号化されます。アクセスできるのはあなただけで、Rabbyがシードフレーズを取得したりアクセスしたりすることはできません。",
+        "description4": "シードフレーズは端末内に保存され、パスワードで暗号化されます。アクセスできるのはあなただけで、Rabby Trustがシードフレーズを取得したりアクセスしたりすることはできません。",
         "description1": "シードフレーズは、ウォレットへのアクセスと管理に使用する一連の単語です。どの端末でもウォレットを復元できます。"
       },
       "seedPhrase": {
         "isItSafeToImportItInRabby": {
           "answer": "はい。スマートフォン内に保存され、アクセスできるのはあなただけです。",
-          "question": "Rabbyにインポートしても安全ですか？"
+          "question": "Rabby Trustにインポートしても安全ですか？"
         },
         "importQuestion1": "シードフレーズを紛失したり他人と共有したりすると、私の資産は永久に失われます。",
         "showSeedPhrase": "シードフレーズを表示",
-        "importQuestion2": "シードフレーズは私の携帯電話にのみ保存されており、Rabbyはそれにアクセスできません。",
+        "importQuestion2": "シードフレーズは私の携帯電話にのみ保存されており、Rabby Trustはそれにアクセスできません。",
         "backupRestoreCreatedAt": "バックアップ時間：",
         "whatIsASeedPhrase": {
           "question": "シードフレーズとは何ですか？",
@@ -1208,14 +1208,14 @@
         "backupSuccessICloud": "iCloud にバックアップ済み",
         "backupRestoreImported": "インポート済み",
         "backupRestoreUnlockTitle": "バックアップパスワードを入力してください",
-        "importQuestion3": "シードフレーズをバックアップしない場合、アプリが意図せず削除されたり、デバイスが紛失したり、再インストールが必要になったりすると、Rabbyはそれを回復することができません。",
+        "importQuestion3": "シードフレーズをバックアップしない場合、アプリが意図せず削除されたり、デバイスが紛失したり、再インストールが必要になったりすると、Rabby Trustはそれを回復することができません。",
         "backupRestoreUnlockDesc": "バックアップを暗号化するために設定したのと同じパスワードを使用してください。",
         "manuallyBackup": "手動バックアップ",
         "pastedAndClear": "貼り付けとクリップボードのクリアが完了しました。",
         "chooseBackupMethodDesc": "バックアップを使用すると、アプリを削除したりデバイスを紛失した場合にウォレットを復元できます。",
         "backupUploadToGDrive": "Google Driveにバックアップ中...",
         "backupTips": "シードフレーズをバックアップする際は、他の誰も画面を見ていないことを確認してください。",
-        "backupUnlockDesc": "バックアップを復元できるよう、パスワードは安全に保管してください。Rabby Walletでは保存も復元もできません。",
+        "backupUnlockDesc": "バックアップを復元できるよう、パスワードは安全に保管してください。Rabby Trust Trustでは保存も復元もできません。",
         "addMoreWalletTitle": "このシードフレーズから\nさらにウォレットを追加"
       },
       "privateKey": {
@@ -1225,7 +1225,7 @@
         },
         "isItSafeToImportItInRabby": {
           "answer": "はい、スマートフォン内に保存され、アクセスできるのはあなただけです。",
-          "question": "秘密鍵をRabbyにインポートしても安全ですか？"
+          "question": "秘密鍵をRabby Trustにインポートしても安全ですか？"
         },
         "repeatImportTips": "このウォレットはインポートされました"
       },
@@ -1367,7 +1367,7 @@
         "description1": "秘密鍵は、ウォレットへのアクセスと管理に使用する英数字の文字列です。どの端末でもウォレットを復元できます。",
         "title3": "絶対に共有しないでください",
         "description3": "秘密鍵は絶対に共有しないでください。秘密鍵を入手した人は資金を自由に操作できます。",
-        "description4": "秘密鍵は端末内に保存され、パスワードで暗号化されます。アクセスできるのはあなただけで、Rabbyが秘密鍵を取得したりアクセスしたりすることはできません。"
+        "description4": "秘密鍵は端末内に保存され、パスワードで暗号化されます。アクセスできるのはあなただけで、Rabby Trustが秘密鍵を取得したりアクセスしたりすることはできません。"
       },
       "importing": "インポート中...",
       "Done": "完了",
@@ -1428,7 +1428,7 @@
       "verify-password": "パスワードを確認する",
       "verify-face-id": "フェイス ID を確認する",
       "verify-fingerprint-before-backup": "バックアップの前に指紋を確認してください",
-      "verify-password-before-backup": "バックアップの前にRabbyのパスワードを確認してください。"
+      "verify-password-before-backup": "バックアップの前にRabby Trustのパスワードを確認してください。"
     },
     "gasAccount": {
       "deposit": "入金",
@@ -1500,7 +1500,7 @@
       "loginSuccess": "ログイン成功",
       "benefitCard": {
         "desc1": "ガス料金の追加費用はありません",
-        "item1": "Rabby手数料なし",
+        "item1": "Rabby Trust手数料なし",
         "item3": "すべての取引をサポートしています",
         "item2": "すべてのネットワークをサポートしています",
         "desc3": "スワップ、ブリッジ、送信、DApp、その他多数",
@@ -1555,8 +1555,8 @@
       "alert": "この秘密鍵は資産へアクセスするための重要な情報です。紛失したり他人に開示したりすると、資産を永久に失う可能性があります。安全な環境で確認し、厳重に保管してください。"
     },
     "addChain": {
-      "title": "Rabbyにカスタムネットワークを追加",
-      "desc": "Rabbyはカスタムネットワークのセキュリティを確認できません。信頼できるネットワークのみを追加してください。"
+      "title": "Rabby Trustにカスタムネットワークを追加",
+      "desc": "Rabby Trustはカスタムネットワークのセキュリティを確認できません。信頼できるネットワークのみを追加してください。"
     },
     "miniSignFooterBar": {
       "status": {
@@ -1619,7 +1619,7 @@
       "gnosisChainScrollDesc": "このウォレットは{{count}}個のチェーンにデプロイされていることがわかりました"
     },
     "ethSign": {
-      "alert": "\"eth_sign\"で署名すると、資産の損失が生じる可能性があります。安全のために、Rabbyはこの方法をサポートしていません。"
+      "alert": "\"eth_sign\"で署名すると、資産の損失が生じる可能性があります。安全のために、Rabby Trustはこの方法をサポートしていません。"
     },
     "tokenDetail": {
       "excludeBalanceTipsButton": "了解しました",
@@ -1750,13 +1750,13 @@
         "title": "Chainlistからすぐに追加",
         "tips": {
           "added": "このチェーンはすでに追加されています",
-          "supported": "Rabby Walletで対応済みのチェーン"
+          "supported": "Rabby Trust Trustで対応済みのチェーン"
         }
       },
       "ConfirmModifyRpcModal": {
-        "desc": "このチェーンは既にRabbyによって統合されています。RPC URLを変更する必要がありますか？"
+        "desc": "このチェーンは既にRabby Trustによって統合されています。RPC URLを変更する必要がありますか？"
       },
-      "desc": "Rabbyはカスタムネットワークのセキュリティを検証できません。信頼できるネットワークのみを追加してください。",
+      "desc": "Rabby Trustはカスタムネットワークのセキュリティを検証できません。信頼できるネットワークのみを追加してください。",
       "id": "ID",
       "addToken": {
         "title": "カスタムネットワークトークンを追加",
@@ -1775,7 +1775,7 @@
       }
     },
     "rabbyPoints": {
-      "title": "Rabby Points",
+      "title": "Rabby Trust Points",
       "claimItem": {
         "claim": "受け取る"
       },
@@ -1822,7 +1822,7 @@
       "passwordRequired": "パスワードを入力してください",
       "agreeToTerms": "私は、以下を読み、同意します",
       "passwordPlaceholder": "パスワードは8文字以上でなければなりません。",
-      "confirmModalDesc": "パスワードを適切に保管してください。一度失われた場合、Rabbyでは変更や回復ができません。",
+      "confirmModalDesc": "パスワードを適切に保管してください。一度失われた場合、Rabby Trustでは変更や回復ができません。",
       "setWallet": "ウォレットを設定",
       "biometricsFail": "生体認証を有効にできませんでした",
       "confirmRequired": "パスワードを確認してください",
@@ -1834,13 +1834,13 @@
       "fingerPrint": "指紋",
       "devicePassword": "デバイスのパスワード",
       "useDevicePassword": "デバイスのパスワードを使用",
-      "followUs": "Rabbyをフォロー",
+      "followUs": "Rabby Trustをフォロー",
       "policy": "プライバシーポリシー",
       "feedback": "フィードバック",
       "tou": "利用規約",
       "modifyRPCURL": "RPC URLを変更",
       "currentVersion": "現在のバージョン",
-      "aboutUs": "Rabbyについて",
+      "aboutUs": "Rabby Trustについて",
       "addCustomNetwork": "カスタムネットワークを追加",
       "clearPending": "ローカルで保留をクリア",
       "autoLockTime": "自動ロック時間",
@@ -1848,7 +1848,7 @@
       "lockWallet": "ウォレットをロック",
       "faceId": "Face ID",
       "themeMode": "テーマモード",
-      "clearPendingDesc1": "これにより、すべての未処理の取引がクリアされます。これは、一部のケースでRabbyにおける取引の状態がオンチェーンの状態と一致しないという問題を解決するのに役立ちます。",
+      "clearPendingDesc1": "これにより、すべての未処理の取引がクリアされます。これは、一部のケースでRabby Trustにおける取引の状態がオンチェーンの状態と一致しないという問題を解決するのに役立ちます。",
       "clearPendingDesc2": "これにより、アカウントの残高が変更されたり、シードフレーズを再入力する必要が生じたりすることはありません。すべての資産とアカウント情報は安全に保たれます。",
       "appCache": "アプリのキャッシュをクリア",
       "currentLanguage": "現在の言語",
@@ -1944,14 +1944,14 @@
     "syncExtension": {
       "noNewAddr": "インポートできる新しいアドレスはありません",
       "syncingTips": "スキャンが完了するまでカメラを安定させてください",
-      "verifyWithPassword": "Rabby Extensionの\nパスワードで確認",
-      "scanTips1": "Rabby Extensionで「Mobile Sync」をクリック",
+      "verifyWithPassword": "Rabby Trust Extensionの\nパスワードで確認",
+      "scanTips1": "Rabby Trust Extensionで「Mobile Sync」をクリック",
       "scanTips2": "コードをスキャンして同期を開始してください。",
-      "newUserVerify": "このパスワードはRabby Mobileのデフォルトパスワードとしても使用されます。",
-      "imported": "Rabby Mobile に既にあるアドレスは再度インポートされません。アドレスノートとホワイトリストは自動的に同期されます。",
+      "newUserVerify": "このパスワードはRabby Trust Trustのデフォルトパスワードとしても使用されます。",
+      "imported": "Rabby Trust Trust に既にあるアドレスは再度インポートされません。アドレスノートとホワイトリストは自動的に同期されます。",
       "syncingProgress": "スキャン中 ({{ percent }})",
       "importedSuccessfully": "インポートしました！",
-      "verifyTips": "データはオフラインで暗号化されています。Rabby Extension のパスワードを入力して復号化と検証を行ってください。",
+      "verifyTips": "データはオフラインで暗号化されています。Rabby Trust Extension のパスワードを入力して復号化と検証を行ってください。",
       "importedTips": "アプリに既に重複するアドレスがある場合、インポートされません。アドレスのメモとホワイトリストも同期されます。"
     },
     "safeMessageQueue": {
@@ -2000,9 +2000,9 @@
       "HyperliquidInvitePopup": {
         "btn": "今すぐ参加",
         "title": "Hyperliquid紹介プログラム",
-        "desc": "Rabbyのコードで今すぐ参加すると、Hyperliquidの手数料が<1>4%割引</1>になります。",
+        "desc": "Rabby Trustのコードで今すぐ参加すると、Hyperliquidの手数料が<1>4%割引</1>になります。",
         "asterTitle": "Aster 紹介プログラム",
-        "asterDesc": "Rabbyのコードで今すぐ参加すると、Asterの手数料が<1>4%割引</1>になります。"
+        "asterDesc": "Rabby Trustのコードで今すぐ参加すると、Asterの手数料が<1>4%割引</1>になります。"
       },
       "WebviewError": {
         "failedToLoad": "ページの読み込みに失敗しました",
@@ -2629,7 +2629,7 @@
         "provider": "プロバイダー",
         "feeTitle": "手数料",
         "feeHyperliquid": "Hyperliquid",
-        "feeRabby": "Rabby Wallet",
+        "feeRabby": "Rabby Trust Trust",
         "feeRabbyDiscount": "期間限定の取引手数料割引",
         "feeDesc": "取引を行う際は、\n<1>取引手数料</1>と<2>ビルダー手数料</2>が適用されます。",
         "amount": "金額",
@@ -2734,7 +2734,7 @@
         "activateNow": "今すぐ有効にする",
         "title": "Hyperliquidの手数料を節約",
         "hyperliquidFee": "Hyperliquidの取引手数料が割引されます。",
-        "description": "Rabbyのコードを使うと",
+        "description": "Rabby Trustのコードを使うと",
         "activatedSuccess": "Hyperliquidの取引手数料4%割引を有効にしました",
         "activatedFailed": "有効化に失敗しました"
       },
@@ -3224,8 +3224,8 @@
     "newUserOnboarding": {
       "restoreWallet": {
         "subtitle": "お帰りなさい! 🎉  \nウォレットを迅速に復元する方法を選択してください。",
-        "title": "Rabby ウォレットを復元する",
-        "subtitleInApp": "Rabby 拡張機能または iCloud からウォレットをすばやくインポートするには、下のオプションを選択してください。"
+        "title": "Rabby Trust ウォレットを復元する",
+        "subtitleInApp": "Rabby Trust 拡張機能または iCloud からウォレットをすばやくインポートするには、下のオプションを選択してください。"
       },
       "common": {
         "orYouCanCreateNewWallet": "または、<clickable>新しいウォレットを作成</clickable>できます。"
@@ -3298,7 +3298,7 @@
     },
     "walletConnect": {
       "screenTitle": "ウォレットを接続",
-      "connectingToRabby": "Rabbyに接続中",
+      "connectingToRabby": "Rabby Trustに接続中",
       "pairingFailed": "WalletConnectのペアリングに失敗しました。",
       "connected": "接続しました。DAppに戻ってください。",
       "proposalExpired": "WalletConnectの接続リクエストは期限切れです。",
@@ -3328,7 +3328,7 @@
     "pin": "固定",
     "nonce": "ノンス",
     "refresh": "更新",
-    "appName": "Rabby Wallet",
+    "appName": "Rabby Trust Trust",
     "copied": "コピーしました",
     "backButton": "戻る",
     "proceedButton": "続行",
@@ -3427,9 +3427,9 @@
       "message": "Bluetoothをオンにしてこの機能を使用してください。"
     },
     "permissions_alert": {
-      "title": "「Rabby Wallet」にBluetoothの使用を許可しますか？",
+      "title": "「Rabby Trust Trust」にBluetoothの使用を許可しますか？",
       "cancel": "許可しない",
-      "message": "Rabby WalletはLedgerへ接続するためにBluetoothを使用します。",
+      "message": "Rabby Trust TrustはLedgerへ接続するためにBluetoothを使用します。",
       "open_settings": "OK"
     },
     "update_firmware_alert": {
@@ -3574,7 +3574,7 @@
       "switchArea": {
         "skipText": "このポップアップを1日間表示しない"
       },
-      "alertText": "サードパーティ製DApp：利用上の問題はDAppのサポートへお問い合わせください。Rabbyは閲覧機能のみ提供します",
+      "alertText": "サードパーティ製DApp：利用上の問題はDAppのサポートへお問い合わせください。Rabby Trustは閲覧機能のみ提供します",
       "title": "スクリーンショットでバグを報告",
       "submitFailed": "送信に失敗しました。"
     },
