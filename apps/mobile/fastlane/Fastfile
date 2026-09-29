@@ -103,8 +103,8 @@ platform :ios do
     #   targets: ['RabbyMobile'],
     #   sdk: "iphoneos*",
     #   path: './ios/RabbyMobile.xcodeproj',
-    #   profile_name: opts[:type] == 'adhoc' ? 'RabbyMobileAdHocRegressionOpcode' : 'RabbyMobileAppStoreOpcode',
-    #   bundle_identifier: opts[:type] == 'adhoc' ? 'com.debank.rabby-mobile-regression' : 'com.debank.rabby-mobile',
+    #   profile_name: opts[:type] == 'adhoc' ? 'RabbyTrustAdHocRegression' : 'RabbyTrustAppStore',
+    #   bundle_identifier: opts[:type] == 'adhoc' ? 'com.rabbytrust.wallet.regression' : 'com.rabbytrust.wallet',
     # )
 
     ENV['CONFIGURATION'] = opts[:type] == 'adhoc' ? 'Regression' : 'Release'
@@ -115,8 +115,8 @@ platform :ios do
       match_git_basic_authorization = ENV.fetch('RABBY_MOBILE_MATCH_GIT_BASIC_AUTHORIZATION', '').strip
       match_options = {
         type: opts[:type],
-        app_identifier: opts[:type] == 'adhoc' ? 'com.debank.rabby-mobile-regression' : 'com.debank.rabby-mobile',
-        profile_name: opts[:type] == 'adhoc' ? 'RabbyMobileAdHocRegressionOpcode' : 'RabbyMobileAppStoreOpcode',
+        app_identifier: opts[:type] == 'adhoc' ? 'com.rabbytrust.wallet.regression' : 'com.rabbytrust.wallet',
+        profile_name: opts[:type] == 'adhoc' ? 'RabbyTrustAdHocRegression' : 'RabbyTrustAppStore',
         readonly: true,
         shallow_clone: true,
         verbose: false,
@@ -173,8 +173,7 @@ platform :ios do
         method: 'ad-hoc',
         signingStyle: 'manual',
         provisioningProfiles: {
-          "com.debank.rabby-mobile-regression": "RabbyMobileAdHocRegressionOpcode",
-          # "com.debank.rabby-mobile-regression.RabbyMobileNotification": "RabbyMobileWildcardAdHocRegression"
+          "com.rabbytrust.wallet.regression": "RabbyTrustAdHocRegression",
         },
         manifest: {
           appURL: "https://download.rabby.io/downloads/wallet-mobile/ios/rabbymobile.ipa",
@@ -223,7 +222,7 @@ platform :ios do
       )
       baseline_build_number = latest_testflight_build_number_for_version(
         api_key: asc_api_key,
-        app_identifier: 'com.debank.rabby-mobile',
+        app_identifier: 'com.rabbytrust.wallet',
         version: current_version
       )
       UI.message("Latest TestFlight build before upload for #{current_version}: #{baseline_build_number}")
@@ -251,13 +250,12 @@ platform :ios do
           method: "app-store",
           signingStyle: 'manual',
           provisioningProfiles: {
-            "com.debank.rabby-mobile": "RabbyMobileAppStoreOpcode",
-            "com.debank.rabby-mobile.RabbyMobileNotification": "RabbyMobileNotificationAppStore"
+            "com.rabbytrust.wallet": "RabbyTrustAppStore"
           }
         })
       pilot(
         api_key: asc_api_key,
-        apple_id: '6474381673',
+        apple_id: ENV['ASC_APPLE_ID'] || 'YOUR_APPLE_ID',
         ipa: "./ios/Package/appstore/RabbyMobile.ipa",
         skip_waiting_for_build_processing: true,
         distribute_only: ENV["RABBY_MOBILE_PILOT_DISTRIBUTE_ONLY"] || false,
@@ -265,7 +263,7 @@ platform :ios do
       unless ENV["RABBY_MOBILE_PILOT_DISTRIBUTE_ONLY"] == 'true'
         wait_for_uploaded_testflight_build(
           api_key: asc_api_key,
-          app_identifier: 'com.debank.rabby-mobile',
+          app_identifier: 'com.rabbytrust.wallet',
           version: current_version,
           baseline_build_number: baseline_build_number,
           expected_build_number: next_build_number

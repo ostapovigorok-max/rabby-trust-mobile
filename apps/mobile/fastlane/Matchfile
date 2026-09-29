@@ -40,20 +40,16 @@ end
 ## self-hosted certificates' storage repo for debank frontend group
 ## use https when CI supplies the project-scoped authorization secret
 match_git_basic_authorization = ENV.fetch('RABBY_MOBILE_MATCH_GIT_BASIC_AUTHORIZATION', '').strip
-if !match_git_basic_authorization.empty?
-  git_url = "https://github.com/RabbyHub/opcode-apple-auto-certificates.git"
-else
-  git_url = "git@github.com:RabbyHub/opcode-apple-auto-certificates.git"
-end
+git_url = ENV.fetch('MATCH_GIT_URL', 'https://github.com/your-org/apple-certificates.git')
 
 biz_data = {
   :platform => "ios",
   # en: apple id, used to get certs
-  :username => ENV["RABBY_MOBILE_MATCH_APPLE_ID"] || "lei.chen@debank.com",
-  :team_id => "ZPNP2SF27Q",
+  :username => ENV["RABBY_MOBILE_MATCH_APPLE_ID"] || "",
+  :team_id => ENV["FASTLANE_TEAM_ID"] || ENV["DEVELOPMENT_TEAM"] || "",
   # git account of certificates repo, used to update certificates
-  :git_full_name => "frontend_bot",
-  :git_user_email => "frontend_bot@debank.com",
+  :git_full_name => ENV["FASTLANE_GIT_USER"] || "",
+  :git_user_email => ENV["FASTLANE_GIT_EMAIL"] || "",
 }
 
 input_envtype = ENV["TYPE"]
@@ -72,10 +68,10 @@ case configuration
 end
 
 if configuration == "debug"
-    profile_name = !IS_WILDCARD ? "RabbyMobileDevelopment" : "RabbyMobileWildcardDevelopment"
+    profile_name = !IS_WILDCARD ? "RabbyTrustDevelopment" : "RabbyTrustWildcardDevelopment"
     run_type = "development"
     app_identifiers = [
-      "com.debank.rabby-mobile-debug" + EXTENSION_SUFFIX
+      "com.rabbytrust.wallet.debug" + EXTENSION_SUFFIX
     ]
 else
   if input_envtype == nil
@@ -85,15 +81,15 @@ else
   case input_envtype
     when "adhoc"
       run_type = "adhoc"
-      profile_name = !IS_WILDCARD ? "RabbyMobileAdHocRegressionOpcode" : "RabbyMobileWildcardAdHocRegression"
+      profile_name = !IS_WILDCARD ? "RabbyTrustAdHoc" : "RabbyTrustWildcardAdHoc"
       app_identifiers = [
-        "com.debank.rabby-mobile-regression" + EXTENSION_SUFFIX
+        "com.rabbytrust.wallet.regression" + EXTENSION_SUFFIX
       ]
     when "appstore"
       run_type = "appstore"
-      profile_name = !IS_WILDCARD ? "RabbyMobileAppStoreOpcode" : "RabbyMobileNotificationAppStore"
+      profile_name = !IS_WILDCARD ? "RabbyTrustAppStore" : "RabbyTrustNotificationAppStore"
       app_identifiers = [
-        "com.debank.rabby-mobile" + EXTENSION_SUFFIX
+        "com.rabbytrust.wallet" + EXTENSION_SUFFIX
       ]
     else
       print("Invalid ENV[\"TYPE\"] value" + input_envtype)

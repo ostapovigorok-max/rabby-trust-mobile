@@ -138,7 +138,7 @@ const NON_PRODUCTION_TESTKIT_SCREENS = {
 function getRabbyGoTarget(
   urlInfo: NonNullable<ReturnType<typeof urlUtils.safeParseURL>>,
 ) {
-  if (urlInfo.protocol === 'rabby:') {
+  if (urlInfo.protocol === 'rabby:' || urlInfo.protocol === 'rabbytrust:') {
     return urlInfo.hostname || urlInfo.pathname.replace(/^\/+/, '');
   }
 
@@ -405,7 +405,7 @@ function isWalletConnectRedirectLink(appLink: string) {
     return false;
   }
 
-  if (urlInfo.protocol === 'rabby:') {
+  if (urlInfo.protocol === 'rabby:' || urlInfo.protocol === 'rabbytrust:') {
     const target = urlInfo.hostname || urlInfo.pathname.replace(/^\/+/, '');
     return target === WALLETCONNECT_REDIRECT_PATH || target === 'wc';
   }

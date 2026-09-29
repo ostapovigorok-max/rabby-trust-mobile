@@ -40,7 +40,7 @@ export const APP_VERSIONS = {
   forFeedback: `${fromNative} (${buildNumber})`,
 };
 
-const UA_NAME = 'RabbyMobile' as const;
+const UA_NAME = 'RabbyTrust' as const;
 const UA_VERSION = APP_VERSIONS.fromNative;
 export const APP_UA_PARIALS = {
   UA_NAME,
@@ -88,16 +88,16 @@ export const APP_IDS = {
   forScreenshot: APPLICATION_ID.replace(/[\.\-]/g, '_'),
 };
 
-type IosIdSuffix = '' | '-debug' | '-regression';
+type IosIdSuffix = '' | '.debug' | '.regression';
 
 export const PROD_APPLICATION_ID:
   | typeof androidPackageName
-  | `com.debank.rabby-mobile${IosIdSuffix}` =
+  | `com.rabbytrust.wallet${IosIdSuffix}` =
   Platform.OS == 'android'
     ? androidPackageName
     : __DEV__
-    ? ('com.debank.rabby-mobile-debug' as const)
-    : ('com.debank.rabby-mobile' as const);
+    ? ('com.rabbytrust.wallet.debug' as const)
+    : ('com.rabbytrust.wallet' as const);
 
 const isSelfhostRegPkg =
   BUILD_CHANNEL === 'selfhost-reg' && APPLICATION_ID !== PROD_APPLICATION_ID;

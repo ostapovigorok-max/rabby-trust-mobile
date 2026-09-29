@@ -67,9 +67,9 @@ case "$signing_type" in
   *) fail "unsupported RABBY_MOBILE_IOS_SIGNING_PREFLIGHT_TYPE: $signing_type" ;;
 esac
 
-expected_bundle_id="${RABBY_MOBILE_IOS_SIGNING_PREFLIGHT_BUNDLE_ID:-com.debank.rabby-mobile}"
-expected_team_id="${RABBY_MOBILE_IOS_SIGNING_PREFLIGHT_TEAM_ID:-ZPNP2SF27Q}"
-expected_profile_name="${RABBY_MOBILE_IOS_SIGNING_PREFLIGHT_PROFILE_NAME:-RabbyMobileAppStoreOpcode}"
+expected_bundle_id="${RABBY_MOBILE_IOS_SIGNING_PREFLIGHT_BUNDLE_ID:-com.rabbytrust.wallet}"
+expected_team_id="${RABBY_MOBILE_IOS_SIGNING_PREFLIGHT_TEAM_ID:-}"
+expected_profile_name="${RABBY_MOBILE_IOS_SIGNING_PREFLIGHT_PROFILE_NAME:-RabbyTrustAppStore}"
 export_method="${RABBY_MOBILE_IOS_SIGNING_PREFLIGHT_EXPORT_METHOD:-app-store-connect}"
 work_dir="${RABBY_MOBILE_IOS_SIGNING_PREFLIGHT_WORK_DIR:-$project_dir/ios/Package/signing-preflight}"
 archive_zip="$work_dir/RabbyMobileSigningPreflight.xcarchive.zip"

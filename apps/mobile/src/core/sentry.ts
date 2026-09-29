@@ -204,9 +204,14 @@ export function initSentry() {
     return;
   }
 
+  const sentryDsn = process.env.SENTRY_DSN || '';
+  if (!sentryDsn) {
+    return;
+  }
+
   Sentry.init({
     enabled: true,
-    dsn: 'https://86c83b97aaf2afd16f3d3227340c78dd@o4507018303438848.ingest.us.sentry.io/4507018395975680',
+    dsn: sentryDsn,
     release: APP_VERSIONS.forSentry,
     ignoreErrors: [
       ...SENTRY_IGNORED_ERROR_MESSAGES,

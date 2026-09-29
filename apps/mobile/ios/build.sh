@@ -17,9 +17,9 @@ build_configuration="Release"
 # ./build.sh method # default method is ad-hoc
 method=${1:-ad-hoc}
 
- [[ $method = app-store ]] && mobileprovision_name="RabbyMobileAppStoreOpcode" || mobileprovision_name="RabbyMobileAdHocRegressionOpcode"
+ [[ $method = app-store ]] && mobileprovision_name="RabbyTrustAppStore" || mobileprovision_name="RabbyTrustAdHocRegression"
 
-bundle_identifier="com.debank.rabby-mobile"
+bundle_identifier="com.rabbytrust.wallet"
 
 echo "-------------------- Check params --------------------"
 echo "workspace_name=${workspace_name}"

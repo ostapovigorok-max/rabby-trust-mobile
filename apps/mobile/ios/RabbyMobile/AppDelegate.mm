@@ -41,7 +41,7 @@
   NSString *systemVersion = [[UIDevice currentDevice] systemVersion];
 
   return [NSString stringWithFormat:@"%@/%@ CFNetwork/%@ Darwin/%@ (%@ %@/%@)",
-    self.moduleName,
+    @"RabbyTrust",
     appVersion,
     cfnVersion,
     [self _getDarwinVersion],

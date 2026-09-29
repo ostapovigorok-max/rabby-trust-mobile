@@ -5,7 +5,9 @@ export const appMMKV = new MMKV({
   id: MMKV_FILE_NAMES.DEFAULT,
 });
 
-/** The established encrypted primary keyring file. */
+/** The established encrypted primary keyring file.
+ * TODO: POST-RELEASE SECURITY HARDENING: random per-installation MMKV key stored in iOS Keychain
+ */
 export const keyringMMKV = new MMKV({
   id: MMKV_FILE_NAMES.KEYRING,
   encryptionKey: 'keyring',

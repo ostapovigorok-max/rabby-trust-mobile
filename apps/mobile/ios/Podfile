@@ -151,7 +151,7 @@ def patch_build_settings(installer)
 
   projects.each do |project|
     project.build_configurations.each do |config|
-      config.build_settings["DEVELOPMENT_TEAM"] = "ZPNP2SF27Q"
+      config.build_settings["DEVELOPMENT_TEAM"] = ENV["DEVELOPMENT_TEAM"] || "$(DEVELOPMENT_TEAM)"
       config.build_settings["ENABLE_BITCODE"] = "NO"
     end
 

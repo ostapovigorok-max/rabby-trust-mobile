@@ -26,22 +26,17 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.debank.rabbymobile</string>
+			<string>com.rabbytrust.wallet</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>rabbytrust</string>
+			</array>
+		</dict>
+		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>rabbymobile</string>
-			</array>
-		</dict>
-		<dict>
-			<key>CFBundleURLSchemes</key>
-			<array>
 				<string>rabby</string>
-			</array>
-		</dict>
-		<dict>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>$(RABBYGO_SCHEMA)</string>
 			</array>
 		</dict>
 	</array>
@@ -78,26 +73,19 @@
 		</dict>
 	</dict>
 	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>This allows Rabby to find and pair a Ledger Nano X</string>
+	<string>This allows Rabby Trust to find and pair a Ledger Nano X</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>This allows Rabby to find and pair a Ledger Nano X</string>
+	<string>This allows Rabby Trust to find and pair a Ledger Nano X</string>
 	<key>NSCameraUsageDescription</key>
 	<string>$(PRODUCT_NAME) needs camera access to scan QR codes.</string>
 	<key>NSFaceIDUsageDescription</key>
 	<string>$(PRODUCT_NAME) needs to authenticate</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Rabby requires location access to enable secure Bluetooth communication with hardware wallets.</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Rabby needs microphone access to record audio</string>
+	<string>Rabby Trust requires location access to enable secure Bluetooth communication with hardware wallets.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Rabby needs photo access so you can review and choose images shared with the app.</string>
-	<key>NSUserActivityTypes</key>
-	<array>
-		<string>INStartCallIntent</string>
-		<string>INSendMessageIntent</string>
-	</array>
+	<string>Rabby Trust needs photo access so you can review and choose images shared with the app.</string>
 	<key>NSUserNotificationsUsageDescription</key>
-	<string>Rabby requires notification access to send you important messages.</string>
+	<string>Rabby Trust requires notification access to send you important messages.</string>
 	<key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
 	<true/>
 	<key>RCTNewArchEnabled</key>
